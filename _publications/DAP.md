@@ -1,0 +1,13 @@
+---
+title: "Dap: A dynamic adversarial patch for evading person detectors"
+collection: publications
+permalink: /publications/DAP
+venue: " The IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR) 2024, Seattle, Washington, USA"
+date: 2024-06-21
+citation: '<b>Amira Guesmi</b>, Ruitian Ding, Muhammad Abdullah Hanif, Ihsen Alouani, Muhammad Shafique'
+---
+[[PDF]]([https://arxiv.org/pdf/1910.08868](https://openaccess.thecvf.com/content/CVPR2024/html/Guesmi_DAP_A_Dynamic_Adversarial_Patch_for_Evading_Person_Detectors_CVPR_2024_paper.html))
+
+
+## Abstract
+Patch-based adversarial attacks were proven to compromise the robustness and reliability of computer vision systems. However their conspicuous and easily detectable nature challenge their practicality in real-world setting. To address this recent work has proposed using Generative Adversarial Networks (GANs) to generate naturalistic patches that may not attract human attention. However such approaches suffer from a limited latent space making it challenging to produce a patch that is efficient stealthy and robust to multiple real-world transformations. This paper introduces a novel approach that produces a Dynamic Adversarial Patch (DAP) designed to overcome these limitations. DAP maintains a naturalistic appearance while optimizing attack efficiency and robustness to real-world transformations. The approach involves redefining the optimization problem and introducing a novel objective function that incorporates a similarity metric to guide the patch's creation. Unlike GAN-based techniques the DAP directly modifies pixel values within the patch providing increased flexibility and adaptability to multiple transformations. Furthermore most clothing-based physical attacks assume static objects and ignore the possible transformations caused by non-rigid deformation due to changes in a person's pose. To address this limitation a `Creases Transformation' (CT) block is introduced enhancing the patch's resilience to a variety of real-world distortions. Experimental results demonstrate that the proposed approach outperforms state-of-the-art attacks achieving a success rate of up to 82.28% in the digital world when targeting the YOLOv7 detector and 65% in the physical world when targeting YOLOv3tiny detector deployed in edge-based smart cameras.

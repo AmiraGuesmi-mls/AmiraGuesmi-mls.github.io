@@ -6,7 +6,7 @@ venue: " The IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR
 date: 2024-06-21
 citation: '<b>Amira Guesmi</b>, Ruitian Ding, Muhammad Abdullah Hanif, Ihsen Alouani, Muhammad Shafique'
 ---
-[[PDF]]([https://arxiv.org/pdf/1910.08868](https://openaccess.thecvf.com/content/CVPR2024/html/Guesmi_DAP_A_Dynamic_Adversarial_Patch_for_Evading_Person_Detectors_CVPR_2024_paper.html))
+[[PDF]]([https://openaccess.thecvf.com/content/CVPR2024/html/Guesmi_DAP_A_Dynamic_Adversarial_Patch_for_Evading_Person_Detectors_CVPR_2024_paper.html])
 
 
 ## Abstract

@@ -13,10 +13,10 @@ author_profile: true
 
 <b>[SSAP: A Shape-Sensitive Adversarial Patch for Comprehensive Disruption of Monocular Depth Estimation in Autonomous Navigation Applications](http://AmiraGuesmi-mls.github.io/publications/SSAP)</b> <br> 
 <b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Ihsen Alouani, Bassem Ouni, Muhammad Shafique.
-<i>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2024, Abu Dhabi, UAE </i>.
+<i>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Jun. 2024, Abu Dhabi, UAE </i>.
 
 <b>[DefensiveDR: Defending against Adversarial Patches using Dimensionality Reduction](http://AmiraGuesmi-mls.github.io/publications/DR)</b> <br> 
 Nandish Chattopadhyay, <b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique.
-<i>ACM/IEEE Design Automation Conference (DAC), 2024, San Francisco, USA </i>.
+<i>ACM/IEEE Design Automation Conference (DAC), Jun. 2024, San Francisco, USA </i>.
 
 # Preprints

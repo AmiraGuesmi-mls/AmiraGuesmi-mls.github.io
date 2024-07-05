@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Dr.-Ing. Engr. Amira Guesmi"
+title                    : "Amira Guesmi"
 title_separator          : "-"
-name                     : &name "Amira Guesmi"
+name                     : &name "Dr.-Ing. Engr. Amira Guesmi"
 description              : &description "Lead Researcher"
 url                      : https://AmiraGuesmi-mls.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"

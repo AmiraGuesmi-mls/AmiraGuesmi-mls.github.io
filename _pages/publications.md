@@ -15,6 +15,8 @@ author_profile: true
 <b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Ihsen Alouani, Bassem Ouni, Muhammad Shafique.
 <i>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2024, Abu Dhabi, UAE </i>.
 
-
+<b>[DefensiveDR: Defending against Adversarial Patches using Dimensionality Reduction](http://AmiraGuesmi-mls.github.io/publications/DR)</b> <br> 
+<b>Nandish Chattopadhyay, <b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique.
+<i>ACM/IEEE Design Automation Conference (DAC), 2024, San Francisco, USA </i>.
 
 # Preprints

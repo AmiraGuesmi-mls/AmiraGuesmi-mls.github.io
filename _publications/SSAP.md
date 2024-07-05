@@ -3,7 +3,7 @@ title: "SSAP: A Shape-Sensitive Adversarial Patch for Comprehensive Disruption o
 collection: publications
 permalink: /publications/SSAP
 venue: "The IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2024, Abu Dhabi, UAE"
-date: 2024-06
+date: 2024-06-30
 citation: '<b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Ihsen Alouani, Bassem Ouni, Muhammad Shafique'
 ---
 [[PDF]]([(https://arxiv.org/abs/2403.11515)])

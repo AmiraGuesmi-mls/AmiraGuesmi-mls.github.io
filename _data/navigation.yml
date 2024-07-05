@@ -4,7 +4,7 @@ main:
     url: /publications/
 
   - title: "CV"
-    url: /cv/
+    url: "/files/Amira Guesmi-cv2024.pdf"
     
   - title: "Awards & Honors"
     url: /Awards_Honors/

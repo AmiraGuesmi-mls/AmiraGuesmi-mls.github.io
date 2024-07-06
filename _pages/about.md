@@ -14,7 +14,7 @@ redirect_from:
 
 # About Me 
 
-Amira Guesmi received her Engineer degree in Computer Science & Electrical Engineering from the National School of Engineers of Sfax, Tunisia, in 2016, graduating Magna cum laude. She earned her Ph.D. in Computer Systems Engineering from the National School of Engineers of Sfax and the Polytechnic University Hauts-De-France, France, in 2021, with Summa cum laude honors. Following her Ph.D., she worked as a Postdoctoral researcher at the IEMN-DOAE Laboratory (CNRS-8520) at Université Polytechnique Hauts-de-France. Currently, Dr. Guesmi is a research group leader at New York University (NYU) Abu Dhabi, UAE.
+Amira Guesmi received her Engineer degree in Computer Science & Electrical Engineering from the National School of Engineers of Sfax, Tunisia, in 2016, graduating Magna cum laude. She earned her Ph.D. in Computer Systems Engineering from the National School of Engineers of Sfax and the Polytechnic University Hauts-De-France, France, in 2021, with Summa cum laude honors. Following her Ph.D., she worked as a Postdoctoral researcher at the IEMN-DOAE Laboratory (CNRS-8520) at Polytechnic University Hauts-De-France. Currently, Dr. Guesmi is a research group leader at New York University (NYU) Abu Dhabi, UAE.
 
 Her research interests encompass AI safety, machine learning security and privacy, lifelong learning, approximate computing, and energy-efficient design.
 

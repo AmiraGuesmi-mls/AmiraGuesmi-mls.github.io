@@ -3,7 +3,7 @@ title: "Exploring the Interplay of Interpretability and Robustness in Deep Neura
 collection: publications
 permalink: /publications/SPVis
 venue: "ICIP: Security and Privacy of Machine Learning-based Vision Processing in Autonomous Systems (SPVis), 2024, Abu Dhabi, UAE"
-date: 2024-06-27
+date: 2024-06-10
 citation: '<b>Amira Guesmi</b>, Nishant Suresh Aswani, Muhammad Shafique'
 ---
 [[PDF]]([(https://arxiv.org/abs/2405.06278)])

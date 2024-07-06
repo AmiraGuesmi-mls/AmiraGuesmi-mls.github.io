@@ -4,7 +4,7 @@ collection: publications
 permalink: /publications/DR
 venue: "The ACM/IEEE Design Automation Conference (DAC), 2024, San Francisco, USA"
 date: 2024-06-27
-citation: Nandish Chattopadhyay, '<b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique'
+citation: Nandish Chattopadhyay, <b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique
 ---
 [[PDF]]([(https://arxiv.org/abs/2311.12211)])
 

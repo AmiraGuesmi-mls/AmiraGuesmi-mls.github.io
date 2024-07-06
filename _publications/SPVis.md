@@ -6,7 +6,7 @@ venue: "ICIP: Security and Privacy of Machine Learning-based Vision Processing i
 date: 2024-06-27
 citation: '<b>Amira Guesmi</b>, Nishant Suresh Aswani, Muhammad Shafique'
 ---
-[[PDF]]([https://arxiv.org/abs/2405.06278])
+[[PDF]]([(https://arxiv.org/abs/2405.06278)])
 
 
 ## Abstract

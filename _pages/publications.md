@@ -23,7 +23,7 @@ Nandish Chattopadhyay, <b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Bassem Ouni
 <b>Amira Guesmi</b>, Ioan Marius Bilasco, Muhammad Shafique, Ihsen Alouani.
 <i>IEEE International Conference on Image Processing (ICIP), 2024, Abu Dhabi, UAE </i>.
 
-<b>[AAnomaly Unveiled: Securing Image Classification against Adversarial Patch Attacks](http://AmiraGuesmi-mls.github.io/publications/ICIP24ANOMALY)</b> <br> 
+<b>[Anomaly Unveiled: Securing Image Classification against Adversarial Patch Attacks](http://AmiraGuesmi-mls.github.io/publications/ICIP24ANOMALY)</b> <br> 
 <b>Nandish Chattopadhyay, Amira Guesmi</b>, Muhammad Shafique.
 <i>IEEE International Conference on Image Processing (ICIP), 2024, Abu Dhabi, UAE </i>.
 

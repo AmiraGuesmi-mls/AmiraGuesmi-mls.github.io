@@ -1,7 +1,7 @@
 ---
 title: "Anomaly Unveiled: Securing Image Classification against Adversarial Patch Attacks"
 collection: publications
-permalink: /publications/SSAP
+permalink: /publications/ICIP24ANOMALY
 venue: "The IEEE International Conference on Image Processing (ICIP) 2024, Abu Dhabi, UAE"
 date: 2024-06-07
 citation: 'Nandish Chattopadhyay, <b>Amira Guesmi</b>, Muhammad Shafique'

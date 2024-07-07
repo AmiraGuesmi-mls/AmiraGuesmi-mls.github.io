@@ -19,6 +19,10 @@ author_profile: true
 Nandish Chattopadhyay, <b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique.
 <i>ACM/IEEE Design Automation Conference (DAC), Jun. 2024, San Francisco, USA </i>.
 
+<b>[AdvART: Adversarial Art for Camouflaged Object Detection Attacks](http://AmiraGuesmi-mls.github.io/publications/ICIP24ADVART)</b> <br> 
+<b>Amira Guesmi</b>, Ioan Marius Bilasco, Muhammad Shafique, Ihsen Alouani.
+<i>IEEE International Conference on Image Processing (ICIP), 2024, Abu Dhabi, UAE </i>.
+
 <b>[Exploring the Interplay of Interpretability and Robustness in Deep Neural Networks: A Saliency-guided Approach](http://AmiraGuesmi-mls.github.io/publications/SPVis)</b> <br> 
 <b>Amira Guesmi</b>, Nishant Suresh Aswani, Muhammad Shafique.
 <i>ICIP: Security and Privacy of Machine Learning-based Vision Processing in Autonomous Systems (SPVis), 2024, Abu Dhabi, UAE </i>.

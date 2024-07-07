@@ -1,7 +1,7 @@
 ---
 title: "AdvART: Adversarial Art for Camouflaged Object Detection Attacks"
 collection: publications
-permalink: /publications/SSAP
+permalink: /publications/ICIP24ADVART
 venue: "The IEEE International Conference on Image Processing (ICIP) 2024, Abu Dhabi, UAE"
 date: 2024-06-07
 citation: '<b>Amira Guesmi</b>, Ioan Marius Bilasco, Muhammad Shafique, Ihsen Alouani'

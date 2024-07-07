@@ -52,8 +52,12 @@ Ayoub Arous, <b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Muhammad Shafique.
 <i>International Joint Conference on Neural Networks (IJCNN), 2023, Queensland, Australia</i>.
 
 <b>[ROOM: Adversarial Machine Learning Attacks Under Real-Time Constraints](http://AmiraGuesmi-mls.github.io/publications/ROOM)</b> <br> 
-<b>Amira Guesmi</b>, Khaled N. Khasawneh, Nael Abu-Ghazaleh, Ihsen Alouan.
+<b>Amira Guesmi</b>, Khaled N. Khasawneh, Nael Abu-Ghazaleh, Ihsen Alouani.
 <i>International Joint Conference on Neural Networks (IJCNN), 2022, Padua, Italy</i>.
+
+<b>[SIT: Stochastic Input Transformation to Defend Against Adversarial Attacks on Deep Neural Networks](http://AmiraGuesmi-mls.github.io/publications/SIT)</b> <br> 
+<b>Amira Guesmi</b>, Ihsen Alouani, Mouna Baklouti, Tarek Frikha, Mohamed Abid.
+<i>IEEE Design & Test, 2022</i>.
 
 <b>[Defensive approximation: securing CNNs using approximate computing](http://AmiraGuesmi-mls.github.io/publications/ASPLOS)</b> <br> 
 <b>Amira Guesmi</b>, Ihsen Alouani, Khaled Khasawneh, Mouna Baklouti, Tarek Frikha, Mohamed Abid, Nael Abu-Ghazaleh

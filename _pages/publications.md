@@ -64,7 +64,11 @@ Shail Dave, Alberto Marchisio, Muhammad Abdullah Hanif, <b>Amira Guesmi</b>, Avi
 <i>IEEE VLSI Test Symposium (VTS), 2022, San Diego, CA, USA</i>.
 
 <b>[Defensive approximation: securing CNNs using approximate computing](http://AmiraGuesmi-mls.github.io/publications/ASPLOS)</b> <br> 
-<b>Amira Guesmi</b>, Ihsen Alouani, Khaled Khasawneh, Mouna Baklouti, Tarek Frikha, Mohamed Abid, Nael Abu-Ghazaleh
+<b>Amira Guesmi</b>, Ihsen Alouani, Khaled Khasawneh, Mouna Baklouti, Tarek Frikha, Mohamed Abid, Nael Abu-Ghazaleh.
 <i>ACM international conference on architectural support for programming languages and operating systems (ASPLOS), 2021, USA </i>.
+
+<b>[HEAP: A Heterogeneous Approximate Floating-Point Multiplier for Error Tolerant Applications](http://AmiraGuesmi-mls.github.io/publications/RSP)</b> <br> 
+<b>Amira Guesmi</b>, Ihsen Alouani, Mouna Baklouti, Tarek Frikha, Mohamed Abid, and Atika Rivenq.
+<i>International Workshop on Rapid System Prototyping (RSP), 2019, New York NY USA </i>.
 
 # Preprints

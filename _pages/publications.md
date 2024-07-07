@@ -23,6 +23,10 @@ Nandish Chattopadhyay, <b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Bassem Ouni
 <b>Amira Guesmi</b>, Ioan Marius Bilasco, Muhammad Shafique, Ihsen Alouani.
 <i>IEEE International Conference on Image Processing (ICIP), 2024, Abu Dhabi, UAE </i>.
 
+<b>[AAnomaly Unveiled: Securing Image Classification against Adversarial Patch Attacks](http://AmiraGuesmi-mls.github.io/publications/ICIP24ANOMALY)</b> <br> 
+<b>Nandish Chattopadhyay, Amira Guesmi</b>, Muhammad Shafique.
+<i>IEEE International Conference on Image Processing (ICIP), 2024, Abu Dhabi, UAE </i>.
+
 <b>[Exploring the Interplay of Interpretability and Robustness in Deep Neural Networks: A Saliency-guided Approach](http://AmiraGuesmi-mls.github.io/publications/SPVis)</b> <br> 
 <b>Amira Guesmi</b>, Nishant Suresh Aswani, Muhammad Shafique.
 <i>ICIP: Security and Privacy of Machine Learning-based Vision Processing in Autonomous Systems (SPVis), 2024, Abu Dhabi, UAE </i>.

@@ -7,7 +7,7 @@ author_profile: true
 
 <br> 
 
-<b>[Dap: A dynamic adversarial patch for evading person detectors](http://AmiraGuesmi-mls.github.io/publications/DAP)</b> <br> 
+<b>[DAP: A dynamic adversarial patch for evading person detectors](http://AmiraGuesmi-mls.github.io/publications/DAP)</b> <br> 
 <b>Amira Guesmi</b>, Ruitian Ding, Muhammad Abdullah Hanif, Ihsen Alouani, Muhammad Shafique.
 <i>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Jun. 2024, Seattle, Washington, USA</i>.
 

@@ -43,6 +43,10 @@ Nishant Suresh Aswani, <b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Muhammad Sh
 <b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique.
 <i>IEEE Access, 2023</i>.
 
+<b>[AdvRain: Adversarial Raindrops to Attack Camera-Based Smart Vision Systems](http://AmiraGuesmi-mls.github.io/publications/ADVRAIN)</b> <br> 
+<b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique.
+<i>Information, 2023</i>.
+
 <b>[Defensive approximation: securing CNNs using approximate computing](http://AmiraGuesmi-mls.github.io/publications/ASPLOS)</b> <br> 
 <b>Amira Guesmi</b>, Ihsen Alouani, Khaled Khasawneh, Mouna Baklouti, Tarek Frikha, Mohamed Abid, Nael Abu-Ghazaleh
 <i>ACM international conference on architectural support for programming languages and operating systems (ASPLOS), 2021, USA </i>.

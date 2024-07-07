@@ -39,6 +39,10 @@ Nishant Suresh Aswani, <b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Muhammad Sh
 <b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique.
 <i>IEEE Access, 2024</i>.
 
+<b>[Physical Adversarial Attacks For Camera-based Smart Systems: Current Trends, Categorization, Applications, Research Challenges, and Future Outlook](http://AmiraGuesmi-mls.github.io/publications/SURVEY23)</b> <br> 
+<b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique.
+<i>IEEE Access, 2023</i>.
+
 <b>[Defensive approximation: securing CNNs using approximate computing](http://AmiraGuesmi-mls.github.io/publications/ASPLOS)</b> <br> 
 <b>Amira Guesmi</b>, Ihsen Alouani, Khaled Khasawneh, Mouna Baklouti, Tarek Frikha, Mohamed Abid, Nael Abu-Ghazaleh
 <i>ACM international conference on architectural support for programming languages and operating systems (ASPLOS), 2021, USA </i>.

@@ -1,5 +1,5 @@
 ---
-title: "“SAAM: Stealthy Adversarial Attack on Monocular Depth Estimation"
+title: "SAAM: Stealthy Adversarial Attack on Monocular Depth Estimation"
 collection: publications
 permalink: /publications/SAAM
 venue: " The IEEE Access, 2024"

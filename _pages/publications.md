@@ -35,6 +35,10 @@ Nandish Chattopadhyay, <b>Amira Guesmi</b>, Muhammad Shafique.
 Nishant Suresh Aswani, <b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Muhammad Shafique.
 <i>ContinualAI Unconference, 2023, Virtual</i>.
 
+<b>[SAAM: Stealthy Adversarial Attack on Monocular Depth Estimation](http://AmiraGuesmi-mls.github.io/publications/SAAM)</b> <br> 
+<b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique.
+<i>IEEE Access, 2024</i>.
+
 <b>[Defensive approximation: securing CNNs using approximate computing](http://AmiraGuesmi-mls.github.io/publications/ASPLOS)</b> <br> 
 <b>Amira Guesmi</b>, Ihsen Alouani, Khaled Khasawneh, Mouna Baklouti, Tarek Frikha, Mohamed Abid, Nael Abu-Ghazaleh
 <i>ACM international conference on architectural support for programming languages and operating systems (ASPLOS), 2021, USA </i>.

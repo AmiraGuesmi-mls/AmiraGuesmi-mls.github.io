@@ -47,6 +47,10 @@ Nishant Suresh Aswani, <b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Muhammad Sh
 <b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique.
 <i>Information, 2023</i>.
 
+<b>[Exploring Machine Learning Privacy/Utility Trade-Off from a Hyperparameters Lens](http://AmiraGuesmi-mls.github.io/publications/PRIVACY23)</b> <br> 
+Ayoub Arous, <b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Muhammad Shafique.
+<i>International Joint Conference on Neural Networks (IJCNN), 2023, Queensland, Australia</i>.
+
 <b>[Defensive approximation: securing CNNs using approximate computing](http://AmiraGuesmi-mls.github.io/publications/ASPLOS)</b> <br> 
 <b>Amira Guesmi</b>, Ihsen Alouani, Khaled Khasawneh, Mouna Baklouti, Tarek Frikha, Mohamed Abid, Nael Abu-Ghazaleh
 <i>ACM international conference on architectural support for programming languages and operating systems (ASPLOS), 2021, USA </i>.

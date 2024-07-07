@@ -31,6 +31,9 @@ Nandish Chattopadhyay, <b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Bassem Ouni
 <b>Amira Guesmi</b>, Nishant Suresh Aswani, Muhammad Shafique.
 <i>ICIP: Security and Privacy of Machine Learning-based Vision Processing in Autonomous Systems (SPVis), 2024, Abu Dhabi, UAE </i>.
 
+<b>[Examining Changes in Internal Representations of Continual Learning Models Through Tensor Decomposition](http://AmiraGuesmi-mls.github.io/publications/UNCONF24)</b> <br> 
+Nishant Suresh Aswani, <b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Muhammad Shafique.
+<i>ContinualAI Unconference, 2023, Virtual</i>.
 
 <b>[Defensive approximation: securing CNNs using approximate computing](http://AmiraGuesmi-mls.github.io/publications/ASPLOS)</b> <br> 
 <b>Amira Guesmi</b>, Ihsen Alouani, Khaled Khasawneh, Mouna Baklouti, Tarek Frikha, Mohamed Abid, Nael Abu-Ghazaleh

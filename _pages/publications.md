@@ -59,6 +59,10 @@ Ayoub Arous, <b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Muhammad Shafique.
 <b>Amira Guesmi</b>, Ihsen Alouani, Mouna Baklouti, Tarek Frikha, Mohamed Abid.
 <i>IEEE Design & Test, 2022</i>.
 
+<b>[Towards an agile design methodology for efficient, reliable, and secure ML systems](http://AmiraGuesmi-mls.github.io/publications/VLSI)</b> <br> 
+Shail Dave, Alberto Marchisio, Muhammad Abdullah Hanif, <b>Amira Guesmi</b>, Aviral Shrivastava, Ihsen Alouani, Muhammad Shafique.
+<i>IEEE VLSI Test Symposium (VTS), 2022, San Diego, CA, USA</i>.
+
 <b>[Defensive approximation: securing CNNs using approximate computing](http://AmiraGuesmi-mls.github.io/publications/ASPLOS)</b> <br> 
 <b>Amira Guesmi</b>, Ihsen Alouani, Khaled Khasawneh, Mouna Baklouti, Tarek Frikha, Mohamed Abid, Nael Abu-Ghazaleh
 <i>ACM international conference on architectural support for programming languages and operating systems (ASPLOS), 2021, USA </i>.

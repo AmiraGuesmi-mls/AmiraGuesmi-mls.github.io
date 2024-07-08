@@ -76,3 +76,7 @@ Shail Dave, Alberto Marchisio, Muhammad Abdullah Hanif, <b>Amira Guesmi</b>, Avi
 <b>[ODDR: Outlier Detection & Dimension Reduction Based Defense Against Adversarial Patches](http://AmiraGuesmi-mls.github.io/publications/ODDR)</b> <br> 
 Nandish Chattopadhyay, <b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Muhammad Shafique.
 <i>ArXiv </i>.
+
+<b>[Adversarial Attack on Radar-based Environment Perception Systems](http://AmiraGuesmi-mls.github.io/publications/ARADAR)</b> <br> 
+<b>Amira Guesmi</b>, Ihsen Alouani.
+<i>ArXiv </i>.

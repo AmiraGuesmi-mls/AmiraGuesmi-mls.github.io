@@ -77,6 +77,10 @@ Shail Dave, Alberto Marchisio, Muhammad Abdullah Hanif, <b>Amira Guesmi</b>, Avi
 Nandish Chattopadhyay, <b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Muhammad Shafique.
 <i>ArXiv </i>.
 
+<b>[AaN: Anti-adversarial Noise - A Novel Approach for Securing Machine Learning-based Wireless Communication Systems](http://AmiraGuesmi-mls.github.io/publications/AAN)</b> <br> 
+Anis Amazigh Hamza, <b>Amira Guesmi</b>, Iyad Dayoub, Abderrahmane Amrouche, Ihsen Alouani.
+<i>TechRxiv </i>.
+
 <b>[Adversarial Attack on Radar-based Environment Perception Systems](http://AmiraGuesmi-mls.github.io/publications/ARADAR)</b> <br> 
 <b>Amira Guesmi</b>, Ihsen Alouani.
 <i>ArXiv </i>.

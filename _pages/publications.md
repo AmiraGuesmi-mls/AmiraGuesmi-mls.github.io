@@ -80,3 +80,7 @@ Nandish Chattopadhyay, <b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Muhammad Sh
 <b>[Adversarial Attack on Radar-based Environment Perception Systems](http://AmiraGuesmi-mls.github.io/publications/ARADAR)</b> <br> 
 <b>Amira Guesmi</b>, Ihsen Alouani.
 <i>ArXiv </i>.
+
+<b>[Defending with Errors: Approximate Computing for Robustness of Deep Neural Networks](http://AmiraGuesmi-mls.github.io/publications/ERRORS)</b> <br> 
+<b>Amira Guesmi</b>, Ihsen Alouani, Khaled N. Khasawneh, Mouna Baklouti, Tarek Frikha, Mohamed Abid, Nael Abu-Ghazaleh.
+<i>ArXiv </i>.

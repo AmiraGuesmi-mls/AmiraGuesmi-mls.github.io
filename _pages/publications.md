@@ -72,3 +72,7 @@ Shail Dave, Alberto Marchisio, Muhammad Abdullah Hanif, <b>Amira Guesmi</b>, Avi
 <i>International Workshop on Rapid System Prototyping (RSP), 2019, New York NY USA </i>.
 
 # Preprints
+
+<b>[ODDR: Outlier Detection & Dimension Reduction Based Defense Against Adversarial Patches](http://AmiraGuesmi-mls.github.io/publications/ODDR)</b> <br> 
+Nandish Chattopadhyay, <b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Muhammad Shafique.
+<i>ArXiv </i>.

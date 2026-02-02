@@ -11,7 +11,7 @@ authors: "Amira Guesmi, Bassem Ouni, Muhammad Shafique"
 excerpt: "A defense framework that disrupts semantic and gradient alignment across bit-widths to prevent patch transferability in quantized neural networks."
 header:
   teaser: /images/projects/triqdef/teaser.png
-  image: /images/triqdef/overview.png
+  image: /images/triqdef.png
   caption: "Overview of TriQDef."
 ---
 

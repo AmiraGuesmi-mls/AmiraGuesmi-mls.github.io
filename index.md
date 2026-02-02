@@ -8,7 +8,7 @@ author_profile: true
 **Research Team Leader, Electrical and Computer Engineering**  
 **New York University Abu Dhabi**
 
-I lead research on **AI security and trustworthy machine learning**, with a focus on **adversarial attacks and defenses, robustness under deployment constraints, and secure perception systems**. My work bridges **theory, system-level design, and real-world evaluation**, targeting vision, autonomous, embedded, and multimodal AI systems.
+I lead research on AI security and trustworthy machine learning, with a focus on adversarial attacks and defenses, robustness under deployment constraints, and secure perception systems. My work bridges theory, system-level design, and real-world evaluation, targeting vision, autonomous, embedded, and multimodal AI systems.
 
 ---
 
@@ -29,7 +29,7 @@ I lead research on **AI security and trustworthy machine learning**, with a focu
 
 ## 🔬 Research Overview
 
-My research aims to **advance the security, robustness, and trustworthiness of machine learning systems** under adversarial threats and realistic deployment constraints. I study how **architecture choices (e.g., Vision Transformers), quantization and approximation, physical-world effects, and multimodal interactions** shape both vulnerabilities and defenses. A recurring theme in my work is **breaking brittle alignment**—semantic, gradient, or representational—to improve robustness while preserving efficiency and deployability.
+My research aims to advance the security, robustness, and trustworthiness of machine learning systems under adversarial threats and realistic deployment constraints. I study how architecture choices (e.g., Vision Transformers), quantization and approximation, physical-world effects, and multimodal interactions shape both vulnerabilities and defenses. A recurring theme in my work is breaking brittle alignment—semantic, gradient, or representational—to improve robustness while preserving efficiency and deployability.
 
 ---
 

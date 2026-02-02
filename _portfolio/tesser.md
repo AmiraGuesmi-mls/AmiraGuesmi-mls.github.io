@@ -40,8 +40,7 @@ semantic–spectral compatibility as a previously underexplored and necessary co
 - We introduce Feature-Sensitive Gradient Scaling (FSGS), a token-aware and depth-sensitive gradient modulation mechanism that dynamically reweights gradients in Attention, QKV, and MLP modules based
 on intermediate feature importance, steering perturbations toward semantically meaningful regions while suppressing architecture-specific noise.
 - We incorporate Spectral Smoothness Regularization (SSR), a lightweight differentiable spectral prior that suppresses high-frequency perturbation artifacts during optimization, promoting low-frequency structures that generalize effectively across CNNs, ViTs, and adversarially trained models.
-- We conduct extensive experiments on ImageNet across 14 diverse architectures, including Vision Transformers, CNNs, hybrid models, and adversarially defended networks, showing that TESSER consistently outperforms state-of-the-art transfer attacks, achieving up
-to +10.9% higher ASR in challenging black-box and robust settings.
+- We conduct extensive experiments on ImageNet across 14 diverse architectures, including Vision Transformers, CNNs, hybrid models, and adversarially defended networks, showing that TESSER consistently outperforms state-of-the-art transfer attacks, achieving up to +10.9% higher ASR in challenging black-box and robust settings.
 - We provide comprehensive ablation studies, GradCAM-based semantic alignment analyses (Section 4.4), and frequency-domain evaluations (Section 4.5) that validate the necessity and effectiveness of jointly enforcing semantic alignment and spectral smoothness for adversarial transferability.
 
 ## Citation

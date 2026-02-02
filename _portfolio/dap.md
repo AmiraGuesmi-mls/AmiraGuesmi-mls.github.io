@@ -3,7 +3,7 @@ title: "DAP: A Dynamic Adversarial Patch for Evading Person Detectors"
 collection: portfolio
 permalink: /project_pages/dap/
 date: 2024-06-01
-venue: "CVPR 2024"
+venue: "CVPR"
 paperurl: "https://openaccess.thecvf.com/content/CVPR2024/html/Guesmi_DAP_A_Dynamic_Adversarial_Patch_for_Evading_Person_Detectors_CVPR_2024_paper.html"
 codeurl: ""
 bibtexurl: ""

@@ -12,7 +12,7 @@ I lead research on **AI security and trustworthy machine learning**, with a focu
 
 ---
 
-## 📰 News
+## 🔥 News
 
 - **2026.01**: 🎉 2 papers accepted at **ICLR 2026**
 - **2025.11**: 1 paper accepted at **DATE 2026**

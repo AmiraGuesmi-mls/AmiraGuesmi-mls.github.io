@@ -3,7 +3,7 @@ title: "DRIFT: Divergent Response in Filtered Transformations for Robust Adversa
 collection: portfolio
 permalink: /project_pages/drift/
 date: 2026-01-15
-venue: "ICLR 2026"
+venue: "ICLR"
 paperurl: "[https://openreview.net/forum?id=REPLACE_WITH_DRIFT_ID](https://openreview.net/forum?id=AYH7uBK1Gg&referrer=%5Bthe%20profile%20of%20Amira%20Guesmi%5D(%2Fprofile%3Fid%3D~Amira_Guesmi1))"
 codeurl: ""
 bibtexurl: ""

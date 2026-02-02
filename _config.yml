@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 title                    : "Amira Guesmi"
-title_separator          : "-"
-name                     : &name "Dr.-Ing. Engr. Amira Guesmi"
-description              : &description "Lead Researcher"
+title_separator          : "—"
+name                     : &name "Dr. Amira Guesmi"
+description              : &description "Research Team Leader | AI Security & Robust Machine Learning | Adversarial ML, Quantization, Vision Transformers"
 url                      : https://AmiraGuesmi-mls.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "AmiraGuesmi-mls/AmiraGuesmi-mls.github.io"
@@ -20,58 +20,25 @@ repository               : "AmiraGuesmi-mls/AmiraGuesmi-mls.github.io"
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
-  # Biographic information
   avatar           : "Amira_Guesmi.png"
   name             : "Amira Guesmi"
-  pronouns         : # example: "she/her"  
-  bio              : "Lead Researcher at NYU Abu Dhabi"
-  location         : "United Arab Emirates"
+  pronouns         : "she/her"
+  bio              : "Research Team Leader @ NYU Abu Dhabi — AI Security, Adversarial ML, Robust Vision, Edge/Quantized Models"
+  location         : "Abu Dhabi, United Arab Emirates"
   employer         : "New York University Abu Dhabi"
-  uri              : # URL
-  email            : "ag9321@nyu.edu" 
+  uri              : "https://AmiraGuesmi-mls.github.io"
+  email            : "ag9321@nyu.edu"
 
   # Academic websites
-  arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.fr/citations?user=ramnnXoAAAAJ&hl=fr&oi=ao"
-  impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
-  semantic         : # URL
-  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  orcid            :  "https://orcid.org/0000-0002-8992-7958"
   researchgate     : "https://www.researchgate.net/profile/Amira-Guesmi"
 
   # Repositories and software development
-  bitbucket        : # Username - Update with your username on the site
-  codepen          : # Username
-  dribbble         : # Username
   github           : "AmiraGuesmi-mls"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : #"bsky.app" # Replace this with you Bluesky username
-  facebook         : # Username
-  flickr           : # Username
-  foursquare       : # Username
-  goodreads        : # Username
-  google_plus      : # Username
-  keybase          : # Username
-  instagram        : # Username
-  lastfm           : # Username
-  linkedin         : "amira-guesmi-36372b6a/" # Username
-  mastodon         : # URL
-  medium           : # URL
-  pinterest        : # Username
-  soundcloud       : # Username
-  steam            : # Username
-  telegram         : # URL
-  tumblr           : # Username
-  twitter          : # Username for X / Twitter
-  vine             : # Username
-  weibo            : # Username
-  wikipedia        : # Username
-  xing             : # Username
-  youtube          : # Username
-  zhihu            : # URL
+  linkedin         : "amira-guesmi-36372b6a"
 
 
 # Site Settings
@@ -130,9 +97,15 @@ og_image                 :  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type: "Person"
+  name: "Amira Guesmi"
+  links:
+    - "https://AmiraGuesmi-mls.github.io"
+    - "https://github.com/AmiraGuesmi-mls"
+    - "https://scholar.google.fr/citations?user=ramnnXoAAAAJ&hl=fr&oi=ao"
+    - "https://www.researchgate.net/profile/Amira-Guesmi"
+    - "https://www.linkedin.com/in/amira-guesmi-36372b6a/"
+
 
 
 # Analytics
@@ -281,7 +254,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Dubai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

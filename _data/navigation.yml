@@ -1,27 +1,22 @@
-# main links links
+# Main navigation links
 main:
+  - title: "Home"
+    url: /
+
   - title: "Publications"
     url: /publications/
 
-  - title: "CV"
-    url: "/files/Amira Guesmi-cv2024.pdf"
-    
-  - title: "Awards & Honors"
-    url: /Awards_Honors/
-    
+  - title: "Research"
+    url: /portfolio/
+
   - title: "Talks"
-    url: /talks/    
+    url: /talks/
+
+  - title: "CV"
+    url: "/files/Amira_Guesmi_CV.pdf"
+
+  - title: "Awards"
+    url: /awards/
 
   - title: "Contact"
-    url: /contact/    
-    
-  # - title: "Portfolio"
-  #   url: /portfolio/
-        
-  # - title: "Blog Posts"
-  #   url: /year-archive/
-    
-
-    
-  # - title: "Guide"
-  #   url: /markdown/
+    url: /contact/

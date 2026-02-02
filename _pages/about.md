@@ -1,4 +1,8 @@
-
+---
+title: "About"
+permalink: /about/
+author_profile: true
+---
 
 # Dr. Amira Guesmi  
 **Research Team Leader, Electrical and Computer Engineering**  

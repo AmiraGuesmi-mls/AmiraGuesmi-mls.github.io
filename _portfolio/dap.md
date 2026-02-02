@@ -24,13 +24,16 @@ header:
 <img src="{{ page.header.image | relative_url }}" alt="DAP Overview" style="max-width:100%; border-radius: 8px;"/>
 
 ## Abstract
-Adversarial patch attacks have shown strong potential in evading object detectors; however, existing approaches rely on static patterns that fail to generalize across poses, scales, and environmental changes.  
-This paper introduces **DAP**, a **dynamic adversarial patch** that adapts its appearance based on spatial transformations and temporal variations, enabling robust evasion of state-of-the-art person detectors under realistic conditions. Extensive evaluations demonstrate that DAP significantly outperforms static patch baselines across diverse detection models, viewpoints, and deployment scenarios.
+Patch-based adversarial attacks were proven to compromise the robustness and reliability of computer vision systems.
+However, their conspicuous and easily detectable nature challenge their practicality in real-world setting. To address this, recent work has proposed using Generative Adversarial Networks (GANs) to generate naturalistic patches that may not attract human attention. However, such approaches suffer from a limited latent space making it challenging to produce a patch that is efficient, stealthy, and robust to multiple real-world transformations.
+This paper introduces a novel approach that produces a Dynamic Adversarial Patch (DAP) designed to overcome these limitations. DAP maintains a naturalistic appearance while optimizing attack efficiency and robustness to real-world transformations.
+The approach involves redefining the optimization problem and introducing a novel objective function that incorporates a similarity metric to guide the patch's creation. Unlike GAN-based techniques, the DAP directly modifies pixel values within the patch, providing increased flexibility and adaptability to multiple transformations. Furthermore, most clothing-based physical attacks assume static objects and ignore the possible transformations caused by non-rigid deformation due to changes in a person’s pose. To address this limitation, a `Creases Transformation' (CT) block is introduced, enhancing the patch's resilience to a variety of real-world distortions.
+Experimental results demonstrate that the proposed approach outperforms state-of-the-art attacks, achieving a success rate of up to 82.28\% in the digital world when targeting the YOLOv7 detector and 65\% in the physical world when targeting YOLOv3tiny detector deployed in edge-based smart cameras. 
 
 ## Key Contributions
-- Proposes **DAP**, the first dynamic adversarial patch designed for person detection evasion.
-- Introduces adaptive spatial and temporal transformations to improve robustness across poses and scales.
-- Demonstrates strong attack success against modern person detectors in realistic evaluation settings.
+- We investigate the limitations of GAN-based approaches when used to generate robust naturalistic adversarial patterns. Our investigation reveals that these techniques struggle to integrate multiple transformations while sustaining optimal performance. We show that these techniques can not incorporate multiple transformations while maintaining high performance due to the limited latent space compared to the high flexibility and the larger space provided by our approach as it relies on directly manipulating the patch pixels.
+- We propose a framework (See Figure approach) that generates GAN-free naturalistic patches that can resemble any predefined pattern, while maintaining high attack success rate under multiple transformations (e.g., clothing creases and wrinkles, random noise, brightness and contrast variations, re-scaling, and rotation, etc.). 
+- To increase robustness against non-rigid deformations experienced by a printed adversarial patch on a T-shirt and caused by pose changes of a moving person, we develop a Creases Transformation (CT) block that models these non-rigid deformations by compressing the pixels following a randomly selected direction.
 
 ## Citation
 ```bibtex

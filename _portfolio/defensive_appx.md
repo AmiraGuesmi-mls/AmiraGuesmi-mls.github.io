@@ -16,7 +16,7 @@ topic: "Robustness and Security of Quantized & Approximate Neural Networks"
 
 ## Overview
 
-<img src="/images/asplos_overview.png" width="900px"/>
+<img src="/images/asplos_overview.png" width="600px"/>
 
 **Defensive Approximation (DA)** is the first work to demonstrate that *hardware-supported approximate computing* can be used as an **effective defense against adversarial attacks** on deep neural networks.
 

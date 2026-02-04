@@ -1,5 +1,3 @@
-topic: "Adversarial Machine Learning — Foundations"
-
 ---
 title: "TESSER: Transfer-Enhancing Adversarial Attacks from Vision Transformers via Spectral and Semantic Regularization"
 collection: portfolio

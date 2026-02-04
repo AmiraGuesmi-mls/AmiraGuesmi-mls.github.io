@@ -1,14 +1,59 @@
 ---
-layout: archive
+layout: single
 title: "Research"
 permalink: /portfolio/
 author_profile: true
 ---
 
-Below are selected research projects and paper pages with summaries, figures, and links.
+Below is a curated view of my research projects and paper pages, organized by theme.
 
-{% include base_path %}
+{% assign topics = "Robustness and Security of Quantized & Approximate Neural Networks|Adversarial Machine Learning — Foundations|Adversarial Machine Learning — Vision & Autonomous Systems|Physical-World and Multi-Modal Adversarial Threats|Privacy-Preserving and Trustworthy Machine Learning|Interpretability and Robustness|Continual Learning and Representation Dynamics|Vision–Language Model (VLM) Security, Hallucination, and Privacy" | split: "|" %}
 
-{% for post in site.portfolio reversed %}
-  {% include archive-single.html type="grid" %}
+{% for t in topics %}
+## {{ t }}
+
+{% assign items = site.portfolio | where: "topic", t | sort: "date" | reverse %}
+{% if items.size == 0 %}
+*(Updates coming soon.)*
+{% else %}
+<div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:16px; margin: 10px 0 30px 0;">
+{% for post in items %}
+  <div style="border:1px solid #e5e7eb; border-radius:12px; padding:14px;">
+    {% if post.header.teaser %}
+      <a href="{{ post.url | relative_url }}">
+        <img src="{{ post.header.teaser | relative_url }}" alt="teaser" style="width:100%; border-radius:10px; margin-bottom:10px;">
+      </a>
+    {% endif %}
+
+    <div style="font-size:0.9rem; opacity:0.85; margin-bottom:6px;">
+      {% if post.venue %}<strong>{{ post.venue }}</strong>{% endif %}
+      {% if post.date %} · {{ post.date | date: "%Y" }}{% endif %}
+    </div>
+
+    <div style="font-size:1.05rem; font-weight:700; line-height:1.25; margin-bottom:6px;">
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </div>
+
+    {% if post.authors %}
+    <div style="font-size:0.9rem; opacity:0.9; margin-bottom:8px;">
+      {{ post.authors }}
+    </div>
+    {% endif %}
+
+    {% if post.excerpt %}
+    <div style="font-size:0.95rem; margin-bottom:10px;">
+      {{ post.excerpt }}
+    </div>
+    {% endif %}
+
+    <div style="font-size:0.95rem;">
+      {% if post.paperurl %}<a href="{{ post.paperurl }}">Paper</a>{% endif %}
+      {% if post.codeurl and post.codeurl != "" %} · <a href="{{ post.codeurl }}">Code</a>{% endif %}
+      {% if post.bibtexurl and post.bibtexurl != "" %} · <a href="{{ post.bibtexurl }}">BibTeX</a>{% endif %}
+    </div>
+  </div>
+{% endfor %}
+</div>
+{% endif %}
+
 {% endfor %}

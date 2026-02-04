@@ -3,10 +3,9 @@ title: "Defensive Approximation: Securing CNNs using Approximate Computing"
 collection: portfolio
 permalink: /portfolio/defensive-approximation/
 authors: "Amira Guesmi, Ihsen Alouani, Khaled N. Khasawneh, Mouna Baklouti, Tarek Frikha, Mohamed Abid, Nael Abu-Ghazaleh"
-venue: "ASPLOS 2021"
+venue: "ASPLOS"
 paper_url: "https://doi.org/10.1145/3445814.3446747"
-pdf: "/files/3445814.3446747.pdf"
-year: 2021
+date: 2021-04-19
 tags: [Adversarial Robustness, Approximate Computing, Hardware Security, CNNs]
 excerpt: "A hardware-level defense that leverages approximate computing to improve robustness of CNNs against adversarial attacks while reducing energy consumption."
 author_profile: false

@@ -12,7 +12,6 @@ excerpt: "A defense framework that disrupts semantic and gradient alignment acro
 topic: "Robustness and Security of Quantized & Approximate Neural Networks"
 
 header:
-  teaser: /images/projects/triqdef/teaser.png
   image: /images/triqdef.png
   caption: "Overview of TriQDef."
 ---

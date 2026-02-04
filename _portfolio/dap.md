@@ -9,6 +9,7 @@ codeurl: ""
 bibtexurl: ""
 authors: "Amira Guesmi, Ruitian Ding, Muhammad Abdullah Hanif, Ihsen Alouani, Muhammad Shafique"
 excerpt: "A dynamic adversarial patch that adapts spatially and temporally to effectively evade modern person detection models under realistic conditions."
+topic: "Adversarial Machine Learning — Vision & Autonomous Systems"
 header:
   image: /images/dap_overview.png
   caption: "Overview of the DAP framework."

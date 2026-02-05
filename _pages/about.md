@@ -32,48 +32,48 @@ My research aims to **advance the security, robustness, and trustworthiness of m
 ## 📚 Recent Publications by Research Theme
 
 ### 1. Robustness and Security of Quantized & Approximate Neural Networks
-- *TriQDef*: Disrupting Semantic and Gradient Alignment to Prevent Adversarial Patch Transferability in Quantized Neural Networks (**ICLR 2026**)
-- *Defending with Errors*: Approximate Computing for Robustness of Deep Neural Networks (**CoRR 2022**)
-- *Defensive Approximation*: Securing CNNs Using Approximate Computing (**ASPLOS 2021**)  
+- *TriQDef*: Disrupting Semantic and Gradient Alignment to Prevent Adversarial Patch Transferability in Quantized Neural Networks, **Amira Guesmi**, Bassem Ouni, Muhammad Shafique (**ICLR 2026**)
+- *Defending with Errors*: Approximate Computing for Robustness of Deep Neural Networks, **Amira Guesmi**, Ihsen Alouani, Khaled N Khasawneh, Mouna Baklouti, Tarek Frikha, Mohamed Abid, Nael Abu-Ghazaleh (**CoRR 2022**)
+- *Defensive Approximation*: Securing CNNs Using Approximate Computing, **Amira Guesmi**, Ihsen Alouani, Khaled N Khasawneh, Mouna Baklouti, Tarek Frikha, Mohamed Abid, Nael Abu-Ghazaleh (**ASPLOS 2021**)  
 
 
 ### 2. Adversarial Machine Learning — Foundations
-- *DRIFT*: Divergent Response in Filtered Transformations for Robust Adversarial Defense (**ICLR 2026**)
-- *TESSER*: Transfer-Enhancing Adversarial Attacks from Vision Transformers via Spectral and Semantic Regularization (**CoRR 2025**)
-- Anomaly Unveiled: Securing Image Classification Against Adversarial Patch Attacks (**ICIP 2024**)
-- Defending Against Adversarial Patches Using Dimensionality Reduction (**DAC 2024**)
-- *ROOM*: Adversarial Machine Learning Attacks under Real-Time Constraints (**IJCNN 2022**)
-- *SIT*: Stochastic Input Transformation to Defend Against Adversarial Attacks (**IEEE Design & Test 2021**)  
+- *DRIFT*: Divergent Response in Filtered Transformations for Robust Adversarial Defense, **Amira Guesmi**, Muhammad Shafique (**ICLR 2026**)
+- *TESSER*: Transfer-Enhancing Adversarial Attacks from Vision Transformers via Spectral and Semantic Regularization, **Amira Guesmi**, Bassem Ouni, Muhammad Shafique (**CoRR 2025**)
+- Anomaly Unveiled: Securing Image Classification Against Adversarial Patch Attacks, Nandish Chattopadhyay, **Amira Guesmi**, Muhammad Shafique (**ICIP 2024**)
+- Defending Against Adversarial Patches Using Dimensionality Reduction, Nandish Chattopadhyay, **Amira Guesmi**, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique (**DAC 2024**)
+- *ROOM*: Adversarial Machine Learning Attacks under Real-Time Constraints, **Amira Guesmi**, Khaled N Khasawneh, Nael Abu-Ghazaleh, Ihsen Alouani (**IJCNN 2022**)
+- *SIT*: Stochastic Input Transformation to Defend Against Adversarial Attacks, **Amira Guesmi**, Ihsen Alouani, Mouna Baklouti, Tarek Frikha, Mohamed Abid (**IEEE Design & Test 2021**)  
   
 
 ### 3. Adversarial Machine Learning — Vision & Autonomous Systems
-- *DAP*: A Dynamic Adversarial Patch for Evading Person Detectors (**CVPR 2024**)  
-- *SSAP*: Shape-Sensitive Adversarial Patch for Monocular Depth Estimation (**IROS 2024**)
-- *SAAM*: Stealthy Adversarial Attack on Monocular Depth Estimation (**IEEE Access 2024**)
-- *AdvART*: Adversarial Art for Camouflaged Object Detection Attacks (**ICIP 2024**)
-- *PatchBlock*: A Lightweight Defense Against Adversarial Patches for Embedded EdgeAI Devices (**DATE 2026**)
-- *AdvRain*: Adversarial raindrops to attack camera-based smart vision systems (**Information 2023**) 
-- Adversarial attack on radar-based environment perception systems (**CoRR 2022**)
+- *DAP*: A Dynamic Adversarial Patch for Evading Person Detectors, **Amira Guesmi**, Ruitian Ding, Muhammad Abdullah Hanif, Ihsen Alouani, Muhammad Shafique (**CVPR 2024**)  
+- *SSAP*: Shape-Sensitive Adversarial Patch for Monocular Depth Estimation, **Amira Guesmi**, Muhammad Abdullah Hanif, Ihsen Alouani, Bassem Ouni, Muhammad Shafique (**IROS 2024**)
+- *SAAM*: Stealthy Adversarial Attack on Monocular Depth Estimation, **Amira Guesmi**, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique (**IEEE Access 2024**)
+- *AdvART*: Adversarial Art for Camouflaged Object Detection Attacks, **Amira Guesmi**, Ioan Marius Bilasco, Muhammad Shafique, Ihsen Alouani (**ICIP 2024**)
+- *PatchBlock*: A Lightweight Defense Against Adversarial Patches for Embedded EdgeAI Devices, Nandish Chattopadhyay, Abdul Basit, **Amira Guesmi**, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique (**DATE 2026**)
+- *AdvRain*: Adversarial raindrops to attack camera-based smart vision systems, **Amira Guesmi**, Muhammad Abdullah Hanif, Muhammad Shafique (**Information 2023**) 
+- Adversarial attack on radar-based environment perception systems, **Amira Guesmi**, Ihsen Alouani (**CoRR 2022**)
 
 ### 4. Physical-World and Multi-Modal Adversarial Threats: Surveys
-- Navigating threats: A survey of physical adversarial attacks on lidar perception systems in autonomous vehicles (**CoRR 2024**)
-- Physical adversarial attacks for camera-based smart systems: Current trends, categorization, applications, research challenges, and future outlook (**IEEE Access 2023**)  
+- Navigating threats: A survey of physical adversarial attacks on lidar perception systems in autonomous vehicles, **Amira Guesmi**, Muhammad Shafique, (**CoRR 2024**)
+- Physical adversarial attacks for camera-based smart systems: Current trends, categorization, applications, research challenges, and future outlook, **Amira Guesmi**, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique (**IEEE Access 2023**)  
 
 
 ### 5. Privacy-Preserving and Trustworthy Machine Learning
-- Exploring machine learning privacy/utility trade-off from a hyperparameters lens (**IJCNN 2023**)  
+- Exploring machine learning privacy/utility trade-off from a hyperparameters lens, Ayoub Arous, **Amira Guesmi**, Muhammad Abdullah Hanif, Ihsen Alouani, Muhammad Shafique (**IJCNN 2023**)  
 
 
 ### 6. Interpretability and Robustness
-- Exploring the Interplay of Interpretability and Robustness in Deep Neural Networks: A Saliency-Guided Approach (**ICIP 2024**)
+- Exploring the Interplay of Interpretability and Robustness in Deep Neural Networks: A Saliency-Guided Approach, **Amira Guesmi**, Nishant Suresh Aswani, Muhammad Shafique (**ICIP 2024**)
 
 
 ### 7. Continual Learning and Representation Dynamics
-- Examining Changes in Internal Representations of Continual Learning Models Through Tensor Decomposition, (**Unconference 2024**)
+- Examining Changes in Internal Representations of Continual Learning Models Through Tensor Decomposition, Nishant Suresh Aswani, **Amira Guesmi**, Muhammad Abdullah Hanif, Muhammad Shafique (**Unconference 2024**)
 
 
 ### 8. Vision–Language Model (VLM) Security, Hallucination, and Privacy
-- *Do Not Leave a Gap* (under review)  
+- *Do Not Leave a Gap*, **Amira Guesmi**, Muhammad Shafique (under review)  
 
 
 *(See the Publications page for full lists and links.)*

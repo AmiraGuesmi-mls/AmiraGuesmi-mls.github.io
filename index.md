@@ -36,24 +36,29 @@ Below are representative research projects spanning adversarial machine learning
 ---
 
 <!-- DRIFT -->
-<div style="border:1px solid #e5e7eb; border-radius:12px; padding:14px;">
-<a href="/project_pages/drift/">
-<img src="/images/drift.png" style="width:100%; border-radius:10px; margin-bottom:10px;">
-</a>
+<div style="display:flex; gap:28px; margin-bottom:50px; align-items:flex-start;">
 
-<div style="font-weight:700; font-size:1.05rem;">
-DRIFT
-</div>
+  <div style="min-width:260px; max-width:260px;">
+    <img src="/images/drift.png" style="width:100%; border-radius:8px;">
+  </div>
 
-<div style="font-size:0.9rem; opacity:0.85;">
-Divergent Response Defense (ICLR 2026)
-</div>
+  <div>
 
-<p style="font-size:0.95rem;">
-A stochastic transformation defense that disrupts gradient consensus to reduce adversarial transferability.
-</p>
+    <div style="font-size:1.4rem; font-weight:700; margin-bottom:8px;">
+      ICLR 2026: 
+      <a href="/project_pages/drift/">DRIFT: Divergent Response in Filtered Transformations</a>
+    </div>
 
-<a href="/project_pages/drift/">Project Page →</a>
+    <div style="font-size:1rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
+      DRIFT is a stochastic ensemble defense that disrupts gradient consensus across transformations, significantly reducing adversarial transferability while preserving clean accuracy.
+    </div>
+
+    <div>
+      <a href="/project_pages/drift/">Project</a> |
+      <a href="#">Paper</a>
+    </div>
+
+  </div>
 </div>
 
 ---
@@ -80,53 +85,58 @@ Disrupts semantic and gradient alignment across quantized models to prevent patc
 </div>
 
 ---
-<div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:18px;">
-
 <!-- TESSER -->
-<div style="border:1px solid #e5e7eb; border-radius:12px; padding:14px;">
-<a href="/project_pages/tesser/">
-<img src="/images/tesser_overview.png" style="width:100%; border-radius:10px; margin-bottom:10px;">
-</a>
+<div style="display:flex; gap:28px; margin-bottom:50px; align-items:flex-start;">
 
-<div style="font-weight:700; font-size:1.05rem;">
-TESSER
-</div>
+  <div style="min-width:260px; max-width:260px;">
+    <img src="/images/tesser_overview.png" style="width:100%; border-radius:8px; margin-bottom:8px;">
+  </div>
 
-<div style="font-size:0.9rem; opacity:0.85;">
-Transfer-Enhancing Adversarial Attacks from Vision Transformers  
-(arXiv 2025)
-</div>
+  <div>
 
-<p style="font-size:0.95rem;">
-Improves black-box adversarial transferability from Vision Transformers via spectral and semantic regularization.
-</p>
+    <div style="font-size:1.4rem; font-weight:700; margin-bottom:8px;">
+      NeurIPS 2026: 
+      <a href="/project_pages/tesser/">TESSER: Transfer-Enhancing Adversarial Attacks from Vision Transformers</a>
+    </div>
 
-<a href="/project_pages/tesser/">Project Page →</a>
+    <div style="font-size:1rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
+      TESSER introduces spectral and semantic regularization to enhance adversarial transferability from Vision Transformers to CNNs and hybrid architectures, achieving state-of-the-art black-box attack performance across diverse model families.
+    </div>
+
+    <div>
+      <a href="/project_pages/tesser/">Project</a> |
+      <a href="https://arxiv.org/abs/2505.19613">Paper</a>
+    </div>
+
+  </div>
 </div>
 
 ---
 
 <!-- DAP -->
-<div style="border:1px solid #e5e7eb; border-radius:12px; padding:14px;">
-<a href="/project_pages/dap/">
-<img src="/images/dap_overview.png" style="width:100%; border-radius:10px; margin-bottom:10px;">
-</a>
+<div style="display:flex; gap:28px; margin-bottom:50px; align-items:flex-start;">
 
-<div style="font-weight:700; font-size:1.05rem;">
-DAP
-</div>
+  <div style="min-width:260px; max-width:260px;">
+    <img src="/images/dap_overview.png" style="width:100%; border-radius:8px;">
+  </div>
 
-<div style="font-size:0.9rem; opacity:0.85;">
-Dynamic Adversarial Patch (CVPR 2024)
-</div>
+  <div>
 
-<p style="font-size:0.95rem;">
-Adaptive adversarial patch that evades person detectors under pose, scale, and environmental variation.
-</p>
+    <div style="font-size:1.4rem; font-weight:700; margin-bottom:8px;">
+      CVPR 2024: 
+      <a href="/project_pages/dap/">DAP: Dynamic Adversarial Patch</a>
+    </div>
 
-<a href="/project_pages/dap/">Project Page →</a>
-</div>
+    <div style="font-size:1rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
+      DAP proposes an adaptive adversarial patch that dynamically adjusts spatial placement and appearance to evade person detectors under real-world transformations.
+    </div>
 
+    <div>
+      <a href="/project_pages/dap/">Project</a> |
+      <a href="#">Paper</a>
+    </div>
+
+  </div>
 </div>
 
 

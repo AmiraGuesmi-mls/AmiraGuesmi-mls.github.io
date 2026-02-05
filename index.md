@@ -32,7 +32,6 @@ My research aims to **advance the security, robustness, and trustworthiness of m
 ## Selected Research Projects
 
 Below are representative research projects spanning adversarial machine learning, robustness, and secure AI systems.  
-Click on each project to view paper links, figures, and technical details.
 
 ---
 
@@ -145,7 +144,7 @@ Adaptive adversarial patch that evades person detectors under pose, scale, and e
 
 ## 🧑‍🏫 Academic Service & Community
 
-- Reviewer: ICLR, NeurIPS, ICCV, CVPR, DAC, DATE, ICIP; IEEE TIFS, TCAD, TCSVT  
+- Reviewer: ICLR, NeurIPS, ICCV, CVPR, AAAI, ECCV, DAC, DATE, ICIP; IEEE TIFS, TCAD, TCSVT  
 - Tutorial Organizer & Speaker: *ML Security in Autonomous Systems*, IROS 2024  
 
 ---

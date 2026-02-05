@@ -1,6 +1,7 @@
 ---
-title: "About"
-permalink: /about/
+layout: single
+title: ""
+permalink: /
 author_profile: true
 ---
 
@@ -11,14 +12,13 @@ I lead research on **AI security and trustworthy machine learning**, with a focu
 ## 🔥 News
 
 - **2026.01**: 🎉 2 papers accepted at **ICLR 2026**
-- **2025.11**: 1 paper accepted at **DATE 2026**
-- **2025.10**: Selected as Top Reviewer at **NeurIPS 2025** 
-- **2025.06**: 1 paper accepted at **ICCV 2025**
-- **2024.06**: 1 paper accepted at **IROS 2024**
-- **2024.06**: 3 papers accepted at **ICIP 2024**
-- **2024.02**: 1 paper accepted at **CVPR 2024**
-- **2024.02**: 1 paper accepted at **DAC 2024** 
-
+- **2025.11**: 🎉 1 paper accepted at **DATE 2026**
+- **2025.10**: 🎉 Selected as Top Reviewer at **NeurIPS 2025** 
+- **2025.06**: 🎉 1 paper accepted at **ICCV 2025**
+- **2024.06**: 🎉 1 paper accepted at **IROS 2024**
+- **2024.06**: 🎉 3 papers accepted at **ICIP 2024**
+- **2024.02**: 🎉 1 paper accepted at **CVPR 2024**
+- **2024.02**: 🎉 1 paper accepted at **DAC 2024** 
 
 
 ---

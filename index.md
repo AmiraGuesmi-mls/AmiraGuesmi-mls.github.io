@@ -35,32 +35,6 @@ Below are representative research projects spanning adversarial machine learning
 
 ---
 
-<div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:18px;">
-
-<!-- TESSER -->
-<div style="border:1px solid #e5e7eb; border-radius:12px; padding:14px;">
-<a href="/project_pages/tesser/">
-<img src="/images/tesser_overview.png" style="width:100%; border-radius:10px; margin-bottom:10px;">
-</a>
-
-<div style="font-weight:700; font-size:1.05rem;">
-TESSER
-</div>
-
-<div style="font-size:0.9rem; opacity:0.85;">
-Transfer-Enhancing Adversarial Attacks from Vision Transformers  
-(arXiv 2025)
-</div>
-
-<p style="font-size:0.95rem;">
-Improves black-box adversarial transferability from Vision Transformers via spectral and semantic regularization.
-</p>
-
-<a href="/project_pages/tesser/">Project Page →</a>
-</div>
-
----
-
 <!-- DRIFT -->
 <div style="border:1px solid #e5e7eb; border-radius:12px; padding:14px;">
 <a href="/project_pages/drift/">
@@ -103,6 +77,31 @@ Disrupts semantic and gradient alignment across quantized models to prevent patc
 </p>
 
 <a href="/project_pages/triqdef/">Project Page →</a>
+</div>
+
+---
+<div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:18px;">
+
+<!-- TESSER -->
+<div style="border:1px solid #e5e7eb; border-radius:12px; padding:14px;">
+<a href="/project_pages/tesser/">
+<img src="/images/tesser_overview.png" style="width:100%; border-radius:10px; margin-bottom:10px;">
+</a>
+
+<div style="font-weight:700; font-size:1.05rem;">
+TESSER
+</div>
+
+<div style="font-size:0.9rem; opacity:0.85;">
+Transfer-Enhancing Adversarial Attacks from Vision Transformers  
+(arXiv 2025)
+</div>
+
+<p style="font-size:0.95rem;">
+Improves black-box adversarial transferability from Vision Transformers via spectral and semantic regularization.
+</p>
+
+<a href="/project_pages/tesser/">Project Page →</a>
 </div>
 
 ---

@@ -1,9 +1,4 @@
----
-#layout: single
-#title: ""
-#permalink: /
-#author_profile: true
----
+
 
 I lead research on AI security and trustworthy machine learning, with a focus on adversarial attacks and defenses, robustness under deployment constraints, and secure perception systems. My work bridges theory, system-level design, and real-world evaluation, targeting vision, autonomous, embedded, and multimodal AI systems.
 

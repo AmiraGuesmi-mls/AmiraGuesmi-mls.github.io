@@ -1,83 +1,136 @@
 ---
-layout: single
-title: ""
-permalink: /
+title: "About"
+permalink: /about/
 author_profile: true
 ---
 
-I lead research on AI security and trustworthy machine learning, with a focus on adversarial attacks and defenses, robustness under deployment constraints, and secure perception systems. My work bridges theory, system-level design, and real-world evaluation, targeting vision, autonomous, embedded, and multimodal AI systems.
+I lead research on **AI security and trustworthy machine learning**, with a focus on **adversarial attacks and defenses, robustness under deployment constraints, and secure perception systems**. My work bridges **theory, system-level design, and real-world evaluation**, targeting vision, autonomous, embedded, and multimodal AI systems.
 
 ---
 
 ## 🔥 News
 
 - **2026.01**: 🎉 2 papers accepted at **ICLR 2026**
-- **2025.11**: 🎉 1 paper accepted at **DATE 2026**
-- **2025.10**: 🎉 Selected as Top Reviewer at **NeurIPS 2025** 
-- **2025.06**: 🎉 1 paper accepted at **ICCV 2025**
-- **2024.06**: 🎉 1 paper accepted at **IROS 2024**
-- **2024.06**: 🎉 3 papers accepted at **ICIP 2024**
-- **2024.02**: 🎉 1 paper accepted at **CVPR 2024**
-- **2024.02**: 🎉 1 paper accepted at **DAC 2024** 
+- **2025.11**: 1 paper accepted at **DATE 2026**
+- **2025.10**: Selected as Top Reviewer at **NeurIPS 2025** 
+- **2025.06**: 1 paper accepted at **ICCV 2025**
+- **2024.06**: 1 paper accepted at **IROS 2024**
+- **2024.06**: 3 papers accepted at **ICIP 2024**
+- **2024.02**: 1 paper accepted at **CVPR 2024**
+- **2024.02**: 1 paper accepted at **DAC 2024** 
 
 
 
 ---
 
-## 🔬 Research Overview
+## Research Overview
 
-My research aims to advance the security, robustness, and trustworthiness of machine learning systems under adversarial threats and realistic deployment constraints. I study how architecture choices (e.g., Vision Transformers), quantization and approximation, physical-world effects, and multimodal interactions shape both vulnerabilities and defenses. A recurring theme in my work is breaking brittle alignment—semantic, gradient, or representational—to improve robustness while preserving efficiency and deployability.
+My research aims to **advance the security, robustness, and trustworthiness of machine learning systems** under adversarial threats and realistic deployment constraints. I study how **architecture choices (e.g., Vision Transformers), quantization and approximation, physical-world effects, and multimodal interactions** shape both vulnerabilities and defenses. A recurring theme in my work is **breaking brittle alignment**—semantic, gradient, or representational—to improve robustness while preserving efficiency and deployability.
 
 ---
 
-## 📚 Recent Publications by Research Theme
+## Selected Research Projects
 
-### 1. Robustness and Security of Quantized & Approximate Neural Networks
-- *TriQDef*: Disrupting Semantic and Gradient Alignment to Prevent Adversarial Patch Transferability in Quantized Neural Networks, **Amira Guesmi**, Bassem Ouni, Muhammad Shafique (**ICLR 2026**)
-- *Defending with Errors*: Approximate Computing for Robustness of Deep Neural Networks, **Amira Guesmi**, Ihsen Alouani, Khaled N Khasawneh, Mouna Baklouti, Tarek Frikha, Mohamed Abid, Nael Abu-Ghazaleh (**CoRR 2022**)
-- *Defensive Approximation*: Securing CNNs Using Approximate Computing, **Amira Guesmi**, Ihsen Alouani, Khaled N Khasawneh, Mouna Baklouti, Tarek Frikha, Mohamed Abid, Nael Abu-Ghazaleh (**ASPLOS 2021**)  
+Below are representative research projects spanning adversarial machine learning, robustness, and secure AI systems.  
+Click on each project to view paper links, figures, and technical details.
 
+---
 
-### 2. Adversarial Machine Learning — Foundations
-- *DRIFT*: Divergent Response in Filtered Transformations for Robust Adversarial Defense, **Amira Guesmi**, Muhammad Shafique (**ICLR 2026**)
-- *TESSER*: Transfer-Enhancing Adversarial Attacks from Vision Transformers via Spectral and Semantic Regularization, **Amira Guesmi**, Bassem Ouni, Muhammad Shafique (**CoRR 2025**)
-- Anomaly Unveiled: Securing Image Classification Against Adversarial Patch Attacks, Nandish Chattopadhyay, **Amira Guesmi**, Muhammad Shafique (**ICIP 2024**)
-- Defending Against Adversarial Patches Using Dimensionality Reduction, Nandish Chattopadhyay, **Amira Guesmi**, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique (**DAC 2024**)
-- *ROOM*: Adversarial Machine Learning Attacks under Real-Time Constraints, **Amira Guesmi**, Khaled N Khasawneh, Nael Abu-Ghazaleh, Ihsen Alouani (**IJCNN 2022**)
-- *SIT*: Stochastic Input Transformation to Defend Against Adversarial Attacks, **Amira Guesmi**, Ihsen Alouani, Mouna Baklouti, Tarek Frikha, Mohamed Abid (**IEEE Design & Test 2021**)  
-  
+<div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:18px;">
 
-### 3. Adversarial Machine Learning — Vision & Autonomous Systems
-- *DAP*: A Dynamic Adversarial Patch for Evading Person Detectors, **Amira Guesmi**, Ruitian Ding, Muhammad Abdullah Hanif, Ihsen Alouani, Muhammad Shafique (**CVPR 2024**)  
-- *SSAP*: Shape-Sensitive Adversarial Patch for Monocular Depth Estimation, **Amira Guesmi**, Muhammad Abdullah Hanif, Ihsen Alouani, Bassem Ouni, Muhammad Shafique (**IROS 2024**)
-- *SAAM*: Stealthy Adversarial Attack on Monocular Depth Estimation, **Amira Guesmi**, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique (**IEEE Access 2024**)
-- *AdvART*: Adversarial Art for Camouflaged Object Detection Attacks, **Amira Guesmi**, Ioan Marius Bilasco, Muhammad Shafique, Ihsen Alouani (**ICIP 2024**)
-- *PatchBlock*: A Lightweight Defense Against Adversarial Patches for Embedded EdgeAI Devices, Nandish Chattopadhyay, Abdul Basit, **Amira Guesmi**, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique (**DATE 2026**)
-- *AdvRain*: Adversarial raindrops to attack camera-based smart vision systems, **Amira Guesmi**, Muhammad Abdullah Hanif, Muhammad Shafique (**Information 2023**) 
-- Adversarial attack on radar-based environment perception systems, **Amira Guesmi**, Ihsen Alouani (**CoRR 2022**)
+<!-- TESSER -->
+<div style="border:1px solid #e5e7eb; border-radius:12px; padding:14px;">
+<a href="/project_pages/tesser/">
+<img src="/images/tesser_overview.png" style="width:100%; border-radius:10px; margin-bottom:10px;">
+</a>
 
-### 4. Physical-World and Multi-Modal Adversarial Threats: Surveys
-- Navigating threats: A survey of physical adversarial attacks on lidar perception systems in autonomous vehicles, **Amira Guesmi**, Muhammad Shafique, (**CoRR 2024**)
-- Physical adversarial attacks for camera-based smart systems: Current trends, categorization, applications, research challenges, and future outlook, **Amira Guesmi**, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique (**IEEE Access 2023**)  
+<div style="font-weight:700; font-size:1.05rem;">
+TESSER
+</div>
 
+<div style="font-size:0.9rem; opacity:0.85;">
+Transfer-Enhancing Adversarial Attacks from Vision Transformers  
+(arXiv 2025)
+</div>
 
-### 5. Privacy-Preserving and Trustworthy Machine Learning
-- Exploring machine learning privacy/utility trade-off from a hyperparameters lens, Ayoub Arous, **Amira Guesmi**, Muhammad Abdullah Hanif, Ihsen Alouani, Muhammad Shafique (**IJCNN 2023**)  
+<p style="font-size:0.95rem;">
+Improves black-box adversarial transferability from Vision Transformers via spectral and semantic regularization.
+</p>
 
+<a href="/project_pages/tesser/">Project Page →</a>
+</div>
 
-### 6. Interpretability and Robustness
-- Exploring the Interplay of Interpretability and Robustness in Deep Neural Networks: A Saliency-Guided Approach, **Amira Guesmi**, Nishant Suresh Aswani, Muhammad Shafique (**ICIP 2024**)
+---
 
+<!-- DRIFT -->
+<div style="border:1px solid #e5e7eb; border-radius:12px; padding:14px;">
+<a href="/project_pages/drift/">
+<img src="/images/drift.png" style="width:100%; border-radius:10px; margin-bottom:10px;">
+</a>
 
-### 7. Continual Learning and Representation Dynamics
-- Examining Changes in Internal Representations of Continual Learning Models Through Tensor Decomposition, Nishant Suresh Aswani, **Amira Guesmi**, Muhammad Abdullah Hanif, Muhammad Shafique (**Unconference 2024**)
+<div style="font-weight:700; font-size:1.05rem;">
+DRIFT
+</div>
 
+<div style="font-size:0.9rem; opacity:0.85;">
+Divergent Response Defense (ICLR 2026)
+</div>
 
-### 8. Vision–Language Model (VLM) Security, Hallucination, and Privacy
-- *Do Not Leave a Gap*, **Amira Guesmi**, Muhammad Shafique (under review)  
+<p style="font-size:0.95rem;">
+A stochastic transformation defense that disrupts gradient consensus to reduce adversarial transferability.
+</p>
 
+<a href="/project_pages/drift/">Project Page →</a>
+</div>
 
-*(See the Publications page for full lists and links.)*
+---
+
+<!-- TriQDef -->
+<div style="border:1px solid #e5e7eb; border-radius:12px; padding:14px;">
+<a href="/project_pages/triqdef/">
+<img src="/images/triqdef.png" style="width:100%; border-radius:10px; margin-bottom:10px;">
+</a>
+
+<div style="font-weight:700; font-size:1.05rem;">
+TriQDef
+</div>
+
+<div style="font-size:0.9rem; opacity:0.85;">
+Quantized Patch Defense (ICLR 2026)
+</div>
+
+<p style="font-size:0.95rem;">
+Disrupts semantic and gradient alignment across quantized models to prevent patch transferability.
+</p>
+
+<a href="/project_pages/triqdef/">Project Page →</a>
+</div>
+
+---
+
+<!-- DAP -->
+<div style="border:1px solid #e5e7eb; border-radius:12px; padding:14px;">
+<a href="/project_pages/dap/">
+<img src="/images/dap_overview.png" style="width:100%; border-radius:10px; margin-bottom:10px;">
+</a>
+
+<div style="font-weight:700; font-size:1.05rem;">
+DAP
+</div>
+
+<div style="font-size:0.9rem; opacity:0.85;">
+Dynamic Adversarial Patch (CVPR 2024)
+</div>
+
+<p style="font-size:0.95rem;">
+Adaptive adversarial patch that evades person detectors under pose, scale, and environmental variation.
+</p>
+
+<a href="/project_pages/dap/">Project Page →</a>
+</div>
+
+</div>
+
 
 ---
 

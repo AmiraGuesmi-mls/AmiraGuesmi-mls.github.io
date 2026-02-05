@@ -64,26 +64,31 @@ Below are representative research projects spanning adversarial machine learning
 ---
 
 <!-- TriQDef -->
-<div style="border:1px solid #e5e7eb; border-radius:12px; padding:14px;">
-<a href="/project_pages/triqdef/">
-<img src="/images/triqdef.png" style="width:100%; border-radius:10px; margin-bottom:10px;">
-</a>
 
-<div style="font-weight:700; font-size:1.05rem;">
-TriQDef
+<div style="display:flex; gap:28px; margin-bottom:50px; align-items:flex-start;">
+
+  <div style="min-width:260px; max-width:260px;">
+    <img src="/images/triqdef.png" style="width:100%; border-radius:8px;">
+  </div>
+
+  <div>
+
+    <div style="font-size:1.4rem; font-weight:700; margin-bottom:8px;">
+      ICLR 2026: 
+      <a href="/project_pages/triqdef/">TriQDef: Disrupting Semantic and Gradient Alignment to Prevent Adversarial Patch Transferability in Quantized Neural Networks</a>
+    </div>
+
+    <div style="font-size:1rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
+      Disrupts semantic and gradient alignment across quantized models to prevent patch transferability.
+    </div>
+
+    <div>
+      <a href="/project_pages/triqdef/">Project</a> |
+      <a href="#">Paper</a>
+    </div>
+
+  </div>
 </div>
-
-<div style="font-size:0.9rem; opacity:0.85;">
-Quantized Patch Defense (ICLR 2026)
-</div>
-
-<p style="font-size:0.95rem;">
-Disrupts semantic and gradient alignment across quantized models to prevent patch transferability.
-</p>
-
-<a href="/project_pages/triqdef/">Project Page →</a>
-</div>
-
 ---
 <!-- TESSER -->
 <div style="display:flex; gap:28px; margin-bottom:50px; align-items:flex-start;">

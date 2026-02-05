@@ -139,7 +139,7 @@ Adaptive adversarial patch that evades person detectors under pose, scale, and e
 - **Outstanding Reviewer**, NeurIPS 2025  
 - **Best Senior Researcher Award**, eBRAIN Lab, NYU Abu Dhabi (2023)  
 - **Erasmus+ Scholarship** (2019)  
-- **DAAD Grants**: ATIoT (2018), Young ESEM Program (2016)
+- **DAAD Scholarships**: ATIoT (2018), Young ESEM Program (2016)
 
 ---
 

@@ -5,7 +5,7 @@ permalink: /
 author_profile: true
 ---
 
-I lead research on **AI security and trustworthy machine learning**, with a focus on **adversarial attacks and defenses, robustness under deployment constraints, and secure perception systems**. My work bridges **theory, system-level design, and real-world evaluation**, targeting vision, autonomous, embedded, and multimodal AI systems.
+I lead research on AI security and trustworthy machine learning, with a focus on adversarial attacks and defenses, robustness under deployment constraints, and secure perception systems. My work bridges theory, system-level design, and real-world evaluation, targeting vision, autonomous, embedded, and multimodal AI systems.
 
 ---
 
@@ -25,7 +25,7 @@ I lead research on **AI security and trustworthy machine learning**, with a focu
 
 ## Research Overview
 
-My research aims to **advance the security, robustness, and trustworthiness of machine learning systems** under adversarial threats and realistic deployment constraints. I study how **architecture choices (e.g., Vision Transformers), quantization and approximation, physical-world effects, and multimodal interactions** shape both vulnerabilities and defenses. A recurring theme in my work is **breaking brittle alignment**—semantic, gradient, or representational—to improve robustness while preserving efficiency and deployability.
+My research aims to advance the security, robustness, and trustworthiness of machine learning systems under adversarial threats and realistic deployment constraints. I study how architecture choices (e.g., Vision Transformers), quantization and approximation, physical-world effects, and multimodal interactions shape both vulnerabilities and defenses. A recurring theme in my work is breaking brittle alignment—semantic, gradient, or representational—to improve robustness while preserving efficiency and deployability.
 
 ---
 
@@ -38,7 +38,7 @@ Below are representative research projects spanning adversarial machine learning
 <!-- DRIFT -->
 <div style="display:flex; gap:32px; margin-bottom:60px; align-items:flex-start;">
 
-  <div style="min-width:460px; max-width:460px;">
+  <div style="min-width:400px; max-width:400px;">
     <img src="/images/drift.png" style="width:100%; border-radius:10px;">
   </div>
 
@@ -67,7 +67,7 @@ Below are representative research projects spanning adversarial machine learning
 
 <div style="display:flex; gap:32px; margin-bottom:60px; align-items:flex-start;">
 
-  <div style="min-width:460px; max-width:460px;">
+  <div style="min-width:400px; max-width:400px;">
     <img src="/images/triqdef.png" style="width:100%; border-radius:10px;">
   </div>
 
@@ -93,7 +93,7 @@ Below are representative research projects spanning adversarial machine learning
 <!-- TESSER -->
 <div style="display:flex; gap:32px; margin-bottom:60px; align-items:flex-start;">
 
-  <div style="min-width:460px; max-width:460px;">
+  <div style="min-width:400px; max-width:400px;">
     <img src="/images/tesser_overview.png" style="width:100%; border-radius:10px; margin-bottom:8px;">
   </div>
 
@@ -121,7 +121,7 @@ Below are representative research projects spanning adversarial machine learning
 <!-- DAP -->
 <div style="display:flex; gap:32px; margin-bottom:60px; align-items:flex-start;">
 
-  <div style="min-width:460px; max-width:460px;">
+  <div style="min-width:400px; max-width:400px;">
     <img src="/images/dap_overview.png" style="width:100%; border-radius:10px;">
   </div>
 

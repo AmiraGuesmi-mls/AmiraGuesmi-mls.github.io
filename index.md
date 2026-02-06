@@ -36,15 +36,15 @@ Below are representative research projects spanning adversarial machine learning
 ---
 
 <!-- DRIFT -->
-<div style="display:flex; gap:28px; margin-bottom:50px; align-items:flex-start;">
+<div style="display:flex; gap:32px; margin-bottom:60px; align-items:flex-start;">
 
-  <div style="min-width:260px; max-width:260px;">
-    <img src="/images/drift.png" style="width:100%; border-radius:8px;">
+  <div style="min-width:340px; max-width:340px;">
+    <img src="/images/drift.png" style="width:100%; border-radius:10px;">
   </div>
 
   <div>
 
-    <div style="font-size:1.4rem; font-weight:700; margin-bottom:8px;">
+    <div style="font-size:1.15rem; font-weight:600; margin-bottom:8px; line-height:1.35;">
       ICLR 2026: 
       <a href="/project_pages/drift/">DRIFT: Divergent Response in Filtered Transformations</a>
     </div>
@@ -65,15 +65,15 @@ Below are representative research projects spanning adversarial machine learning
 
 <!-- TriQDef -->
 
-<div style="display:flex; gap:28px; margin-bottom:50px; align-items:flex-start;">
+<div style="display:flex; gap:32px; margin-bottom:60px; align-items:flex-start;">
 
-  <div style="min-width:260px; max-width:260px;">
-    <img src="/images/triqdef.png" style="width:100%; border-radius:8px;">
+  <div style="min-width:340px; max-width:340px;">
+    <img src="/images/triqdef.png" style="width:100%; border-radius:10px;">
   </div>
 
   <div>
 
-    <div style="font-size:1.4rem; font-weight:700; margin-bottom:8px;">
+    <div style="font-size:1.15rem; font-weight:600; margin-bottom:8px; line-height:1.35;">
       ICLR 2026: 
       <a href="/project_pages/triqdef/">TriQDef: Disrupting Semantic and Gradient Alignment to Prevent Adversarial Patch Transferability in Quantized Neural Networks</a>
     </div>
@@ -91,15 +91,15 @@ Below are representative research projects spanning adversarial machine learning
 </div>
 ---
 <!-- TESSER -->
-<div style="display:flex; gap:28px; margin-bottom:50px; align-items:flex-start;">
+<div style="display:flex; gap:32px; margin-bottom:60px; align-items:flex-start;">
 
-  <div style="min-width:260px; max-width:260px;">
-    <img src="/images/tesser_overview.png" style="width:100%; border-radius:8px; margin-bottom:8px;">
+  <div style="min-width:340px; max-width:340px;">
+    <img src="/images/tesser_overview.png" style="width:100%; border-radius:10px; margin-bottom:8px;">
   </div>
 
   <div>
 
-    <div style="font-size:1.4rem; font-weight:700; margin-bottom:8px;">
+    <div style="font-size:1.15rem; font-weight:600; margin-bottom:8px; line-height:1.35;">
       NeurIPS 2026: 
       <a href="/project_pages/tesser/">TESSER: Transfer-Enhancing Adversarial Attacks from Vision Transformers</a>
     </div>
@@ -119,15 +119,15 @@ Below are representative research projects spanning adversarial machine learning
 ---
 
 <!-- DAP -->
-<div style="display:flex; gap:28px; margin-bottom:50px; align-items:flex-start;">
+<div style="display:flex; gap:32px; margin-bottom:60px; align-items:flex-start;">
 
-  <div style="min-width:260px; max-width:260px;">
-    <img src="/images/dap_overview.png" style="width:100%; border-radius:8px;">
+  <div style="min-width:340px; max-width:340px;">
+    <img src="/images/dap_overview.png" style="width:100%; border-radius:10px;">
   </div>
 
   <div>
 
-    <div style="font-size:1.4rem; font-weight:700; margin-bottom:8px;">
+    <div style="font-size:1.15rem; font-weight:600; margin-bottom:8px; line-height:1.35;">
       CVPR 2024: 
       <a href="/project_pages/dap/">DAP: Dynamic Adversarial Patch</a>
     </div>

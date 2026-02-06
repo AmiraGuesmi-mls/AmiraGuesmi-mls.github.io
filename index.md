@@ -149,17 +149,18 @@ Below are representative research projects spanning adversarial machine learning
 
 ## 🏆 Awards & Honors
 
-- **Outstanding Reviewer**, NeurIPS 2025  
-- **Best Senior Researcher Award**, eBRAIN Lab, NYU Abu Dhabi (2023)  
-- **Erasmus+ Scholarship** (2019)  
-- **DAAD Scholarships**: ATIoT (2018), Young ESEM Program (2016)
+- **Outstanding Reviewer**, NeurIPS 2025.
+- **Best Senior Researcher Award**, eBRAIN Lab, NYUAD, 2023.
+- **Erasmus+ Scholarship**, France, 2019.
+- **DAAD Scholarship**: Advanced Technologies based on IoT (ATIoT), Germany, 2018.
+- **DAAD Scholarship**: Young ESEM Program (Embedded Systems for Energy Management), Germany, 2016.
 
 ---
 
 ## 🧑‍🏫 Academic Service & Community
 
-- Reviewer: ICLR, NeurIPS, ICCV, CVPR, AAAI, ECCV, DAC, DATE, ICIP; IEEE TIFS, TCAD, TCSVT  
-- Tutorial Organizer & Speaker: *ML Security in Autonomous Systems*, IROS 2024  
+- Reviewer: ICLR, NeurIPS, ICCV, CVPR, AAAI, ECCV, DAC, DATE, ICIP; IEEE TIFS, TCSVT, TCAD,  
+- Organizer & Speaker: Tutorial: *ML Security in Autonomous Systems*, IROS 2024  
 
 ---
 

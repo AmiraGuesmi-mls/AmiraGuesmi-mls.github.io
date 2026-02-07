@@ -241,7 +241,8 @@ Below are representative research projects spanning adversarial machine learning
 
 ## 🧑‍🏫 Academic Service & Community
 
-- Reviewer: ICLR, NeurIPS, ICCV, CVPR, AAAI, ECCV, DAC, DATE, ICIP; IEEE TIFS, TCSVT, TCAD,  
+- Conference Reviewer: ICLR, NeurIPS, ICCV, CVPR, AAAI, ECCV, DAC, DATE, ICIP, IJCNN
+- Journal Reviewer: IEEE TIFS, TCSVT, TCAD,  
 - Organizer & Speaker: Tutorial: *ML Security in Autonomous Systems*, IROS 2024  
 
 ---

@@ -128,7 +128,7 @@ Below are representative research projects spanning adversarial machine learning
   <div>
 
     <div style="font-size:0.9rem; font-weight:400; margin-bottom:8px; line-height:1.15;">
-      ArXiv 2025: 
+      ICCV 2025: 
       <a href="/project_pages/tesser/">ODDR: Outlier Detection & Dimension Reduction Based Defense Against Adversarial Patches</a>
     </div>
 

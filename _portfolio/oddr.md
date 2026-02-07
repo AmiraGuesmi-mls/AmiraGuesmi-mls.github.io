@@ -10,11 +10,11 @@ authors: "Nandish Chattopadhyay, Amira Guesmi, Muhammad Abdullah Hanif, Bassem O
 topic: "Adversarial Machine Learning — Foundations"
 
 header:
-  teaser: /images/projects/oddr_overview.png
+  overview: /images/projects/oddr_overview.png
 ---
 
 ## Links
-- **Paper:** [https://openaccess.thecvf.com/content/ICCV2025/html/Chattopadhyay_ODDR_Outlier_Detection__Dimension_Reduction_Based_Defense_Against_Adversarial_ICCV_2025_paper.html]
+- **Paper:** [ICCV Open Access]({{ page.paperurl }})
 {% if page.codeurl and page.codeurl != "" %}- **Code:** [GitHub]({{ page.codeurl }}){% endif %}
 {% if page.bibtexurl and page.bibtexurl != "" %}- **BibTeX:** [Download]({{ page.bibtexurl }}){% endif %}
 

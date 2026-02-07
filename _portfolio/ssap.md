@@ -7,6 +7,7 @@ date: 2024-01-01
 venue: "IROS"
 paperurl: "https://ieeexplore.ieee.org/document/10802252"
 authors: "Amira Guesmi, Muhammad Abdullah Hanif, Ihsen Alouani, Bassem Ouni, Muhammad Shafique"
+topic: "Adversarial Machine Learning — Vision & Autonomous Systems"
 header:
   image: /images/ssap_approach.png
   caption: "Overview of the SSAP framework."

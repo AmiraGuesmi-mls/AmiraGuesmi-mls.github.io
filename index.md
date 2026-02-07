@@ -48,14 +48,14 @@ Below are representative research projects spanning adversarial machine learning
   <!-- Text underneath -->
   <div style="max-width:900px;">
 
-    <div style="font-size:0.9rem; font-weight:400; margin-bottom:6px;">
+    <div style="font-size:0.9rem; font-weight:400; margin-bottom:8px;">
       ICLR 2026:
       <a href="/project_pages/drift/">
         DRIFT: Divergent Response in Filtered Transformations for Robust Adversarial Defense
       </a>
     </div>
 
-    <div style="font-size:0.95rem; line-height:1.6; text-align:justify;">
+    <div style="font-size:0.7rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
       We introduce DRIFT (Divergent Response in Filtered Transformations), a stochastic ensemble of lightweight, learnable filters trained to actively disrupt gradient consensus. Unlike prior randomized defenses that rely on gradient masking, DRIFT enforces gradient dissonance by maximizing divergence in Jacobian- and logit-space responses while preserving natural predictions. Our contributions are threefold: (i) we formalize gradient consensus and provide a theoretical analysis linking consensus to transferability; (ii) we propose a consensus-divergence training strategy combining prediction consistency, Jacobian separation, logit-space separation, and adversarial robustness; and (iii) we show that DRIFT achieves substantial robustness gains on ImageNet across CNNs and Vision Transformers, outperforming state-of-the-art preprocessing, adversarial training, and diffusion-based defenses under adaptive white-box, transfer-based, and gradient-free attacks. DRIFT delivers these improvements with negligible runtime and memory cost, establishing gradient divergence as a practical and generalizable principle for adversarial defense.
     </div>
 

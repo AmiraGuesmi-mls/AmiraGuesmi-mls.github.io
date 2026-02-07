@@ -50,7 +50,7 @@ Below are representative research projects spanning adversarial machine learning
     </div>
 
     <div style="font-size:0.7rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
-      DRIFT is a stochastic ensemble defense that disrupts gradient consensus across transformations, significantly reducing adversarial transferability while preserving clean accuracy.
+      We introduce DRIFT (Divergent Response in Filtered Transformations), a stochastic ensemble of lightweight, learnable filters trained to actively disrupt gradient consensus. Unlike prior randomized defenses that rely on gradient masking, DRIFT enforces gradient dissonance by maximizing divergence in Jacobian- and logit-space responses while preserving natural predictions. Our contributions are threefold: (i) we formalize gradient consensus and provide a theoretical analysis linking consensus to transferability; (ii) we propose a consensus-divergence training strategy combining prediction consistency, Jacobian separation, logit-space separation, and adversarial robustness; and (iii) we show that DRIFT achieves substantial robustness gains on ImageNet across CNNs and Vision Transformers, outperforming state-of-the-art preprocessing, adversarial training, and diffusion-based defenses under adaptive white-box, transfer-based, and gradient-free attacks. DRIFT delivers these improvements with negligible runtime and memory cost, establishing gradient divergence as a practical and generalizable principle for adversarial defense.
     </div>
 
     <div>
@@ -79,7 +79,7 @@ Below are representative research projects spanning adversarial machine learning
     </div>
 
     <div style="font-size:0.7rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
-      Disrupts semantic and gradient alignment across quantized models to prevent patch transferability.
+      We introduce TriQDef, a tri-level quantization-aware defense framework designed to disrupt the transferability of patch-based adversarial attacks across QNNs. TriQDef consists of: (1) a Feature Disalignment Penalty (FDP) that enforces semantic inconsistency by penalizing perceptual similarity in intermediate representations; (2) a Gradient Perceptual Dissonance Penalty (GPDP) that explicitly misaligns input gradients across bit-widths by minimizing structural and directional agreement via Edge IoU and HOG Cosine metrics; and (3) a Joint Quantization-Aware Training Protocol that unifies these penalties within a shared-weight training scheme across multiple quantization levels.
     </div>
 
     <div>
@@ -105,7 +105,7 @@ Below are representative research projects spanning adversarial machine learning
     </div>
 
     <div style="font-size:0.7rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
-      TESSER introduces spectral and semantic regularization to enhance adversarial transferability from Vision Transformers to CNNs and hybrid architectures, achieving state-of-the-art black-box attack performance across diverse model families.
+      Adversarial transferability remains a critical challenge in evaluating the robustness of deep neural networks. In security-critical applications, transferability enables black-box attacks without access to model internals, making it a key concern for real-world adversarial threat assessment. While Vision Transformers (ViTs) have demonstrated strong adversarial performance, existing attacks often fail to transfer effectively across architectures, especially from ViTs to Convolutional Neural Networks (CNNs) or hybrid models. In this paper, we introduce TESSER -- a novel adversarial attack framework that enhances transferability via two key strategies: (1) Feature-Sensitive Gradient Scaling (FSGS), which modulates gradients based on token-wise importance derived from intermediate feature activations, and (2) Spectral Smoothness Regularization (SSR), which suppresses high-frequency noise in perturbations using a differentiable Gaussian prior. These components work in tandem to generate perturbations that are both semantically meaningful and spectrally smooth.
     </div>
 
     <div>
@@ -133,7 +133,7 @@ Below are representative research projects spanning adversarial machine learning
     </div>
 
     <div style="font-size:0.7rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
-      Outlier Detection and Dimension Reduction (ODDR) is a comprehensive defense strategy engineered to counteract patch-based adversarial attacks through advanced statistical methodologies.
+      In this paper, we propose Outlier Detection and Dimension Reduction (ODDR), a comprehensive defense strategy engineered to counteract patch-based adversarial attacks through advanced statistical methodologies. Our approach is based on the observation that input features corresponding to adversarial patches--whether naturalistic or synthetic--deviate from the intrinsic distribution of the remaining image data and can thus be identified as outliers. ODDR operates through a robust three-stage pipeline: Fragmentation, Segregation, and Neutralization. This model-agnostic framework is versatile, offering protection across various tasks, including image classification, object detection, and depth estimation, and is proved effective in both CNN-based and Transformer-based architectures. In the Fragmentation stage, image samples are divided into smaller segments, preparing them for the Segregation stage, where advanced outlier detection techniques isolate anomalous features linked to adversarial perturbations. The Neutralization stage then applies dimension reduction techniques to these outliers, effectively neutralizing the adversarial impact while preserving critical information for the machine learning task.
     </div>
 
     <div>
@@ -161,7 +161,7 @@ Below are representative research projects spanning adversarial machine learning
     </div>
 
     <div style="font-size:0.7rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
-      Patch-based adversarial attacks were proven to compromise the robustness and reliability of computer vision systems. However their conspicuous and easily detectable nature challenge their practicality in real-world setting. To address this recent work has proposed using Generative Adversarial Networks (GANs) to generate naturalistic patches that may not attract human attention. However such approaches suffer from a limited latent space making it challenging to produce a patch that is efficient stealthy and robust to multiple real-world transformations. This paper introduces a novel approach that produces a Dynamic Adversarial Patch (DAP) designed to overcome these limitations. DAP maintains a naturalistic appearance while optimizing attack efficiency and robustness to real-world transformations. The approach involves redefining the optimization problem and introducing a novel objective function that incorporates a similarity metric to guide the patch's creation. Unlike GAN-based techniques the DAP directly modifies pixel values within the patch providing increased flexibility and adaptability to multiple transformations. Furthermore most clothing-based physical attacks assume static objects and ignore the possible transformations caused by non-rigid deformation due to changes in a person's pose. To address this limitation aCreases Transformation'(CT) block is introduced enhancing the patch's resilience to a variety of real-world distortions.
+    This paper introduces a novel approach that produces a Dynamic Adversarial Patch (DAP) designed to overcome these limitations. DAP maintains a naturalistic appearance while optimizing attack efficiency and robustness to real-world transformations. The approach involves redefining the optimization problem and introducing a novel objective function that incorporates a similarity metric to guide the patch's creation. Unlike GAN-based techniques the DAP directly modifies pixel values within the patch providing increased flexibility and adaptability to multiple transformations. Furthermore most clothing-based physical attacks assume static objects and ignore the possible transformations caused by non-rigid deformation due to changes in a person's pose. To address this limitation aCreases Transformation'(CT) block is introduced enhancing the patch's resilience to a variety of real-world distortions.
     </div>
 
     <div>

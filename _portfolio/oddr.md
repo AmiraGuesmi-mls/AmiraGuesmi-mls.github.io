@@ -7,11 +7,18 @@ date: 2025-01-01
 venue: "ICCV 2025"
 paperurl: "https://openaccess.thecvf.com/content/ICCV2025/html/Chattopadhyay_ODDR_Outlier_Detection__Dimension_Reduction_Based_Defense_Against_Adversarial_ICCV_2025_paper.html"
 authors: "Nandish Chattopadhyay, Amira Guesmi, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique"
+topic: "Adversarial Machine Learning — Foundations"
+
 header:
-  teaser: /images/projects/oddr/teaser.png
+  teaser: /images/projects/oddr_overview.png
 ---
 
-## 🛡️ Overview
+## Links
+- **Paper:** [https://openaccess.thecvf.com/content/ICCV2025/html/Chattopadhyay_ODDR_Outlier_Detection__Dimension_Reduction_Based_Defense_Against_Adversarial_ICCV_2025_paper.html]
+{% if page.codeurl and page.codeurl != "" %}- **Code:** [GitHub]({{ page.codeurl }}){% endif %}
+{% if page.bibtexurl and page.bibtexurl != "" %}- **BibTeX:** [Download]({{ page.bibtexurl }}){% endif %}
+
+## Overview
 
 <img src="/images/ICCV_ODDR.png" width="100%">
 
@@ -21,7 +28,7 @@ Unlike transformation-based defenses that rely on stochastic perturbations, ODDR
 
 ---
 
-## 📄 Abstract
+## Abstract
 
 Adversarial patch attacks introduce localized perturbations that produce disproportionate feature activations in deep neural networks. These anomalous responses propagate through the network and dominate classification decisions, leading to consistent misclassification even under physical-world transformations.
 
@@ -34,7 +41,7 @@ Extensive experiments across CNN and Vision Transformer architectures demonstrat
 
 ---
 
-## 🔬 Key Contributions
+## Key Contributions
 
 - First defense to jointly leverage **feature outlier modeling** and **dimension reduction** for patch mitigation.
 - Architecture-agnostic — effective across CNNs and Vision Transformers.
@@ -43,9 +50,7 @@ Extensive experiments across CNN and Vision Transformer architectures demonstrat
 
 ---
 
-## 🧪 Method Pipeline
-
-<img src="/images/projects/oddr/pipeline.png" width="100%">
+## Method Pipeline
 
 The ODDR pipeline operates as follows:
 
@@ -56,9 +61,7 @@ The ODDR pipeline operates as follows:
 
 ---
 
-## 📊 Experimental Results
-
-<img src="/images/projects/oddr/results.png" width="100%">
+## Experimental Results
 
 ODDR achieves:
 
@@ -66,17 +69,10 @@ ODDR achieves:
 - Improved robustness vs preprocessing defenses.
 - Strong cross-architecture generalization.
 
----
-
-## 🔗 Resources
-
-- 📄 **Paper:** https://arxiv.org/abs/XXXX.XXXXX  
-- 💻 **Code:** Coming soon  
-- 📊 **Supplementary:** Coming soon  
 
 ---
 
-## 📚 Citation
+## Citation
 
 ```bibtex
 @inproceedings{guesmi2025oddr,

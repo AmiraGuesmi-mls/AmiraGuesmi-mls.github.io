@@ -48,7 +48,7 @@ Below are representative research projects spanning adversarial machine learning
   <!-- Text underneath -->
   <div style="max-width:900px;">
 
-    <div style="font-size:1.15rem; font-weight:600; margin-bottom:6px;">
+    <div style="font-size:0.9rem; font-weight:400; margin-bottom:6px;">
       ICLR 2026:
       <a href="/project_pages/drift/">
         DRIFT: Divergent Response in Filtered Transformations for Robust Adversarial Defense
@@ -67,15 +67,17 @@ Below are representative research projects spanning adversarial machine learning
 
 <!-- TriQDef -->
 
-<div style="display:flex; gap:32px; margin-bottom:60px; align-items:flex-start;">
+<div style="display:flex; flex-direction:column; gap:18px; margin-bottom:60px;">
 
-  <div style="min-width:400px; max-width:400px;">
+  <!-- Image on top -->
+  <div style="max-width:600px;">
     <img src="/images/triqdef.png" style="width:100%; border-radius:10px;">
   </div>
 
-  <div>
+  <!-- Text underneath -->
+  <div style="max-width:900px;">
 
-    <div style="font-size:0.9rem; font-weight:400; margin-bottom:8px; line-height:1.15;">
+    <div style="font-size:0.9rem; font-weight:400; margin-bottom:8px">
       ICLR 2026: 
       <a href="/project_pages/triqdef/">TriQDef: Disrupting Semantic and Gradient Alignment to Prevent Adversarial Patch Transferability in Quantized Neural Networks</a>
     </div>
@@ -93,13 +95,15 @@ Below are representative research projects spanning adversarial machine learning
 </div>
 ---
 <!-- TESSER -->
-<div style="display:flex; gap:32px; margin-bottom:60px; align-items:flex-start;">
+<div style="display:flex; flex-direction:column; gap:18px; margin-bottom:60px;">
 
-  <div style="min-width:400px; max-width:400px;">
+  <!-- Image on top -->
+  <div style="max-width:600px;">
     <img src="/images/tesser_overview.png" style="width:100%; border-radius:10px; margin-bottom:8px;">
   </div>
 
-  <div>
+  <!-- Text underneath -->
+  <div style="max-width:900px;">
 
     <div style="font-size:0.9rem; font-weight:400; margin-bottom:8px; line-height:1.15;">
       ArXiv 2025: 
@@ -121,13 +125,15 @@ Below are representative research projects spanning adversarial machine learning
 ---
 
 <!-- ODDR -->
-<div style="display:flex; gap:32px; margin-bottom:60px; align-items:flex-start;">
+<div style="display:flex; flex-direction:column; gap:18px; margin-bottom:60px;">
 
-  <div style="min-width:400px; max-width:400px;">
+  <!-- Image on top -->
+  <div style="max-width:600px;">
     <img src="/images/oddr_overview.png" style="width:100%; border-radius:10px; margin-bottom:8px;">
   </div>
 
-  <div>
+  <!-- Text underneath -->
+  <div style="max-width:900px;">
 
     <div style="font-size:0.9rem; font-weight:400; margin-bottom:8px; line-height:1.15;">
       ICCV 2025: 
@@ -149,13 +155,15 @@ Below are representative research projects spanning adversarial machine learning
 ---
 
 <!-- DAP -->
-<div style="display:flex; gap:32px; margin-bottom:60px; align-items:flex-start;">
+<div style="display:flex; flex-direction:column; gap:18px; margin-bottom:60px;">
 
-  <div style="min-width:400px; max-width:400px;">
+  <!-- Image on top -->
+  <div style="max-width:600px;">
     <img src="/images/DAP_teaser.png" style="width:100%; border-radius:10px;">
   </div>
 
-  <div>
+  <!-- Text underneath -->
+  <div style="max-width:900px;">
 
     <div style="font-size:0.9rem; font-weight:400; margin-bottom:8px; line-height:1.15;">
       CVPR 2024: 
@@ -177,13 +185,15 @@ Below are representative research projects spanning adversarial machine learning
 ---
 
 <!-- SSAP -->
-<div style="display:flex; gap:32px; margin-bottom:60px; align-items:flex-start;">
+<div style="display:flex; flex-direction:column; gap:18px; margin-bottom:60px;">
 
-  <div style="min-width:400px; max-width:400px;">
+  <!-- Image on top -->
+  <div style="max-width:600px;">
     <img src="/images/ssap_overview.png" style="width:100%; border-radius:10px;">
   </div>
 
-  <div>
+  <!-- Text underneath -->
+  <div style="max-width:900px;">
 
     <div style="font-size:0.9rem; font-weight:400; margin-bottom:8px; line-height:1.15;">
       IROS 2024: 

@@ -172,6 +172,33 @@ Below are representative research projects spanning adversarial machine learning
   </div>
 </div>
 
+---
+
+<!-- SSAP -->
+<div style="display:flex; gap:32px; margin-bottom:60px; align-items:flex-start;">
+
+  <div style="min-width:400px; max-width:400px;">
+    <img src="/images/ssap_overview.png" style="width:100%; border-radius:10px;">
+  </div>
+
+  <div>
+
+    <div style="font-size:0.9rem; font-weight:400; margin-bottom:8px; line-height:1.15;">
+      CVPR 2024: 
+      <a href="/project_pages/ssap/">SSAP: A Shape-Sensitive Adversarial Patch</a>
+    </div>
+
+    <div style="font-size:0.7rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
+    In this paper, we introduce SSAP (Shape-Sensitive Adversarial Patch), a novel approach designed to comprehensively disrupt monocular depth estimation (MDE) in autonomous navigation applications. Our patch is crafted to selectively undermine MDE in two distinct ways: by distorting estimated distances or by creating the illusion of an object disappearing from the system’s perspective. Notably, our patch is shape-sensitive, meaning it considers the specific shape and scale of the target object, thereby extending its influence beyond immediate proximity. Furthermore, our patch is trained to effectively address different scales and distances from the camera.
+    </div>
+
+    <div>
+      <a href="/project_pages/ssap/">Project</a> |
+      <a href="#">Paper</a>
+    </div>
+
+  </div>
+</div>
 
 ---
 

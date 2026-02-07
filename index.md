@@ -100,7 +100,7 @@ Below are representative research projects spanning adversarial machine learning
   <div>
 
     <div style="font-size:0.9rem; font-weight:400; margin-bottom:8px; line-height:1.15;">
-      NeurIPS 2026: 
+      ArXiv 2025: 
       <a href="/project_pages/tesser/">TESSER: Transfer-Enhancing Adversarial Attacks from Vision Transformers</a>
     </div>
 

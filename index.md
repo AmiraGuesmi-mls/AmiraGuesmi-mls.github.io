@@ -150,7 +150,7 @@ Below are representative research projects spanning adversarial machine learning
 <div style="display:flex; gap:32px; margin-bottom:60px; align-items:flex-start;">
 
   <div style="min-width:400px; max-width:400px;">
-    <img src="/images/dap_teaser.png" style="width:100%; border-radius:10px;">
+    <img src="/images/DAP_teaser.png" style="width:100%; border-radius:10px;">
   </div>
 
   <div>

@@ -184,7 +184,7 @@ Below are representative research projects spanning adversarial machine learning
   <div>
 
     <div style="font-size:0.9rem; font-weight:400; margin-bottom:8px; line-height:1.15;">
-      CVPR 2024: 
+      IROS 2024: 
       <a href="/project_pages/ssap/">SSAP: A Shape-Sensitive Adversarial Patch</a>
     </div>
 

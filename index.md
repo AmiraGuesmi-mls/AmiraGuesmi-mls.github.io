@@ -118,6 +118,34 @@ Below are representative research projects spanning adversarial machine learning
 
 ---
 
+<!-- ODDR -->
+<div style="display:flex; gap:32px; margin-bottom:60px; align-items:flex-start;">
+
+  <div style="min-width:400px; max-width:400px;">
+    <img src="/images/oddr_overview.png" style="width:100%; border-radius:10px; margin-bottom:8px;">
+  </div>
+
+  <div>
+
+    <div style="font-size:0.9rem; font-weight:400; margin-bottom:8px; line-height:1.15;">
+      ArXiv 2025: 
+      <a href="/project_pages/tesser/">ODDR: Outlier Detection & Dimension Reduction Based Defense Against Adversarial Patches</a>
+    </div>
+
+    <div style="font-size:0.7rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
+      Outlier Detection and Dimension Reduction (ODDR) is a comprehensive defense strategy engineered to counteract patch-based adversarial attacks through advanced statistical methodologies.
+    </div>
+
+    <div>
+      <a href="/project_pages/oddr/">Project</a> |
+      <a href="[https://arxiv.org/abs/2505.19613](https://openaccess.thecvf.com/content/ICCV2025/html/Chattopadhyay_ODDR_Outlier_Detection__Dimension_Reduction_Based_Defense_Against_Adversarial_ICCV_2025_paper.html)">Paper</a>
+    </div>
+
+  </div>
+</div>
+
+---
+
 <!-- DAP -->
 <div style="display:flex; gap:32px; margin-bottom:60px; align-items:flex-start;">
 

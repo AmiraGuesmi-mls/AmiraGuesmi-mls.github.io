@@ -213,6 +213,26 @@ Below are representative research projects spanning adversarial machine learning
 </div>
 
 ---
+## 💼 Experience
+
+*Oct 2022 – Present*, Research Team Leader, Engineering Division, **New York University Abu Dhabi (NYUAD)** — UAE  
+
+
+---
+
+*Nov 2021 – Aug 2022*, Postdoctoral Researcher, IEMN-DOAE Laboratory, CNRS-8520, **Polytechnic University Hauts-de-France** - France  
+
+
+</div>
+
+
+
+---
+
+
+
+
+---
 
 ## 🏆 Awards & Honors
 

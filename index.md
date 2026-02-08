@@ -49,7 +49,7 @@ Below are representative research projects spanning adversarial machine learning
   <div style="max-width:900px;">
 
     <div style="font-size:0.9rem; font-weight:400; margin-bottom:8px;">
-      **ICLR 2026**:
+      ICLR 2026:
       <a href="/project_pages/drift/">
         DRIFT: Divergent Response in Filtered Transformations for Robust Adversarial Defense
       </a>
@@ -78,7 +78,7 @@ Below are representative research projects spanning adversarial machine learning
   <div style="max-width:900px;">
 
     <div style="font-size:0.9rem; font-weight:400; margin-bottom:8px">
-      **ICLR 2026**: 
+      ICLR 2026: 
       <a href="/project_pages/triqdef/">TriQDef: Disrupting Semantic and Gradient Alignment to Prevent Adversarial Patch Transferability in Quantized Neural Networks</a>
     </div>
 
@@ -106,7 +106,7 @@ Below are representative research projects spanning adversarial machine learning
   <div style="max-width:900px;">
 
     <div style="font-size:0.9rem; font-weight:400; margin-bottom:8px; line-height:1.15;">
-      **ArXiv 2025**: 
+      ArXiv 2025: 
       <a href="/project_pages/tesser/">TESSER: Transfer-Enhancing Adversarial Attacks from Vision Transformers</a>
     </div>
 
@@ -136,7 +136,7 @@ Below are representative research projects spanning adversarial machine learning
   <div style="max-width:900px;">
 
     <div style="font-size:0.9rem; font-weight:400; margin-bottom:8px; line-height:1.15;">
-      **ICCV 2025**: 
+      ICCV 2025: 
       <a href="/project_pages/tesser/">ODDR: Outlier Detection & Dimension Reduction Based Defense Against Adversarial Patches</a>
     </div>
 
@@ -166,7 +166,7 @@ Below are representative research projects spanning adversarial machine learning
   <div style="max-width:900px;">
 
     <div style="font-size:0.9rem; font-weight:400; margin-bottom:8px; line-height:1.15;">
-      **CVPR 2024**: 
+      CVPR 2024: 
       <a href="/project_pages/dap/">DAP: Dynamic Adversarial Patch</a>
     </div>
 
@@ -196,7 +196,7 @@ Below are representative research projects spanning adversarial machine learning
   <div style="max-width:900px;">
 
     <div style="font-size:0.9rem; font-weight:400; margin-bottom:8px; line-height:1.15;">
-      **IROS 2024**: 
+      IROS 2024: 
       <a href="/project_pages/ssap/">SSAP: A Shape-Sensitive Adversarial Patch</a>
     </div>
 

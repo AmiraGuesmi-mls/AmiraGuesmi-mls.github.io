@@ -25,7 +25,17 @@ I lead research on AI security and trustworthy machine learning, with a focus on
 
 ## Research Overview
 
-My research aims to advance the security, robustness, and trustworthiness of machine learning systems under adversarial threats and realistic deployment constraints. I study how architecture choices (e.g., Vision Transformers), quantization and approximation, physical-world effects, and multimodal interactions shape both vulnerabilities and defenses. A recurring theme in my work is breaking brittle alignment—semantic, gradient, or representational—to improve robustness while preserving efficiency and deployability.
+My research aims to advance the security, robustness, and trustworthiness of machine learning systems under adversarial threats and realistic deployment constraints. I study how architecture choices, quantization and approximation, physical-world effects, and multimodal interactions shape both vulnerabilities and defenses. 
+
+I work on the following research topics:
+
+- Adversarial Machine Learning and Robust Optimization
+- Security of Autonomous and Embodied AI Systems
+- Deployment-Aware and Edge AI Security
+- Explainability and Interpretability for Robustness
+- Security and Jailbreaks in Large Language and Vision–Language Models
+- Privacy and Robustness of Multimodal AI Agents
+
 
 ---
 

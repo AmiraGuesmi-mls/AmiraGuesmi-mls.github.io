@@ -10,9 +10,7 @@ bibtexurl: ""
 authors: "Amira Guesmi, Muhammad Shafique"
 excerpt: "A stochastic differentiable defense framework that breaks gradient consensus via divergent responses across filtered transformations."
 topic: "Adversarial Machine Learning — Foundations"
-header:
-  image: /images/drift.png
-  caption: "Overview of DRIFT."
+
 ---
 
 ## Links

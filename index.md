@@ -226,7 +226,7 @@ Below are representative research projects spanning adversarial machine learning
 
     <div style="font-size:0.9rem; font-weight:400; margin-bottom:8px; line-height:1.15;">
       IROS 2024: 
-      <a href="/project_pages/ssap/">SSAP: A Shape-Sensitive Adversarial Patch
+      <a href="/project_pages/ssap/">SSAP: A Shape-Sensitive Adversarial Patch for Monocular Depth Estimation
           </a>
         <p style="font-size:0.9em; font-style:italic; color:#555;">
           Authors: <u><b>Amira Guesmi</b></u>, Muhammad Abdullah Hanif, Ihsen Alouani, Bassem Ouni, Muhammad Shafique

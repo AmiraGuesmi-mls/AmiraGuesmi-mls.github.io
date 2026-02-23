@@ -11,9 +11,7 @@ authors: "Amira Guesmi, Bassem Ouni, Muhammad Shafique"
 excerpt: "A defense framework that disrupts semantic and gradient alignment across bit-widths to prevent patch transferability in quantized neural networks."
 topic: "Robustness and Security of Quantized & Approximate Neural Networks"
 
-header:
-  image: /images/triqdef.png
-  caption: "Overview of TriQDef."
+image: /images/triqdef.png
 ---
 
 ## Links
@@ -22,7 +20,7 @@ header:
 {% if page.bibtexurl and page.bibtexurl != "" %}- **BibTeX:** [Download]({{ page.bibtexurl }}){% endif %}
 
 ## Overview
-<img src="{{ page.header.image | relative_url }}" alt="TriQDef Overview" style="max-width:100%; border-radius: 8px;"/>
+<img src="{{ page.image | relative_url }}" alt="TriQDef Overview" style="max-width:100%; border-radius: 8px;"/>
 
 ## Abstract
 *Quantized Neural Networks (QNNs) are widely deployed in edge and resourceconstrained environments for their efficiency in computation and memory. While

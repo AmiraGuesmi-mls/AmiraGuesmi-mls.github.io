@@ -11,9 +11,7 @@ authors: "Amira Guesmi, Bassem Ouni, Muhammad Shafique"
 excerpt: "A framework that significantly improves black-box adversarial attack transferability from Vision Transformers via spectral and semantic regularization."
 topic: "Adversarial Machine Learning — Foundations"
 
-header:
-  image: /images/tesser_overview.png
-  caption: "Overview of the TESSER framework."
+image: /images/tesser_overview.png
 ---
 
 ## Links
@@ -22,7 +20,7 @@ header:
 {% if page.bibtexurl and page.bibtexurl != "" %}- **BibTeX:** [Download]({{ page.bibtexurl }}){% endif %}
 
 ## Overview
-<img src="{{ page.header.image | relative_url }}" alt="TESSER Overview" style="max-width:100%; border-radius: 8px;"/>
+<img src="{{ page.image | relative_url }}" alt="TESSER Overview" style="max-width:100%; border-radius: 8px;"/>
 
 ## Abstract
 

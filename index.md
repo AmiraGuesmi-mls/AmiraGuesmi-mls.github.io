@@ -64,7 +64,7 @@ Below are representative research projects spanning adversarial machine learning
         DRIFT: Divergent Response in Filtered Transformations for Robust Adversarial Defense
       </a>
         <p style="font-size:0.9em; font-style:italic; color:#555;">
-          <u><b>Amira Guesmi</b></u>, Muhammad Shafique
+          Authors:<u><b>Amira Guesmi</b></u>, Muhammad Shafique
         </p>
     </div>
 
@@ -93,6 +93,10 @@ Below are representative research projects spanning adversarial machine learning
     <div style="font-size:0.9rem; font-weight:400; margin-bottom:8px">
       ICLR 2026: 
       <a href="/project_pages/triqdef/">TriQDef: Disrupting Semantic and Gradient Alignment to Prevent Adversarial Patch Transferability in Quantized Neural Networks</a>
+          </a>
+        <p style="font-size:0.9em; font-style:italic; color:#555;">
+          Authors:<u><b>Amira Guesmi</b></u>, Bassem, Ouni, Muhammad Shafique
+        </p>
     </div>
 
     <div style="font-size:0.7rem; line-height:1.6; margin-bottom:12px; text-align:justify;">

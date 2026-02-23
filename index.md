@@ -64,7 +64,7 @@ Below are representative research projects spanning adversarial machine learning
         DRIFT: Divergent Response in Filtered Transformations for Robust Adversarial Defense
       </a>
         <p style="font-size:0.9em; font-style:italic; color:#555;">
-          Authors:<u><b>Amira Guesmi</b></u>, Muhammad Shafique
+          Authors: <u><b>Amira Guesmi</b></u>, Muhammad Shafique
         </p>
     </div>
 
@@ -95,7 +95,7 @@ Below are representative research projects spanning adversarial machine learning
       <a href="/project_pages/triqdef/">TriQDef: Disrupting Semantic and Gradient Alignment to Prevent Adversarial Patch Transferability in Quantized Neural Networks</a>
           </a>
         <p style="font-size:0.9em; font-style:italic; color:#555;">
-          Authors:<u><b>Amira Guesmi</b></u>, Bassem, Ouni, Muhammad Shafique
+          Authors: <u><b>Amira Guesmi</b></u>, Bassem Ouni, Muhammad Shafique
         </p>
     </div>
 
@@ -125,6 +125,10 @@ Below are representative research projects spanning adversarial machine learning
     <div style="font-size:0.9rem; font-weight:400; margin-bottom:8px; line-height:1.15;">
       ArXiv 2025: 
       <a href="/project_pages/tesser/">TESSER: Transfer-Enhancing Adversarial Attacks from Vision Transformers</a>
+          </a>
+        <p style="font-size:0.9em; font-style:italic; color:#555;">
+          Authors: <u><b>Amira Guesmi</b></u>, Bassem Ouni, Muhammad Shafique
+        </p>
     </div>
 
     <div style="font-size:0.7rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
@@ -155,6 +159,10 @@ Below are representative research projects spanning adversarial machine learning
     <div style="font-size:0.9rem; font-weight:400; margin-bottom:8px; line-height:1.15;">
       ICCV 2025: 
       <a href="/project_pages/tesser/">ODDR: Outlier Detection & Dimension Reduction Based Defense Against Adversarial Patches</a>
+          </a>
+        <p style="font-size:0.9em; font-style:italic; color:#555;">
+          Authors: Nandish Chattopadhyay*, <u><b>Amira Guesmi*</b></u>, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique
+        </p>
     </div>
 
     <div style="font-size:0.7rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
@@ -185,6 +193,10 @@ Below are representative research projects spanning adversarial machine learning
     <div style="font-size:0.9rem; font-weight:400; margin-bottom:8px; line-height:1.15;">
       CVPR 2024: 
       <a href="/project_pages/dap/">DAP: Dynamic Adversarial Patch</a>
+          </a>
+        <p style="font-size:0.9em; font-style:italic; color:#555;">
+          Authors: <u><b>Amira Guesmi</b></u>, Ruitian Ding, Muhammad Abdullah Hanif, Ihsen Alouani, Muhammad Shafique
+        </p>
     </div>
 
     <div style="font-size:0.7rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
@@ -215,6 +227,10 @@ Below are representative research projects spanning adversarial machine learning
     <div style="font-size:0.9rem; font-weight:400; margin-bottom:8px; line-height:1.15;">
       IROS 2024: 
       <a href="/project_pages/ssap/">SSAP: A Shape-Sensitive Adversarial Patch</a>
+          </a>
+        <p style="font-size:0.9em; font-style:italic; color:#555;">
+          Authors: <u><b>Amira Guesmi</b></u>, Muhammad Abdullah Hanif, Ihsen Alouani, Bassem Ouni, Muhammad Shafique
+        </p>
     </div>
 
     <div style="font-size:0.7rem; line-height:1.6; margin-bottom:12px; text-align:justify;">

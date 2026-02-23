@@ -11,6 +11,8 @@ authors: "Amira Guesmi, Muhammad Shafique"
 excerpt: "A stochastic differentiable defense framework that breaks gradient consensus via divergent responses across filtered transformations."
 topic: "Adversarial Machine Learning — Foundations"
 
+image: /images/drift.png
+
 ---
 
 ## Links
@@ -19,7 +21,7 @@ topic: "Adversarial Machine Learning — Foundations"
 {% if page.bibtexurl and page.bibtexurl != "" %}- **BibTeX:** [Download]({{ page.bibtexurl }}){% endif %}
 
 ## Overview
-<img src="{{ page.header.image | relative_url }}" alt="DRIFT Overview" style="max-width:100%; border-radius: 8px;"/>
+<img src="{{ page.image | relative_url }}" alt="DRIFT Overview" style="max-width:100%; border-radius: 8px;"/>
 
 ## Abstract
 *Deep neural networks remain highly vulnerable to adversarial examples, and most defenses collapse once gradients can be reliably estimated. We identify gradient

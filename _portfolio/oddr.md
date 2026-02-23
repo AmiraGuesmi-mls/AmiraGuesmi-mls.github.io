@@ -9,8 +9,7 @@ paperurl: "https://openaccess.thecvf.com/content/ICCV2025/html/Chattopadhyay_ODD
 authors: "Nandish Chattopadhyay, Amira Guesmi, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique"
 topic: "Adversarial Machine Learning — Foundations"
 
-header:
-  overview: /images/projects/oddr_overview.png
+
 ---
 
 ## Links

@@ -63,7 +63,9 @@ Below are representative research projects spanning adversarial machine learning
       <a href="/project_pages/drift/">
         DRIFT: Divergent Response in Filtered Transformations for Robust Adversarial Defense
       </a>
-        Authors: Amira Guesmi, Muhammad Shafique
+        <p style="font-size:0.9em; font-style:italic; color:#555;">
+          <u><b>Amira Guesmi</b></u>, Muhammad Shafique
+        </p>
     </div>
 
     <div style="font-size:0.7rem; line-height:1.6; margin-bottom:12px; text-align:justify;">

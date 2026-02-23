@@ -62,6 +62,7 @@ Below are representative research projects spanning adversarial machine learning
       ICLR 2026:
       <a href="/project_pages/drift/">
         DRIFT: Divergent Response in Filtered Transformations for Robust Adversarial Defense
+        Authors: Amira Guesmi, Muhammad Shafique
       </a>
     </div>
 

@@ -7,7 +7,7 @@ date: 2025-01-01
 venue: "ICCV 2025"
 paperurl: "https://openaccess.thecvf.com/content/ICCV2025/html/Chattopadhyay_ODDR_Outlier_Detection__Dimension_Reduction_Based_Defense_Against_Adversarial_ICCV_2025_paper.html"
 authors: "Nandish Chattopadhyay, Amira Guesmi, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique"
-topic: "Adversarial Machine Learning — Foundations"
+topic: "Adversarial Machine Learning — Vision & Autonomous Systems"
 
 
 ---

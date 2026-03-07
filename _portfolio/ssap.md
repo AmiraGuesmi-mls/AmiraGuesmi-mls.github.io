@@ -16,7 +16,7 @@ image: /images/ssap_approach.png
 {% if page.bibtexurl and page.bibtexurl != "" %}- **BibTeX:** [Download]({{ page.bibtexurl }}){% endif %}
 
 ## Overview
-<img src="{{  }}" alt="SSAP Overview" style="max-width:100%; border-radius: 8px;"/>
+<img src="{{ page.image }}" alt="SSAP Overview" style="max-width:100%; border-radius: 8px;"/>
 
 ## Abstract
 

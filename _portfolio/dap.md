@@ -17,6 +17,7 @@ image: /images/dap_overview.png
 
 ## Links
 - **Paper:** [CVPR Open Access]({{ page.paperurl }})
+- **Demo:** [Link]({{ "https://www.youtube.com/watch?v=KgHayArnTBM"}})
 {% if page.codeurl and page.codeurl != "" %}- **Code:** [GitHub]({{ page.codeurl }}){% endif %}
 {% if page.bibtexurl and page.bibtexurl != "" %}- **BibTeX:** [Download]({{ page.bibtexurl }}){% endif %}
 

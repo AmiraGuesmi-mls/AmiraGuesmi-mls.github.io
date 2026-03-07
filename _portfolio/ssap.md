@@ -8,6 +8,7 @@ venue: "IROS"
 paperurl: "https://ieeexplore.ieee.org/document/10802252"
 authors: "Amira Guesmi, Muhammad Abdullah Hanif, Ihsen Alouani, Bassem Ouni, Muhammad Shafique"
 topic: "Adversarial Machine Learning — Vision & Autonomous Systems"
+image: /images/ssap_approach.png
 ---
 ## Links
 - **Paper:** [IROS]({{ page.paperurl }})
@@ -15,7 +16,7 @@ topic: "Adversarial Machine Learning — Vision & Autonomous Systems"
 {% if page.bibtexurl and page.bibtexurl != "" %}- **BibTeX:** [Download]({{ page.bibtexurl }}){% endif %}
 
 ## Overview
-<img src="{{ page.header.image | relative_url }}" alt="SSAP Overview" style="max-width:100%; border-radius: 8px;"/>
+<img src="{{  }}" alt="SSAP Overview" style="max-width:100%; border-radius: 8px;"/>
 
 ## Abstract
 

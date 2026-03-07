@@ -38,10 +38,11 @@ Experimental results demonstrate that the proposed approach outperforms state-of
 - We thoroughly examine the performance/attack success rate of the proposed method in terms of mean average precision (mAP) both with and without transformations, and transferability between detectors.  Our patch achieves an attack success rate of 82.28% in the digital world (INRIA dataset) when targeting the YOLOv7 detector and 65% in the physical world when attacking the YOLOv3tiny detector for edge systems.
 
 ## Citation
-bibtex
+```bibtex
 @inproceedings{guesmi2024dap,
   title     = {DAP: A Dynamic Adversarial Patch for Evading Person Detectors},
   author    = {Guesmi, Amira and Ding, Ruitian and Hanif, Muhammad Abdullah and Alouani, Ihsen and Shafique, Muhammad},
   booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
   year      = {2024}
 }
+```

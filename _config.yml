@@ -20,7 +20,7 @@ repository               : "AmiraGuesmi-mls/AmiraGuesmi-mls.github.io"
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
-  avatar           : "IMG_6194.JPG"
+  avatar           : "IMG_6194.PNG"
   name             : "Amira Guesmi"
   pronouns         : "she/her"
   bio              : "Research Team Leader @ NYU Abu Dhabi — AI Security, Adversarial ML, Robust Vision, Edge/Quantized Models"

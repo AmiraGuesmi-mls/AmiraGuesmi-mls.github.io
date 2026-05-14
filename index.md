@@ -10,7 +10,7 @@ I lead research on AI security and trustworthy machine learning, with a focus on
 ---
 
 ## 🔥 News
-
+- **2026.05**: I've receive a 𝐒𝐢𝐥𝐯𝐞𝐫 𝐑𝐞𝐯𝐢𝐞𝐰𝐞𝐫 𝐚𝐰𝐚𝐫𝐝 from **ICML 2026**
 - **2026.01**: 🎉 2 papers accepted at **ICLR 2026**
 - **2025.11**: 🎉 1 paper accepted at **DATE 2026**
 - **2025.10**: I've been selected as Top Reviewer at **NeurIPS 2025** 

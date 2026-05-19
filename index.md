@@ -256,7 +256,7 @@ Below are representative research projects spanning adversarial machine learning
 
 ## 📖 Education
 
-*Mar 2018 - Oct 2021*: Ph.D. in Computer Systems Engineering, National School of Engineers of Sfax, Tunisia, Polytechnic University Hauts-de-France, France    
+*Mar 2018 - Oct 2021*: Ph.D. in Computer Systems Engineering, National School of Engineers of Sfax, Tunisia
   
 *Sep 2013 - Jun 2016*: Engineer Degree in Computer Science & Electrical Engineering, National School of Engineers of Sfax (ENIS), Tunisia  
  

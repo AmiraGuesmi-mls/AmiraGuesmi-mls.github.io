@@ -264,7 +264,8 @@ Below are representative research projects spanning adversarial machine learning
 
 ## 🏆 Awards & Honors
 
-- **Outstanding Reviewer**, NeurIPS 2025.
+- **Silver Reviewer Award**, ICML 2026.
+- **Top Reviewer Award**, NeurIPS 2025.
 - **Best Senior Researcher Award**, eBRAIN Lab, NYUAD, 2023.
 - **Erasmus+ Scholarship**, France, 2019.
 - **DAAD Scholarship**: Advanced Technologies based on IoT (ATIoT), Germany, 2018.

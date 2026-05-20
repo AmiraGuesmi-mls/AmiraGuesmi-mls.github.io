@@ -11,7 +11,7 @@ authors: "Amira Guesmi, Ruitian Ding, Muhammad Abdullah Hanif, Ihsen Alouani, Mu
 excerpt: "A dynamic adversarial patch that adapts spatially and temporally to effectively evade modern person detection models under realistic conditions."
 topic: "Adversarial Machine Learning — Vision & Autonomous Systems"
 
-image: /images/dap_overview.png
+image: /images/dap_method.png
 
 ---
 

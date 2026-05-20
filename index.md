@@ -110,6 +110,41 @@ Below are representative research projects spanning adversarial machine learning
 
   </div>
 </div>
+
+---
+<!-- BCR -->
+<div style="display:flex; flex-direction:column; gap:18px; margin-bottom:60px;">
+
+  <!-- Image on top -->
+  <div style="max-width:600px;">
+    <img src="/images/bcr.png" style="width:100%; border-radius:10px; margin-bottom:8px;">
+  </div>
+
+  <!-- Text underneath -->
+  <div style="max-width:900px;">
+
+    <div style="font-size:0.9rem; font-weight:400; margin-bottom:8px; line-height:1.15;">
+      ArXiv 2025: 
+      <a href="/project_pages/bcr/">Do Not Leave a Gap: Hallucination-Free Object Concealment in Vision-Language Models
+          </a>
+        <p style="font-size:0.9em; font-style:italic; color:#555;">
+          Authors: <u><b>Amira Guesmi</b></u>, Muhammad Shafique
+        </p>
+    </div>
+
+    <div style="font-size:0.7rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
+    Vision-language models (VLMs) have recently shown remarkable capabilities in visual understanding and generation, but remain vulnerable to adversarial manipulations of visual content. Prior object-hiding attacks primarily rely on suppressing or blocking region-specific representations, often creating semantic gaps that inadvertently induce hallucination, where models invent plausible but incorrect objects. In this work, we demonstrate that hallucination arises not from object absence per se, but from semantic discontinuity introduced by such suppression-based attacks. We propose a new class of \emph{background-consistent object concealment} attacks, which hide target objects by re-encoding their visual representations to be statistically and semantically consistent with surrounding background regions. Crucially, our approach preserves token structure and attention flow, avoiding representational voids that trigger hallucination. We present a pixel-level optimization framework that enforces background-consistent re-encoding across multiple transformer layers while preserving global scene semantics. Extensive experiments on state-of-the-art vision-language models show that our method effectively conceals target objects while preserving up to 86% of non-target objects and reducing grounded hallucination by up to 3× compared to attention-suppression-based attacks.
+    </div>
+
+    <div>
+      <a href="/project_pages/bcr/">Project</a> |
+      <a href="[https://arxiv.org/abs/2505.19613](https://arxiv.org/abs/2603.15940)">Paper</a>
+    </div>
+
+  </div>
+</div>
+
+
 ---
 <!-- TESSER -->
 <div style="display:flex; flex-direction:column; gap:18px; margin-bottom:60px;">
@@ -275,7 +310,7 @@ Below are representative research projects spanning adversarial machine learning
 
 ## 🧑‍🏫 Academic Service & Community
 
-- **Conference Reviewer**: ICLR, NeurIPS, ICCV, CVPR, AAAI, ECCV, DAC, DATE, ICIP, IJCNN
+- **Conference Reviewer**: ICML, ICLR, NeurIPS, ICCV, CVPR, AAAI, ECCV, DAC, DATE, ICIP, IJCNN
 - **Journal Reviewer**: IEEE TIFS, TCSVT, TCAD, Access 
 - **Organizer & Speaker**: Tutorial: *ML Security in Autonomous Systems*, IROS 2024  
 

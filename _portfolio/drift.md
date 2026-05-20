@@ -11,7 +11,7 @@ authors: "Amira Guesmi, Muhammad Shafique"
 excerpt: "A stochastic differentiable defense framework that breaks gradient consensus via divergent responses across filtered transformations."
 topic: "Adversarial Machine Learning — Foundations"
 
-image: /images/drift.png
+image: /images/drift_method.png
 
 ---
 

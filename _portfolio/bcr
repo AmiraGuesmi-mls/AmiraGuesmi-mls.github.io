@@ -16,9 +16,7 @@ image: /images/bcr.png
 ---
 
 ## Links
-- **Paper:** [Arxiv]({{ page.paperurl }})
-{% if page.codeurl and page.codeurl != "" %}- **Code:** [GitHub]({{ page.codeurl }}){% endif %}
-{% if page.bibtexurl and page.bibtexurl != "" %}- **BibTeX:** [Download]({{ page.bibtexurl }}){% endif %}
+- **Preprint:** [Arxiv]({{ page.paperurl }})
 
 ## Overview
 <img src="{{ page.image | relative_url }}" alt="BCR Overview" style="max-width:100%; border-radius: 8px;"/>

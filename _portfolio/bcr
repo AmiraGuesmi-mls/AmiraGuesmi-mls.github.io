@@ -19,7 +19,7 @@ image: /images/bcr.png
 - **Preprint:** [Arxiv]({{ page.paperurl }})
 
 ## Overview
-<img src="{{ page.image | relative_url }}" alt="BCR Overview" style="max-width:100%; border-radius: 8px;"/>
+<img src="{{ page.image | relative_url }}" alt="BCR Overview" />
 
 ## Abstract
 Vision-language models (VLMs) have recently shown remarkable capabilities in visual understanding and generation, but remain vulnerable to adversarial manipulations of visual content.

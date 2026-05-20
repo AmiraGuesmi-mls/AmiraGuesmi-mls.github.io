@@ -185,7 +185,7 @@ Below are representative research projects spanning adversarial machine learning
 
   <!-- Image on top -->
   <div style="max-width:600px;">
-    <img src="/images/oddr_overview.png" style="width:100%; border-radius:10px; margin-bottom:8px;">
+    <img src="/images/oddr_method.png" style="width:100%; border-radius:10px; margin-bottom:8px;">
   </div>
 
   <!-- Text underneath -->
@@ -193,7 +193,7 @@ Below are representative research projects spanning adversarial machine learning
 
     <div style="font-size:0.9rem; font-weight:400; margin-bottom:8px; line-height:1.15;">
       ICCV 2025: 
-      <a href="/project_pages/tesser/">ODDR: Outlier Detection & Dimension Reduction Based Defense Against Adversarial Patches
+      <a href="/project_pages/oddr/">ODDR: Outlier Detection & Dimension Reduction Based Defense Against Adversarial Patches
           </a>
         <p style="font-size:0.9em; font-style:italic; color:#555;">
           Authors: Nandish Chattopadhyay*, <u><b>Amira Guesmi*</b></u>, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique

@@ -151,7 +151,7 @@ Below are representative research projects spanning adversarial machine learning
 
   <!-- Image on top -->
   <div style="max-width:600px;">
-    <img src="/images/tesser_methodpng" style="width:100%; border-radius:10px; margin-bottom:8px;">
+    <img src="/images/tesser_method.png" style="width:100%; border-radius:10px; margin-bottom:8px;">
   </div>
 
   <!-- Text underneath -->

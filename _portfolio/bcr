@@ -1,0 +1,53 @@
+---
+title: "Do Not Leave a Gap: Hallucination-Free Object Concealment in Vision-Language Models"
+collection: portfolio
+permalink: /project_pages/bcr/
+date: 2026-05-20
+venue: "ICLR"
+paperurl: "[https://arxiv.org/abs/2603.15940]"
+codeurl: ""
+bibtexurl: ""
+authors: "Amira Guesmi, Muhammad Shafique"
+excerpt: "a new class of background-consistent object concealment attacks, which hide target objects by re-encoding their visual representations to be statistically and semantically consistent with surrounding background regions while preserving token structure and attention flow, avoiding representational voids that trigger hallucination."
+topic: "Adversarial Machine Learning — Foundations"
+
+image: /images/bcr.png
+
+---
+
+## Links
+- **Paper:** [Arxiv]({{ page.paperurl }})
+{% if page.codeurl and page.codeurl != "" %}- **Code:** [GitHub]({{ page.codeurl }}){% endif %}
+{% if page.bibtexurl and page.bibtexurl != "" %}- **BibTeX:** [Download]({{ page.bibtexurl }}){% endif %}
+
+## Overview
+<img src="{{ page.image | relative_url }}" alt="BCR Overview" style="max-width:100%; border-radius: 8px;"/>
+
+## Abstract
+*Vision-language models (VLMs) have recently shown remarkable capabilities in visual understanding and generation, but remain vulnerable to adversarial manipulations of visual content.
+Prior object-hiding attacks primarily rely on suppressing or blocking region-specific representations, often creating semantic gaps that inadvertently induce hallucination, where models invent plausible but incorrect objects.
+In this work, we demonstrate that hallucination arises not from object absence per se, but from semantic discontinuity introduced by such suppression-based attacks.
+We propose a new class of background-consistent object concealment attacks, which hide target objects by re-encoding their visual representations to be statistically and semantically consistent with surrounding background regions.
+Crucially, our approach preserves token structure and attention flow, avoiding representational voids that trigger hallucination.
+We present a pixel-level optimization framework that enforces background-consistent re-encoding across multiple transformer layers while preserving global scene semantics.
+Extensive experiments on state-of-the-art vision-language models show that our method effectively conceals target objects while preserving up to 86% of non-target objects and reducing grounded hallucination by up to 3x compared to attention-suppression-based attacks.
+Qualitative results further confirm that our approach maintains scene coherence and avoids spurious object insertion.
+Our findings highlight semantic continuity as a key factor in hallucination behavior and introduce a new direction for adversarial analysis of generative multimodal models.*
+
+## Key Contributions
+- We introduce Background-Consistent Re-encoding (BCR), a novel object concealment paradigm that preserves token structure and attention flow while hiding target objects.
+- We propose a principled pixel-level optimization framework that enforces background-consistent visual representations across multiple vision transformer layers.
+- We design hallucination-aware evaluation metrics and empirically demonstrate that BCR substantially reduces hallucination while maintaining strong concealment performance across multiple VLM architectures.
+
+## Citation
+```bibtex
+@misc{guesmi2026leavegaphallucinationfreeobject,
+      title={Do Not Leave a Gap: Hallucination-Free Object Concealment in Vision-Language Models}, 
+      author={Amira Guesmi and Muhammad Shafique},
+      year={2026},
+      eprint={2603.15940},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2603.15940}, 
+}
+```

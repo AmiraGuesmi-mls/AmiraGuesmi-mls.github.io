@@ -219,7 +219,7 @@ Below are representative research projects spanning adversarial machine learning
 
   <!-- Image on top -->
   <div style="max-width:600px;">
-    <img src="/images/DAP_teaser.png" style="width:100%; border-radius:10px;">
+    <img src="/images/dap_method.png" style="width:100%; border-radius:10px;">
   </div>
 
   <!-- Text underneath -->

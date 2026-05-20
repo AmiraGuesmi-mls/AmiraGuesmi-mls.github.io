@@ -19,7 +19,7 @@ topic: "Adversarial Machine Learning — Vision & Autonomous Systems"
 
 ## Overview
 
-<img src="/images/ICCV_ODDR.png" width="100%">
+<img src="/images/oddr_method.png" width="100%">
 
 **ODDR** (Outlier Detection & Dimension Reduction) is a defense framework designed to mitigate the impact of adversarial patch attacks by identifying anomalous feature activations and suppressing their influence on downstream predictions.
 

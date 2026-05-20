@@ -72,6 +72,11 @@ Below are representative research projects spanning adversarial machine learning
       We introduce DRIFT (Divergent Response in Filtered Transformations), a stochastic ensemble of lightweight, learnable filters trained to actively disrupt gradient consensus. Unlike prior randomized defenses that rely on gradient masking, DRIFT enforces gradient dissonance by maximizing divergence in Jacobian- and logit-space responses while preserving natural predictions. 
     </div>
 
+    <div>
+      <a href="/project_pages/drift/">Project</a> |
+      <a href="#">Paper</a>
+    </div>
+    
   </div>
 
 </div>

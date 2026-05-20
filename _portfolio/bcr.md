@@ -3,7 +3,7 @@ title: "Do Not Leave a Gap: Hallucination-Free Object Concealment in Vision-Lang
 collection: portfolio
 
 date: 2026-05-20
-venue: "Arxiv"
+venue: "ArXiv"
 paperurl: "https://arxiv.org/abs/2603.15940"
 codeurl: ""
 bibtexurl: ""

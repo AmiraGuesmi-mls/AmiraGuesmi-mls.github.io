@@ -1,7 +1,7 @@
 ---
 title: "Do Not Leave a Gap: Hallucination-Free Object Concealment in Vision-Language Models"
 collection: portfolio
-permalink: /project_pages/bcr/
+
 date: 2026-05-20
 venue: "Arxiv"
 paperurl: "https://arxiv.org/abs/2603.15940"
@@ -21,7 +21,7 @@ image: /images/bcr.png
 {% if page.bibtexurl and page.bibtexurl != "" %}- **BibTeX:** [Download]({{ page.bibtexurl }}){% endif %}
 
 ## Overview
-
+<img src="{{ page.image | relative_url }}" alt="BCR Overview" style="max-width:100%; border-radius: 8px;"/>
 
 ## Abstract
 

@@ -1,7 +1,7 @@
 ---
 title: "Do Not Leave a Gap: Hallucination-Free Object Concealment in Vision-Language Models"
 collection: portfolio
-
+permalink: /project_pages/bcr/
 date: 2026-05-20
 venue: "ArXiv"
 paperurl: "https://arxiv.org/abs/2603.15940"

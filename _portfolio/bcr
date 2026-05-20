@@ -16,12 +16,13 @@ image: /images/bcr.png
 ---
 
 ## Links
-- **Preprint:** [Arxiv]({{ page.paperurl }})
+- **Paper:** [arXiv]({{ page.paperurl }})
 
 ## Overview
-<img src="{{ page.image | relative_url }}" alt="BCR Overview" />
+<img src="{{ page.image | relative_url }}" alt="BCR Overview" style="max-width:100%; border-radius: 8px;"/>
 
 ## Abstract
+
 Vision-language models (VLMs) have recently shown remarkable capabilities in visual understanding and generation, but remain vulnerable to adversarial manipulations of visual content.
 Prior object-hiding attacks primarily rely on suppressing or blocking region-specific representations, often creating semantic gaps that inadvertently induce hallucination, where models invent plausible but incorrect objects.
 In this work, we demonstrate that hallucination arises not from object absence per se, but from semantic discontinuity introduced by such suppression-based attacks.

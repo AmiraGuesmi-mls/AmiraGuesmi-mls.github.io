@@ -11,7 +11,7 @@ authors: "Amira Guesmi, Muhammad Shafique"
 excerpt: "A new class of background-consistent object concealment attacks, which hide target objects by re-encoding their visual representations to be statistically and semantically consistent with surrounding background regions while preserving token structure and attention flow, avoiding representational voids that trigger hallucination."
 topic: "Vision–Language Model (VLM) Security, Hallucination, and Privacy"
 
-image: /images/bcr.png
+image: /images/bcr_method.png
 
 ---
 

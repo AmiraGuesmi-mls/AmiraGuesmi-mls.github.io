@@ -68,7 +68,7 @@ Below are representative research projects spanning adversarial machine learning
     </div>
 
     <div style="font-size:0.7rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
-      We introduce DRIFT (Divergent Response in Filtered Transformations), a stochastic ensemble of lightweight, learnable filters trained to actively disrupt gradient consensus. Unlike prior randomized defenses that rely on gradient masking, DRIFT enforces gradient dissonance by maximizing divergence in Jacobian- and logit-space responses while preserving natural predictions. 
+      Shows that adversarial robustness can be achieved by breaking gradient consensus rather than masking gradients, introducing stochastic filter ensembles that induce controlled divergence across model responses and remain effective under adaptive attacks.
     </div>
 
     <div>
@@ -104,7 +104,7 @@ Below are representative research projects spanning adversarial machine learning
     </div>
 
     <div style="font-size:0.7rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
-      We introduce TriQDef, a tri-level quantization-aware defense framework designed to disrupt the transferability of patch-based adversarial attacks across QNNs. TriQDef consists of: (1) a Feature Disalignment Penalty (FDP) that enforces semantic inconsistency by penalizing perceptual similarity in intermediate representations; (2) a Gradient Perceptual Dissonance Penalty (GPDP) that explicitly misaligns input gradients across bit-widths by minimizing structural and directional agreement via Edge IoU and HOG Cosine metrics; and (3) a Joint Quantization-Aware Training Protocol that unifies these penalties within a shared-weight training scheme across multiple quantization levels.
+      Reveals that adversarial patch transferability in quantized models is driven by hidden structural consistency across bit-widths, and proposes mechanisms to explicitly disrupt this alignment at both feature and gradient levels.
     </div>
 
     <div>
@@ -137,7 +137,7 @@ Below are representative research projects spanning adversarial machine learning
     </div>
 
     <div style="font-size:0.7rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
-    We propose a new class of background-consistent object concealment attacks, which hide target objects by re-encoding their visual representations to be statistically and semantically consistent with surrounding background regions. Crucially, our approach preserves token structure and attention flow, avoiding representational voids that trigger hallucination. We present a pixel-level optimization framework that enforces background-consistent re-encoding across multiple transformer layers while preserving global scene semantics. Extensive experiments on state-of-the-art vision-language models show that our method effectively conceals target objects while preserving up to 86% of non-target objects and reducing grounded hallucination by up to 3× compared to attention-suppression-based attacks.
+    Demonstrates that hallucination in vision-language models is driven by representational gaps rather than object absence, and introduces Background-Consistent Re-encoding to enforce continuity and prevent hallucinated content.
     </div>
 
     <div>
@@ -171,7 +171,7 @@ Below are representative research projects spanning adversarial machine learning
     </div>
 
     <div style="font-size:0.7rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
-      Adversarial transferability remains a critical challenge in evaluating the robustness of deep neural networks. In security-critical applications, transferability enables black-box attacks without access to model internals, making it a key concern for real-world adversarial threat assessment. While Vision Transformers (ViTs) have demonstrated strong adversarial performance, existing attacks often fail to transfer effectively across architectures, especially from ViTs to Convolutional Neural Networks (CNNs) or hybrid models. In this paper, we introduce TESSER -- a novel adversarial attack framework that enhances transferability via two key strategies: (1) Feature-Sensitive Gradient Scaling (FSGS), which modulates gradients based on token-wise importance derived from intermediate feature activations, and (2) Spectral Smoothness Regularization (SSR), which suppresses high-frequency noise in perturbations using a differentiable Gaussian prior. These components work in tandem to generate perturbations that are both semantically meaningful and spectrally smooth.
+      Establishes that adversarial transferability depends on preserving shared spectral and semantic structures, and introduces a framework that explicitly enforces this alignment to improve cross-model attack generalization.
     </div>
 
     <div>
@@ -205,7 +205,7 @@ Below are representative research projects spanning adversarial machine learning
     </div>
 
     <div style="font-size:0.7rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
-      In this paper, we propose Outlier Detection and Dimension Reduction (ODDR), a comprehensive defense strategy engineered to counteract patch-based adversarial attacks through advanced statistical methodologies. Our approach is based on the observation that input features corresponding to adversarial patches--whether naturalistic or synthetic--deviate from the intrinsic distribution of the remaining image data and can thus be identified as outliers. ODDR operates through a robust three-stage pipeline: Fragmentation, Segregation, and Neutralization. This model-agnostic framework is versatile, offering protection across various tasks, including image classification, object detection, and depth estimation, and is proved effective in both CNN-based and Transformer-based architectures. In the Fragmentation stage, image samples are divided into smaller segments, preparing them for the Segregation stage, where advanced outlier detection techniques isolate anomalous features linked to adversarial perturbations. The Neutralization stage then applies dimension reduction techniques to these outliers, effectively neutralizing the adversarial impact while preserving critical information for the machine learning task.
+      Frames adversarial patches as feature-space outliers, and introduces a dimension reduction framework that suppresses their influence by removing structurally inconsistent features while preserving clean model behavior.
     </div>
 
     <div>
@@ -239,7 +239,7 @@ Below are representative research projects spanning adversarial machine learning
     </div>
 
     <div style="font-size:0.7rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
-    This paper introduces a novel approach that produces a Dynamic Adversarial Patch (DAP) designed to overcome these limitations. DAP maintains a naturalistic appearance while optimizing attack efficiency and robustness to real-world transformations. The approach involves redefining the optimization problem and introducing a novel objective function that incorporates a similarity metric to guide the patch's creation. Unlike GAN-based techniques the DAP directly modifies pixel values within the patch providing increased flexibility and adaptability to multiple transformations. Furthermore most clothing-based physical attacks assume static objects and ignore the possible transformations caused by non-rigid deformation due to changes in a person's pose. To address this limitation aCreases Transformation'(CT) block is introduced enhancing the patch's resilience to a variety of real-world distortions.
+    Developed a dynamic adversarial patch framework for wearable, printable T-shirt attacks, enabling person hiding from smart surveillance systems under real-world pose changes, fabric deformation, and physical deployment variations.
     </div>
 
     <div>
@@ -273,7 +273,7 @@ Below are representative research projects spanning adversarial machine learning
     </div>
 
     <div style="font-size:0.7rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
-    In this paper, we introduce SSAP (Shape-Sensitive Adversarial Patch), a novel approach designed to comprehensively disrupt monocular depth estimation (MDE) in autonomous navigation applications. Our patch is crafted to selectively undermine MDE in two distinct ways: by distorting estimated distances or by creating the illusion of an object disappearing from the system’s perspective. Notably, our patch is shape-sensitive, meaning it considers the specific shape and scale of the target object, thereby extending its influence beyond immediate proximity. Furthermore, our patch is trained to effectively address different scales and distances from the camera.
+    Introduced a shape-sensitive adversarial patch framework that extends attack impact from localized regions to full-object disruption, enabling stronger and more comprehensive degradation of depth estimation in autonomous perception systems.
     </div>
 
     <div>

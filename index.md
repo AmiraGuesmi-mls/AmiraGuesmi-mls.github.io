@@ -33,9 +33,8 @@ I work on the following research topics:
 - Security of Autonomous and Embodied AI Systems
 - Deployment-Aware and Edge AI Security
 - Explainability and Interpretability for Robustness
-- Security and Jailbreaks in Large Language and Vision–Language Models
+- Security, Jailbreaks and Hallucination in Large Language and Vision–Language Models
 - Privacy and Robustness of Multimodal AI Agents
-
 
 ---
 

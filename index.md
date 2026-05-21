@@ -67,7 +67,7 @@ Below are representative research projects spanning adversarial machine learning
         </p>
     </div>
 
-    <div style="font-size:0.7rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
+    <div style="font-size:0.9rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
       Shows that adversarial robustness can be achieved by breaking gradient consensus rather than masking gradients, introducing stochastic filter ensembles that induce controlled divergence across model responses and remain effective under adaptive attacks.
     </div>
 
@@ -103,7 +103,7 @@ Below are representative research projects spanning adversarial machine learning
         </p>
     </div>
 
-    <div style="font-size:0.7rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
+    <div style="font-size:0.9rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
       Reveals that adversarial patch transferability in quantized models is driven by hidden structural consistency across bit-widths, and proposes mechanisms to explicitly disrupt this alignment at both feature and gradient levels.
     </div>
 
@@ -136,7 +136,7 @@ Below are representative research projects spanning adversarial machine learning
         </p>
     </div>
 
-    <div style="font-size:0.7rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
+    <div style="font-size:0.9rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
     Demonstrates that hallucination in vision-language models is driven by representational gaps rather than object absence, and introduces Background-Consistent Re-encoding to enforce continuity and prevent hallucinated content.
     </div>
 
@@ -170,7 +170,7 @@ Below are representative research projects spanning adversarial machine learning
         </p>
     </div>
 
-    <div style="font-size:0.7rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
+    <div style="font-size:0.9rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
       Establishes that adversarial transferability depends on preserving shared spectral and semantic structures, and introduces a framework that explicitly enforces this alignment to improve cross-model attack generalization.
     </div>
 
@@ -204,7 +204,7 @@ Below are representative research projects spanning adversarial machine learning
         </p>
     </div>
 
-    <div style="font-size:0.7rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
+    <div style="font-size:0.9rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
       Frames adversarial patches as feature-space outliers, and introduces a dimension reduction framework that suppresses their influence by removing structurally inconsistent features while preserving clean model behavior.
     </div>
 
@@ -238,7 +238,7 @@ Below are representative research projects spanning adversarial machine learning
         </p>
     </div>
 
-    <div style="font-size:0.7rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
+    <div style="font-size:0.9rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
     Developed a dynamic adversarial patch framework for wearable, printable T-shirt attacks, enabling person hiding from smart surveillance systems under real-world pose changes, fabric deformation, and physical deployment variations.
     </div>
 
@@ -272,7 +272,7 @@ Below are representative research projects spanning adversarial machine learning
         </p>
     </div>
 
-    <div style="font-size:0.7rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
+    <div style="font-size:0.9rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
     Introduced a shape-sensitive adversarial patch framework that extends attack impact from localized regions to full-object disruption, enabling stronger and more comprehensive degradation of depth estimation in autonomous perception systems.
     </div>
 

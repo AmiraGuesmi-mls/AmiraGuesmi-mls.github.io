@@ -318,7 +318,9 @@ Below are representative research projects spanning adversarial machine learning
 
   </div>
 </div>
+
 ---
+
 ## 💼 Experience
 
 *Oct 2022 – Present*: Research Team Lead, Engineering Division, New York University Abu Dhabi (NYUAD), UAE  

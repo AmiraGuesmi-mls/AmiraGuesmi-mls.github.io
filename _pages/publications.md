@@ -61,7 +61,7 @@ author_profile: true
 <b>[VTS 2022]</b> Shail Dave, Alberto Marchisio, Muhammad Abdullah Hanif, <b>Amira Guesmi</b>, Aviral Shrivastava, Ihsen Alouani, Muhammad Shafique. 
 <i>"Special session: Towards an agile design methodology for efficient, reliable, and secure ML systems"</i>. 
 
-<b>[IEEE Design \& Test 2021]</b> <b>Amira Guesmi</b>, Ihsen Alouani, Mouna Baklouti, Tarek Frikha, Mohamed Abid. 
+<b>[IEEE Design & Test 2021]</b> <b>Amira Guesmi</b>, Ihsen Alouani, Mouna Baklouti, Tarek Frikha, Mohamed Abid. 
 <i>"Sit: Stochastic input transformation to defend against adversarial attacks on deep neural networks"</i>.  
 
 <b>[ASPLOS 2021]</b> <b>Amira Guesmi</b>, Ihsen Alouani, Khaled N Khasawneh, Mouna Baklouti, Tarek Frikha, Mohamed Abid, Nael Abu-Ghazaleh. 

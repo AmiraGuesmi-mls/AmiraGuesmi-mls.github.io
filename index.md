@@ -298,7 +298,7 @@ Below are representative research projects spanning adversarial machine learning
   <div style="max-width:900px;">
 
     <div style="font-size:0.9rem; font-weight:400; margin-bottom:8px; line-height:1.15;">
-      IROS 2024: 
+      ASPLOS 2021: 
       <a href="/project_pages/da/">Defensive approximation: securing cnns using approximate computing
 
           </a>

@@ -1,7 +1,7 @@
 ---
 title: "Defensive Approximation: Securing CNNs using Approximate Computing"
 collection: portfolio
-permalink: /portfolio/defensive_appx/
+permalink: /project_pages/defensive_appx/
 authors: "Amira Guesmi, Ihsen Alouani, Khaled N. Khasawneh, Mouna Baklouti, Tarek Frikha, Mohamed Abid, Nael Abu-Ghazaleh"
 venue: "ASPLOS"
 paper_url: "https://doi.org/10.1145/3445814.3446747"

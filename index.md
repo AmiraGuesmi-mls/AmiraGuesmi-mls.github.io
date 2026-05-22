@@ -299,7 +299,7 @@ Below are representative research projects spanning adversarial machine learning
 
     <div style="font-size:0.9rem; font-weight:400; margin-bottom:8px; line-height:1.15;">
       ASPLOS 2021: 
-      <a href="/project_pages/defensive-approximation/">Defensive approximation: securing cnns using approximate computing
+      <a href="/project_pages/defensive_appx/">Defensive approximation: securing cnns using approximate computing
 
           </a>
         <p style="font-size:0.9em; font-style:italic; color:#555;">
@@ -312,7 +312,7 @@ Below are representative research projects spanning adversarial machine learning
     </div>
 
     <div>
-      <a href="/project_pages/defensive-approximation/">Project</a> |
+      <a href="/project_pages/defensive_appx/">Project</a> |
       <a href="#">Paper</a>
     </div>
 

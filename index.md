@@ -285,6 +285,40 @@ Below are representative research projects spanning adversarial machine learning
 </div>
 
 ---
+
+<!-- DA -->
+<div style="display:flex; flex-direction:column; gap:18px; margin-bottom:60px;">
+
+  <!-- Image on top -->
+  <div style="max-width:600px;">
+    <img src="/images/da_method.png" style="width:100%; border-radius:10px;">
+  </div>
+
+  <!-- Text underneath -->
+  <div style="max-width:900px;">
+
+    <div style="font-size:0.9rem; font-weight:400; margin-bottom:8px; line-height:1.15;">
+      IROS 2024: 
+      <a href="/project_pages/da/">Defensive approximation: securing cnns using approximate computing
+
+          </a>
+        <p style="font-size:0.9em; font-style:italic; color:#555;">
+          Authors: <u><b>Amira Guesmi</b></u>, Ihsen Alouani, Khaled N Khasawneh, Mouna Baklouti, Tarek Frikha, Mohamed Abid, Nael Abu-Ghazaleh 
+        </p>
+    </div>
+
+    <div style="font-size:0.9rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
+    Challenges the view of approximate computing as purely a constraint by showing that hardware-induced noise can act as a robustness mechanism, reframing approximation as a tool for adversarial defense.
+    </div>
+
+    <div>
+      <a href="/project_pages/da/">Project</a> |
+      <a href="#">Paper</a>
+    </div>
+
+  </div>
+</div>
+---
 ## 💼 Experience
 
 *Oct 2022 – Present*: Research Team Lead, Engineering Division, New York University Abu Dhabi (NYUAD), UAE  

@@ -11,7 +11,7 @@ excerpt: "A hardware-level defense that leverages approximate computing to impro
 author_profile: false
 topic: "Robustness and Security of Quantized & Approximate Neural Networks"
 
-image: /images/asplos_overview.png
+image: /images/da_method.png
 
 
 ---

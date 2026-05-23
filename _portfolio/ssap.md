@@ -15,6 +15,12 @@ image: /images/ssap_method.png
 {% if page.codeurl and page.codeurl != "" %}- **Code:** [GitHub]({{ page.codeurl }}){% endif %}
 {% if page.bibtexurl and page.bibtexurl != "" %}- **BibTeX:** [Download]({{ page.bibtexurl }}){% endif %}
 
+## Motivation
+
+<img src="{{ /images/clas_vs_mon_ssap.png }}" alt="Attacks on Classification/Detection vs. MDE" style="max-width:100%; border-radius: 8px;"/>
+
+<img src="{{ /images/motivation_ssap.png }}" alt="Limitation of SOTA" style="max-width:100%; border-radius: 8px;"/>
+
 ## Overview
 <img src="{{ page.image }}" alt="SSAP Overview" style="max-width:100%; border-radius: 8px;"/>
 
@@ -36,6 +42,14 @@ These findings highlight critical vulnerabilities in perception systems deployed
 
 ---
 
+
+## Results
+
+<img src="{{ /images/quant_ssap.png }}" alt="Quantitative Results" style="max-width:100%; border-radius: 8px;"/>
+
+<img src="{{ /images/qual_ssap.png }}" alt="Qualitative Results" style="max-width:100%; border-radius: 8px;"/>
+
+---
 ## Citation
 ```bibtex
 @inproceedings{guesmi2024ssap,

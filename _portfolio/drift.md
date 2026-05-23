@@ -15,28 +15,150 @@ image: /images/drift_method.png
 
 ---
 
-## Links
-- **Paper:** [OpenReview]({{ page.paperurl }})
-{% if page.codeurl and page.codeurl != "" %}- **Code:** [GitHub]({{ page.codeurl }}){% endif %}
-{% if page.bibtexurl and page.bibtexurl != "" %}- **BibTeX:** [Download]({{ page.bibtexurl }}){% endif %}
+## Core Insight
 
-## Overview
-<img src="{{ page.image | relative_url }}" alt="DRIFT Overview" style="max-width:100%; border-radius: 8px;"/>
+Most defenses fail not because gradients are unavailable, but because they are **too consistent**.
+
+DRIFT identifies **gradient consensus across transformations** as the key driver of adversarial transferability, and shows that robustness requires enforcing **divergence—not randomness**.
+
+---
+
+## Links
+- **Paper:** [OpenReview](https://openreview.net/forum?id=AYH7uBK1Gg)
+
+---
+
+## Motivation
+
+Transformation-based defenses attempt to improve robustness by introducing randomness (e.g., resizing, noise, filtering).
+
+However, attackers can still succeed using EOT or BPDA.
+
+Why?
+
+<img src="/images/fail_drift.png" style="max-width:100%; border-radius:8px;"/>
+
+Because:
+- transformations change inputs  
+- but **preserve gradient structure**
+
+> The gradients remain aligned → attacks remain transferable.
+
+---
+
+## Why Do Transformation Defenses Fail?
+
+<img src="/images/consensus_drift.png" style="max-width:100%; border-radius:8px;"/>
+
+Across different transformations:
+- gradients exhibit **high alignment**
+- attackers exploit this to construct robust perturbations
+
+This reveals a key principle:
+
+> Robustness is not about randomness — it is about **breaking gradient consensus**.
+
+---
+
+## Method Overview
+
+<img src="/images/idea_drift.png" style="max-width:100%; border-radius:8px;"/>
+
+<img src="/images/drift_method.png" style="max-width:100%; border-radius:8px;"/>
+
+DRIFT is a **stochastic, differentiable filter ensemble** that enforces gradient divergence.
+
+Instead of relying on non-differentiability or masking, DRIFT:
+
+- applies **learnable filtered transformations**
+- enforces **divergent responses across filters**
+- preserves prediction consistency on clean data
+
+The training objective combines:
+- prediction consistency  
+- Jacobian divergence  
+- logit-space divergence  
+- adversarial robustness  
+
+This leads to **structured gradient disalignment**, not noise.
+
+---
 
 ## Abstract
-*Deep neural networks remain highly vulnerable to adversarial examples, and most defenses collapse once gradients can be reliably estimated. We identify gradient
-consensus—the tendency of randomized transformations to yield aligned gradients—as a key driver of adversarial transferability. Attackers exploit this consensus to construct perturbations that remain effective across transformations. We
-introduce DRIFT (Divergent Response in Filtered Transformations), a stochastic ensemble of lightweight, learnable filters trained to actively disrupt gradient consensus. Unlike prior randomized defenses that rely on gradient masking, DRIFT
-enforces gradient dissonance by maximizing divergence in Jacobian- and logitspace responses while preserving natural predictions. Our contributions are threefold: (i) we formalize gradient consensus and provide a theoretical analysis linking consensus to transferability; (ii) we propose a consensus-divergence training strategy combining prediction consistency, Jacobian separation, logit-space
-separation, and adversarial robustness; and (iii) we show that DRIFT achieves substantial robustness gains on ImageNet across CNNs and Vision Transformers,
-outperforming state-of-the-art preprocessing, adversarial training, and diffusionbased defenses under adaptive white-box, transfer-based, and gradient-free attacks. DRIFT delivers these improvements with negligible runtime and memory
-cost, establishing gradient divergence as a practical and generalizable principle for
-adversarial defense.*
+
+Deep neural networks remain highly vulnerable to adversarial examples, particularly when gradients can be reliably estimated. We identify **gradient consensus**—the tendency of randomized transformations to produce aligned gradients—as a key mechanism enabling adversarial transferability.
+
+We propose **DRIFT (Divergent Response in Filtered Transformations)**, a stochastic, differentiable defense framework that enforces gradient divergence across transformation pathways. Unlike prior randomized defenses that rely on gradient masking, DRIFT introduces a learnable filter ensemble trained to maximize divergence in Jacobian and logit responses while preserving clean predictions.
+
+We formalize gradient consensus and theoretically link it to transferability, and propose a consensus-divergence training strategy that combines prediction consistency, Jacobian separation, logit-space separation, and adversarial training. Experiments on ImageNet-scale models, including CNNs and Vision Transformers, show that DRIFT achieves strong robustness against adaptive white-box attacks (BPDA, EOT), transfer-based attacks, and gradient-free attacks, outperforming state-of-the-art transformation-based and stochastic defenses.
+
+These results demonstrate that **enforcing gradient divergence—not randomness—is key to robust adversarial defense**.
+
+---
 
 ## Key Contributions
-- We formalize the concept of gradient consensus and prove that reducing gradient alignment across transformations directly lowers adversarial transferability.
-- We propose DRIFT, the first differentiable and adversarially trained filter-ensemble defense that explicitly enforces gradient divergence without modifying or retraining the backbone classifier.
-- We demonstrate on ImageNet-scale models (ResNet-v2, Inception-v3, DeiT-S, ViT-B/16) that DRIFT consistently outperforms state-of-the-art transformation-based and stochastic defenses against strong adaptive attacks, including PGD-EoT, AutoAttack, transfer-based attacks, and BPDA.
+
+- Introduces **gradient consensus** as a fundamental mechanism underlying adversarial transferability  
+- Provides theoretical analysis linking **gradient alignment → transferability**  
+- Proposes **DRIFT**, a differentiable filter-ensemble defense enforcing gradient divergence  
+- Demonstrates strong robustness against **adaptive white-box attacks (BPDA, EOT)**  
+- Achieves state-of-the-art performance across **CNNs and Vision Transformers on ImageNet**  
+- Maintains **low computational overhead**, enabling practical deployment  
+
+---
+
+## Results
+
+<img src="/images/stand_drift.png" style="max-width:100%; border-radius:8px;"/>
+
+*DRIFT outperforms existing defenses under standard white-box attacks.*
+
+<img src="/images/adapt_drift.png" style="max-width:100%; border-radius:8px;"/>
+
+*Maintains robustness under strong adaptive attacks (BPDA + EOT).*
+
+<img src="/images/trans_drift.png" style="max-width:100%; border-radius:8px;"/>
+
+*Reduced gradient consensus leads to lower transferability.*
+
+<img src="/images/lightweight_drift.png" style="max-width:100%; border-radius:8px;"/>
+
+*Lightweight and deployable with minimal overhead.*
+
+---
+
+## Why This Matters
+
+DRIFT shifts the perspective on adversarial defense:
+
+> The problem is not that gradients exist — it is that they are **shared**.
+
+By breaking this shared structure:
+- transferability is reduced  
+- adaptive attacks become harder  
+- robustness generalizes across architectures  
+
+This has implications for:
+- transformation-based defenses  
+- stochastic defenses  
+- real-world deployable AI systems  
+
+---
+
+## Broader Perspective
+
+DRIFT is a core component of a broader research direction:
+
+> **Alignment → Transferability → Vulnerability**  
+> **Disruption → Divergence → Robustness**
+
+It complements:
+- **TriQDef** → breaks cross-bit structural alignment  
+- **TESSER** → exploits alignment for transfer attacks  
+- **SSAP / DAP** → exploit structure in physical attacks  
+
+---
+
 
 ## Citation
 ```bibtex

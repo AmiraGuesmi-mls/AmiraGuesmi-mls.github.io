@@ -37,11 +37,11 @@ This raises a critical question:
 
 > Can a localized perturbation disrupt the *entire perceived geometry* of an object?
 
-<img src="{{ page.image1 }}" alt="Attacks on Classification/Detection vs. MDE" style="max-width:100%; border-radius: 8px;"/>
+<img src="/images/clas_vs_mon_ssap.png" alt="Attacks on Classification/Detection vs. MDE" style="max-width:100%; border-radius:8px;">
 
 *Traditional attacks remain localized, whereas depth estimation depends on global structure.*
 
-<img src="{{ page.image2 }}" alt="Limitation of SOTA" style="max-width:100%; border-radius: 8px;"/>
+<img src="/images/motivation_ssap.png" alt="Limitation of SOTA" style="max-width:100%; border-radius: 8px;"/>
 
 *Existing methods fail to exploit shape priors, limiting their impact on geometric perception.*
 
@@ -49,7 +49,7 @@ This raises a critical question:
 
 ## Method Overview
 
-<img src="{{ page.image }}" alt="SSAP Overview" style="max-width:100%; border-radius: 8px;"/>
+<img src="/images/ssap_method.png" alt="SSAP Overview" style="max-width:100%; border-radius: 8px;"/>
 
 SSAP introduces a **shape-aware adversarial optimization framework** that leverages object-level priors.
 
@@ -85,9 +85,9 @@ These results reveal a critical vulnerability: **geometric perception in deep mo
 
 ## Results
 
-<img src="{{ page.image3 }}" alt="Quantitative Results" style="max-width:100%; border-radius: 8px;"/>
+<img src="/images/quant_ssap.png" alt="Quantitative Results" style="max-width:100%; border-radius: 8px;"/>
 
-<img src="{{ page.image4 }}" alt="Qualitative Results" style="max-width:100%; border-radius: 8px;"/>
+<img src="/images/qual_ssap.png" alt="Qualitative Results" style="max-width:100%; border-radius: 8px;"/>
 
 SSAP induces large-scale depth errors, exceeding 0.5 and affecting up to **99% of the object region**.
 

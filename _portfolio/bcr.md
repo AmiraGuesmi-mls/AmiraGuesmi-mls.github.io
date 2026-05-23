@@ -8,11 +8,9 @@ paperurl: "https://arxiv.org/abs/2603.15940"
 codeurl: ""
 bibtexurl: ""
 authors: "Amira Guesmi, Muhammad Shafique"
-excerpt: "A new class of background-consistent object concealment attacks, which hide target objects by re-encoding their visual representations to be statistically and semantically consistent with surrounding background regions while preserving token structure and attention flow, avoiding representational voids that trigger hallucination."
+excerpt: "We show that hallucination in vision-language models is caused by representational discontinuity—not object absence. We introduce Background-Consistent Re-encoding (BCR), which conceals objects by aligning their representations with the background while preserving token structure and attention flow."
 topic: "Vision–Language Model (VLM) Security, Hallucination, and Privacy"
-
 image: /images/bcr.png
-
 ---
 
 ## Links
@@ -20,25 +18,89 @@ image: /images/bcr.png
 {% if page.codeurl and page.codeurl != "" %}- **Code:** [GitHub]({{ page.codeurl }}){% endif %}
 {% if page.bibtexurl and page.bibtexurl != "" %}- **BibTeX:** [Download]({{ page.bibtexurl }}){% endif %}
 
-## Overview
-<img src="{{ page.image | relative_url }}" alt="BCR Overview" style="max-width:100%; border-radius: 8px;"/>
+---
+
+## Key Idea
+> **Hallucination is not caused by removing objects — it is caused by breaking representational continuity.**
+
+---
+
+## Motivation: Why Do Object-Hiding Attacks Cause Hallucination?
+
+Suppression-based object concealment methods remove or weaken region-specific representations.  
+This creates **gaps in representation space**, forcing the model to "fill in" missing information and often resulting in hallucinated objects.
+
+<img src="/images/motivation_bcr.png" alt="Suppression-based attacks create representational gaps that induce hallucination" style="max-width:100%; border-radius: 8px;"/>
+
+---
+
+## Insight: Continuity Prevents Hallucination
+
+Hallucination emerges when **representation continuity is broken**, not simply when objects are absent.  
+If representations remain **statistically and semantically consistent** with the surrounding context, the model maintains coherent reasoning and avoids inventing objects.
+
+<img src="/images/insight_bcr.png" alt="Maintaining representation continuity prevents hallucination" style="max-width:100%; border-radius: 8px;"/>
+
+---
+
+## Method: Background-Consistent Re-encoding (BCR)
+
+We propose **Background-Consistent Re-encoding (BCR)**, a new paradigm for object concealment.
+
+BCR re-encodes target object representations to match the **statistical and semantic distribution of the background**, while preserving:
+- token structure  
+- attention flow  
+- global scene semantics  
+
+This prevents the representational gaps that trigger hallucination.
+
+<img src="/images/bcr.png" alt="BCR re-encodes ROI tokens to align with background distribution while preserving attention flow" style="max-width:100%; border-radius: 8px;"/>
+
+---
+
+## Positioning
+
+Unlike suppression-based approaches that introduce semantic discontinuities, BCR **preserves representational structure while modifying content**.  
+This reframes object concealment from *removal* to *distributional alignment*, enabling hallucination-free manipulation.
+
+---
 
 ## Abstract
 
-Vision-language models (VLMs) have recently shown remarkable capabilities in visual understanding and generation, but remain vulnerable to adversarial manipulations of visual content.
-Prior object-hiding attacks primarily rely on suppressing or blocking region-specific representations, often creating semantic gaps that inadvertently induce hallucination, where models invent plausible but incorrect objects.
-In this work, we demonstrate that hallucination arises not from object absence per se, but from semantic discontinuity introduced by such suppression-based attacks.
-We propose a new class of background-consistent object concealment attacks, which hide target objects by re-encoding their visual representations to be statistically and semantically consistent with surrounding background regions.
-Crucially, our approach preserves token structure and attention flow, avoiding representational voids that trigger hallucination.
-We present a pixel-level optimization framework that enforces background-consistent re-encoding across multiple transformer layers while preserving global scene semantics.
-Extensive experiments on state-of-the-art vision-language models show that our method effectively conceals target objects while preserving up to 86% of non-target objects and reducing grounded hallucination by up to 3x compared to attention-suppression-based attacks.
-Qualitative results further confirm that our approach maintains scene coherence and avoids spurious object insertion.
-Our findings highlight semantic continuity as a key factor in hallucination behavior and introduce a new direction for adversarial analysis of generative multimodal models.
+Vision-language models (VLMs) exhibit strong multimodal reasoning capabilities but remain vulnerable to adversarial manipulation of visual content.  
+Existing object-hiding methods primarily rely on suppressing or removing region-specific representations, often introducing semantic discontinuities that lead to hallucination, where models generate plausible but incorrect objects.
+
+We show that hallucination arises not from object absence, but from **disruptions in representational continuity**.  
+To address this, we propose **Background-Consistent Re-encoding (BCR)**, a new class of object concealment attacks that hide target objects by aligning their representations with the statistical and semantic distribution of surrounding background regions.
+
+Our method preserves token structure and attention flow, preventing the representational gaps that trigger hallucination.  
+We introduce a pixel-level optimization framework that enforces background-consistent representations across multiple transformer layers while maintaining global scene coherence.
+
+Extensive experiments on state-of-the-art VLMs demonstrate that BCR effectively conceals target objects while preserving up to **86% of non-target objects** and reducing grounded hallucination by up to **3×** compared to suppression-based baselines.  
+Qualitative results confirm that BCR maintains semantic consistency without introducing spurious objects.
+
+Our findings establish **representational continuity as a key factor in hallucination behavior** and open a new direction for adversarial analysis in multimodal systems.
+
+---
 
 ## Key Contributions
-- We introduce Background-Consistent Re-encoding (BCR), a novel object concealment paradigm that preserves token structure and attention flow while hiding target objects.
-- We propose a principled pixel-level optimization framework that enforces background-consistent visual representations across multiple vision transformer layers.
-- We design hallucination-aware evaluation metrics and empirically demonstrate that BCR substantially reduces hallucination while maintaining strong concealment performance across multiple VLM architectures.
+
+- We show that hallucination is driven by **representational discontinuity**, not object absence.  
+- We introduce **Background-Consistent Re-encoding (BCR)**, a novel object concealment paradigm.  
+- We design a pixel-level optimization framework enforcing **background-consistent representations across multiple transformer layers**.  
+- We demonstrate significant hallucination reduction while preserving non-target objects across multiple VLMs.  
+
+---
+
+## Results: Concealment Without Hallucination
+
+BCR hides target objects while preserving global scene coherence and significantly reducing hallucination compared to suppression-based approaches.
+
+<img src="/images/qual_result_bcr.png" alt="BCR qualitative results showing object concealment without hallucination" style="max-width:100%; border-radius: 8px;"/>
+
+<img src="/images/quan_result_bcr.png" alt="Quantitative comparison showing reduced hallucination and preserved non-target objects" style="max-width:100%; border-radius: 8px;"/>
+
+---
 
 ## Citation
 ```bibtex

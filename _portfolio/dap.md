@@ -7,37 +7,117 @@ venue: "CVPR"
 paperurl: "https://openaccess.thecvf.com/content/CVPR2024/html/Guesmi_DAP_A_Dynamic_Adversarial_Patch_for_Evading_Person_Detectors_CVPR_2024_paper.html"
 codeurl: ""
 bibtexurl: ""
-authors: "Amira Guesmi, Ruitian Ding, Muhammad Abdullah Hanif, Ihsen Alouani, Muhammad Shafique"
-excerpt: "A dynamic adversarial patch that adapts spatially and temporally to effectively evade modern person detection models under realistic conditions."
+authors: "Amira Guesmi, Ruitian Ding, Muhammad Abdullah Hanif, Ihsen Alouani, Bassem Ouni, Muhammad Shafique"
+excerpt: "A dynamic adversarial patch that generates printable, naturalistic patterns robust to pose changes, clothing deformation, and real-world transformations."
 topic: "Adversarial Machine Learning — Vision & Autonomous Systems"
-
 image: /images/dap_method.png
+---
+
+## Core Insight
+Physical adversarial patches fail when they are treated as static objects.  
+DAP shows that robust physical attacks must account for **pose changes, fabric deformation, and real-world transformations**.
 
 ---
 
 ## Links
 - **Paper:** [CVPR Open Access]({{ page.paperurl }})
-- **Demo:** [Link]({{ "https://www.youtube.com/watch?v=KgHayArnTBM"}})
+- **Demo:** [Link](https://www.youtube.com/watch?v=KgHayArnTBM)
 {% if page.codeurl and page.codeurl != "" %}- **Code:** [GitHub]({{ page.codeurl }}){% endif %}
 {% if page.bibtexurl and page.bibtexurl != "" %}- **BibTeX:** [Download]({{ page.bibtexurl }}){% endif %}
 
-## Overview
-<img src="{{ page.image | relative_url }}" alt="DAP Overview" style="max-width:100%; border-radius: 8px;"/>
+---
+
+## Motivation
+
+Adversarial patches can fool object detectors, but many existing attacks degrade under real-world conditions.  
+This is especially true for clothing-based attacks, where printed patches are affected by body pose, fabric wrinkles, lighting, scale, and viewpoint changes.
+
+DAP asks:
+
+> Can we generate a printable, naturalistic adversarial patch that remains effective under realistic physical transformations?
+
+<img src="/images/attack_robustness_dap.png" alt="Robust patch optimization pipeline" style="max-width:100%; border-radius:8px;"/>
+
+*DAP explicitly optimizes adversarial patches under transformations that approximate real-world deployment conditions.*
+
+---
+
+## Method Overview
+
+<img src="/images/dap_method.png" alt="DAP Overview" style="max-width:100%; border-radius:8px;"/>
+
+DAP is a GAN-free adversarial patch generation framework.  
+Instead of relying on a restricted GAN latent space, DAP directly optimizes patch pixels while preserving a naturalistic visual appearance.
+
+The method introduces:
+- a similarity-guided optimization objective
+- transformation-aware patch training
+- a **Creases Transformation (CT)** block to simulate non-rigid fabric deformation
+- robustness to scale, rotation, lighting, noise, and clothing wrinkles
+
+---
 
 ## Abstract
-Patch-based adversarial attacks were proven to compromise the robustness and reliability of computer vision systems.
-However, their conspicuous and easily detectable nature challenge their practicality in real-world setting. To address this, recent work has proposed using Generative Adversarial Networks (GANs) to generate naturalistic patches that may not attract human attention. However, such approaches suffer from a limited latent space making it challenging to produce a patch that is efficient, stealthy, and robust to multiple real-world transformations.
-This paper introduces a novel approach that produces a Dynamic Adversarial Patch (DAP) designed to overcome these limitations. DAP maintains a naturalistic appearance while optimizing attack efficiency and robustness to real-world transformations.
-The approach involves redefining the optimization problem and introducing a novel objective function that incorporates a similarity metric to guide the patch's creation. Unlike GAN-based techniques, the DAP directly modifies pixel values within the patch, providing increased flexibility and adaptability to multiple transformations. Furthermore, most clothing-based physical attacks assume static objects and ignore the possible transformations caused by non-rigid deformation due to changes in a person’s pose. To address this limitation, a `Creases Transformation' (CT) block is introduced, enhancing the patch's resilience to a variety of real-world distortions.
-Experimental results demonstrate that the proposed approach outperforms state-of-the-art attacks, achieving a success rate of up to 82.28\% in the digital world when targeting the YOLOv7 detector and 65\% in the physical world when targeting YOLOv3tiny detector deployed in edge-based smart cameras. 
+
+Patch-based adversarial attacks expose critical vulnerabilities in computer vision systems, especially person detectors used in surveillance, autonomous systems, and edge-based smart cameras. However, many existing physical attacks remain conspicuous or fragile under real-world transformations.
+
+We propose **DAP**, a Dynamic Adversarial Patch framework for generating printable, naturalistic adversarial patterns that evade person detectors under realistic physical conditions. Unlike GAN-based approaches, which are constrained by limited latent spaces, DAP directly optimizes patch pixels while using a similarity metric to preserve a predefined natural appearance.
+
+To address the physical challenges of clothing-based attacks, DAP introduces a **Creases Transformation (CT)** block that simulates non-rigid deformations caused by pose changes and fabric wrinkles. This enables the generated patch to remain effective under scale changes, rotation, brightness and contrast variation, random noise, and clothing deformation.
+
+DAP achieves an attack success rate of **82.28% in the digital setting** against YOLOv7 on INRIA and **65% in the physical setting** against YOLOv3-tiny deployed on edge-based smart cameras.
+
+---
 
 ## Key Contributions
-- We investigate the limitations of GAN-based approaches when used to generate robust naturalistic adversarial patterns. Our investigation reveals that these techniques struggle to integrate multiple transformations while sustaining optimal performance. We show that these techniques can not incorporate multiple transformations while maintaining high performance due to the limited latent space compared to the high flexibility and the larger space provided by our approach as it relies on directly manipulating the patch pixels.
-- We propose a framework (See Figure approach) that generates GAN-free naturalistic patches that can resemble any predefined pattern, while maintaining high attack success rate under multiple transformations (e.g., clothing creases and wrinkles, random noise, brightness and contrast variations, re-scaling, and rotation, etc.). 
-- To increase robustness against non-rigid deformations experienced by a printed adversarial patch on a T-shirt and caused by pose changes of a moving person, we develop a Creases Transformation (CT) block that models these non-rigid deformations by compressing the pixels following a randomly selected direction.
-- We thoroughly examine the performance/attack success rate of the proposed method in terms of mean average precision (mAP) both with and without transformations, and transferability between detectors.  Our patch achieves an attack success rate of 82.28% in the digital world (INRIA dataset) when targeting the YOLOv7 detector and 65% in the physical world when attacking the YOLOv3tiny detector for edge systems.
+
+- Proposes **DAP**, a GAN-free framework for generating naturalistic printable adversarial patches.
+- Shows that directly optimizing patch pixels provides greater flexibility than GAN latent-space optimization.
+- Introduces the **Creases Transformation (CT)** block to model non-rigid T-shirt deformation caused by pose and fabric wrinkles.
+- Optimizes patch robustness under realistic transformations, including scale, rotation, lighting, noise, and clothing deformation.
+- Demonstrates strong attack performance in both digital and physical settings.
+- Reveals practical vulnerabilities in person detection systems deployed on edge-based smart cameras.
+
+---
+
+## Results
+
+<img src="/images/dig_perf_dap.png" alt="Digital World Performance" style="max-width:100%; border-radius:8px;"/>
+
+*DAP achieves strong digital-world attack performance, reaching 82.28% attack success against YOLOv7.*
+
+<img src="/images/phys_perf_dap.png" alt="Physical World Performance" style="max-width:100%; border-radius:8px;"/>
+
+*DAP remains effective in the physical world, achieving 65% attack success against YOLOv3-tiny on edge-based smart cameras.*
+
+---
+
+## Why This Matters
+
+DAP shows that adversarial robustness cannot be evaluated only under static digital assumptions.
+
+In real deployments, attacks and defenses must account for:
+- moving people
+- deformable clothing
+- changing camera viewpoints
+- lighting variation
+- edge-device constraints
+
+This work demonstrates that physically realizable adversarial patches can remain effective when designed with deployment conditions in mind.
+
+---
+
+## Broader Perspective
+
+DAP is part of a broader research direction on **deployment-aware adversarial robustness**.
+
+It shows that transferability and physical robustness depend on preserving adversarial structure under transformation.  
+This connects to my broader work on understanding how structural consistency, physical variability, and representation alignment shape the security of real-world AI systems.
+
+---
 
 ## Citation
+
 ```bibtex
 @inproceedings{guesmi2024dap,
   title     = {DAP: A Dynamic Adversarial Patch for Evading Person Detectors},

@@ -67,8 +67,8 @@ TriQDef is a **tri-level defense framework** designed to break alignment across 
 2. **Gradient Perceptual Dissonance Penalty (GPDP)**  
    → misaligns gradient structure using Edge IoU and HOG similarity  
 
-3. **Joint Quantization-Aware Training (JQAT)**  
-   → enforces robustness across multiple quantizers simultaneously  
+3. **Bit-Width-Aware Curriculum Training (BACT)**  
+   → progressively enforces robustness across quantization levels through curriculum-based training  
 
 Together, these components break the shared structure that enables patch transferability.
 
@@ -78,7 +78,7 @@ Together, these components break the shared structure that enables patch transfe
 
 Quantized Neural Networks (QNNs) are widely deployed in resource-constrained environments due to their efficiency. While quantization distorts gradient landscapes and weakens pixel-level attacks, it provides limited robustness against patch-based adversarial attacks, which remain highly transferable across bit-widths.
 
-We propose **TriQDef**, a quantization-aware defense framework that disrupts cross-bit transferability by targeting both feature and gradient alignment. The framework integrates a Feature Disalignment Penalty (FDP) to enforce semantic inconsistency, a Gradient Perceptual Dissonance Penalty (GPDP) to misalign gradient structure using perceptual metrics, and a Joint Quantization-Aware Training protocol to enforce robustness across multiple quantizers.
+We propose **TriQDef**, a quantization-aware defense framework that disrupts cross-bit transferability by targeting both feature and gradient alignment. The framework integrates a Feature Disalignment Penalty (FDP) to enforce semantic inconsistency, a Gradient Perceptual Dissonance Penalty (GPDP) to misalign gradient structure using perceptual metrics, and a Bit-Width-Aware Curriculum Training (BACT) strategy to progressively enforce robustness across quantization levels.
 
 Experiments on CIFAR-10 and ImageNet show that TriQDef reduces attack success rates by over 40% on unseen patch and quantization configurations while maintaining high clean accuracy. These results demonstrate that **structural alignment—not numerical precision—is the key enabler of patch transferability in QNNs**.
 

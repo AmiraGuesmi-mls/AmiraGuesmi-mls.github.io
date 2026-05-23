@@ -4,44 +4,148 @@ collection: portfolio
 permalink: /project_pages/triqdef/
 date: 2026-01-15
 venue: "ICLR"
-paperurl: "[https://openreview.net/forum?id=YOUR_ID](https://openreview.net/forum?id=acQP99PU8y&referrer=%5Bthe%20profile%20of%20Amira%20Guesmi%5D(%2Fprofile%3Fid%3D~Amira_Guesmi1))"
-codeurl: ""
-bibtexurl: ""
+paperurl: "https://openreview.net/forum?id=acQP99PU8y"
 authors: "Amira Guesmi, Bassem Ouni, Muhammad Shafique"
-excerpt: "A defense framework that disrupts semantic and gradient alignment across bit-widths to prevent patch transferability in quantized neural networks."
+excerpt: "A defense framework that disrupts cross-bit structural alignment to prevent patch transferability in quantized neural networks."
 topic: "Robustness and Security of Quantized & Approximate Neural Networks"
-
 image: /images/triqdef_method.png
 ---
 
-## Links
-- **Paper:** [OpenReview]({{ [page.paperurl ](https://openreview.net/forum?id=acQP99PU8y&referrer=%5Bthe%20profile%20of%20Amira%20Guesmi%5D(%2Fprofile%3Fid%3D~Amira_Guesmi1)) }})
-{% if page.codeurl and page.codeurl != "" %}- **Code:** [GitHub]({{ page.codeurl }}){% endif %}
-{% if page.bibtexurl and page.bibtexurl != "" %}- **BibTeX:** [Download]({{ page.bibtexurl }}){% endif %}
+## Core Insight
+Quantization changes numerical precision, but **does not break the underlying structure of learned representations**.  
+Adversarial patches exploit this hidden consistency, remaining transferable across bit-widths.
 
-## Overview
-<img src="{{ page.image | relative_url }}" alt="TriQDef Overview" style="max-width:100%; border-radius: 8px;"/>
+TriQDef shows that robustness requires **disrupting structural alignment in both features and gradients**.
+
+---
+
+## Links
+- **Paper:** [OpenReview](https://openreview.net/forum?id=acQP99PU8y)
+
+---
+
+## Motivation
+
+Quantized Neural Networks (QNNs) are widely deployed in edge and embedded systems due to their efficiency.  
+It is often assumed that quantization improves robustness by distorting gradients.
+
+However, we observe:
+
+> Patch-based adversarial attacks remain highly effective across bit-widths — even at 2-bit precision.
+
+<img src="/images/motivation_triqdef.png" alt="Quantization does not stop patch attacks" style="max-width:100%; border-radius:8px;"/>
+
+This reveals a critical gap:
+- quantization disrupts *local gradients*
+- but preserves *global structure*
+
+---
+
+## Why Does Transferability Persist?
+
+<img src="/images/insight_triqdef.png" alt="Why transferability persists?" style="max-width:100%; border-radius:8px;"/>
+
+Despite low cosine similarity, gradients across bit-widths exhibit **high structural alignment**:
+- similar edges
+- similar orientation distributions
+- similar spatial patterns
+
+This explains why patch attacks transfer:
+> they rely on **perceptual structure**, not precise gradient values.
+
+---
+
+## Method Overview
+
+<img src="/images/triqdef_method.png" alt="TriQDef Overview" style="max-width:100%; border-radius:8px;"/>
+
+TriQDef is a **tri-level defense framework** designed to break alignment across quantization levels:
+
+1. **Feature Disalignment Penalty (FDP)**  
+   → disrupts semantic consistency across bit-widths  
+
+2. **Gradient Perceptual Dissonance Penalty (GPDP)**  
+   → misaligns gradient structure using Edge IoU and HOG similarity  
+
+3. **Joint Quantization-Aware Training (JQAT)**  
+   → enforces robustness across multiple quantizers simultaneously  
+
+Together, these components break the shared structure that enables patch transferability.
+
+---
 
 ## Abstract
-*Quantized Neural Networks (QNNs) are widely deployed in edge and resourceconstrained environments for their efficiency in computation and memory. While
-quantization distorts gradient landscapes and weakens pixel-level attacks, it offers limited robustness against patch-based adversarial attacks—localized, highsaliency perturbations that remain highly transferable across bit-widths. Existing
-defenses either overfit to specific quantization settings or fail to address this crossbit vulnerability. We propose TriQDef, a tri-level quantization-aware defense
-framework that disrupts the transferability of patch-based attacks across QNNs.
-TriQDef integrates: (1) a Feature Disalignment Penalty (FDP) that enforces semantic inconsistency by penalizing perceptual similarity in intermediate features;
-(2) a Gradient Perceptual Dissonance Penalty (GPDP) that misaligns input gradients across quantization levels using structural metrics such as Edge IoU and
-HOG Cosine; and (3) a Joint Quantization-Aware Training Protocol that applies
-these penalties within a shared backbone jointly optimized across multiple quantizers. Extensive experiments on CIFAR-10 and ImageNet show that TriQDef
-lowers Attack Success Rates (ASR) by over 40% on unseen patch and quantization combinations while preserving high clean accuracy. These results highlight
-the importance of disrupting both semantic and perceptual gradient alignment to
-mitigate patch transferability in QNNs.*
+
+Quantized Neural Networks (QNNs) are widely deployed in resource-constrained environments due to their efficiency. While quantization distorts gradient landscapes and weakens pixel-level attacks, it provides limited robustness against patch-based adversarial attacks, which remain highly transferable across bit-widths.
+
+We propose **TriQDef**, a quantization-aware defense framework that disrupts cross-bit transferability by targeting both feature and gradient alignment. The framework integrates a Feature Disalignment Penalty (FDP) to enforce semantic inconsistency, a Gradient Perceptual Dissonance Penalty (GPDP) to misalign gradient structure using perceptual metrics, and a Joint Quantization-Aware Training protocol to enforce robustness across multiple quantizers.
+
+Experiments on CIFAR-10 and ImageNet show that TriQDef reduces attack success rates by over 40% on unseen patch and quantization configurations while maintaining high clean accuracy. These results demonstrate that **structural alignment—not numerical precision—is the key enabler of patch transferability in QNNs**.
+
+---
 
 ## Key Contributions
-- We conduct, to our knowledge, the first systematic study of patch-based transferability in QNNs, demonstrating that adversarial patches remain highly effective across quantization levels, including 2-bit regimes.
-- We propose TriQDef, a tri-component defense targeting both feature and gradient alignment, explicitly designed to prevent cross-bit patch generalization.
-- We introduce perceptual alignment metrics (Edge IoU and HOG Cosine Similarity) as theoretically justified tools to quantify and disrupt semantic and gradient-level alignment across bit-widths. These metrics provide a principled alternative to cosine similarity by capturing structural and textural alignment that underlies patch transferability in QNNs.
--  Our approach reduces attack success rate (ASR) by over 40% on unseen patch and quantization configurations across CIFAR-10 and ImageNet, outperforming PBAT and DWQ with around 2% drop in clean accuracy.
--  Ablation studies validate the complementary role of each module and reveal that quantization alone does not sufficiently alter the shared attack surface, highlighting the need for targeted perceptual and structural misalignment.
 
+- First systematic study of **patch transferability across quantized neural networks**
+- Reveals that **structural alignment persists despite gradient distortion**
+- Proposes **TriQDef**, a defense targeting both feature and gradient alignment
+- Introduces **perceptual alignment metrics** (Edge IoU, HOG Cosine) to quantify structural similarity
+- Achieves **>40% reduction in attack success rate** on unseen patches and quantization settings
+- Preserves **high clean accuracy with minimal deployment overhead**
+
+---
+
+## Results
+
+<img src="/images/patch_transferability_triqdef.png" alt="TriQDef reduces transferability" style="max-width:100%; border-radius:8px;"/>
+
+*TriQDef significantly reduces patch transferability across bit-widths.*
+
+<img src="/images/acc_dep_cost_triqdef.png" alt="Accuracy vs cost" style="max-width:100%; border-radius:8px;"/>
+
+*Maintains strong accuracy without increasing deployment cost.*
+
+<img src="/images/sota_vs_triqdef.png" alt="Comparison with SOTA" style="max-width:100%; border-radius:8px;"/>
+
+*Outperforms existing defenses by explicitly targeting structural alignment.*
+
+---
+
+## Why This Matters
+
+TriQDef challenges a common assumption:
+
+> Robustness cannot be achieved by perturbing numerical precision alone.
+
+Instead, it shows:
+- vulnerabilities arise from **shared structure**
+- transferability is driven by **alignment**
+- robustness requires **controlled divergence**
+
+This has implications for:
+- edge AI deployment
+- quantized and approximate computing
+- secure machine learning under hardware constraints
+
+---
+
+## Broader Perspective
+
+TriQDef is part of a broader research direction on:
+
+> **Alignment as the root cause of adversarial transferability**
+
+Across models, architectures, and bit-widths:
+- alignment → transferability → vulnerability  
+- disruption → divergence → robustness  
+
+This principle underlies my work on:
+- quantized neural networks  
+- adversarial patches  
+- Vision Transformers and cross-architecture attacks  
+- multimodal consistency and hallucination  
+
+---
 
 ## Citation
 ```bibtex

@@ -5,7 +5,11 @@ author_profile: true
 ---
 
 
+<b>[ECCV, Under review]</b> <b>Amira Guesmi</b>, Muhammad Shafique. 
+<i>"Do Not Leave a Gap: Hallucination-Free Object Concealment in Vision-Language Models"</i>.
 
+<b>[TMLR, Under review]</b> <b>Amira Guesmi</b>, Bassem Ouni, Muhammad Shafique  
+<i>"TESSER: Transfer-Enhancing Adversarial Attacks from Vision Transformers via Spectral and Semantic Regularization"</i>.
 
 <b>[ICLR 2026]</b> <b>Amira Guesmi</b>, Muhammad Shafique.  
 <i>"DRIFT: Divergent Response in Filtered Transformations for Robust Adversarial Defense"</i>. 
@@ -24,6 +28,9 @@ author_profile: true
 
 <b>[DAC 2024]</b> Nandish Chattopadhyay, <b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique. 
 <i>"Defending against adversarial patches using dimensionality reduction"</i>. 
+
+<b>[ArXiv 2024]</b> <b>Amira Guesmi</b>, Muhammad Shafique. 
+<i>"Navigating Threats: A Survey of Physical Adversarial Attacks on LiDAR Perception Systems in Autonomous Vehicles"</i>.  
 
 <b>[IEEE Access 2024]</b> <b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique. 
 <i>"Saam: Stealthy adversarial attack on monocular depth estimation"</i>.  
@@ -46,6 +53,9 @@ author_profile: true
 <b>[ICIPCW 2024]</b> <b>Amira Guesmi</b>, Nishant Suresh Aswani, Muhammad Shafique.
 <i>"Exploring the interplay of interpretability and robustness in deep neural networks: A saliency-guided approach"</i>. 
 
+<b>[ArXiv 2024]</b> <b>Amira Guesmi</b>, Bassem Ouni, Muhammad Shafique  
+<i>"Exploring the Robustness and Transferability of Patch-Based Adversarial Attacks in Quantized Neural Networks"</i>.  
+
 <b>[IEEE Access 2023]</b> <b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique. 
 <i>"Physical adversarial attacks for camera-based smart systems: Current trends, categorization, applications, research challenges, and future outlook"</i>.
 
@@ -55,11 +65,20 @@ author_profile: true
 <b>[IJCNN 2023]</b> Ayoub Arous, <b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Ihsen Alouani, Muhammad Shafique. 
 <i>"Exploring machine learning privacy/utility trade-off from a hyperparameters lens"</i>.  
 
+<b>[TechRxiv 2023]</b> Anis Amazigh Hamza, <b>Amira Guesmi</b>, Iyad Dayoub, Abderrahmane Amrouche, and Ihsen Alouani.
+<i>"AaN: Anti-adversarial Noise - A Novel Approach for Securing Machine Learning-based Wireless Communication Systems"</i>.
+
 <b>[IJCNN 2022]</b> <b>Amira Guesmi</b>, Khaled N Khasawneh, Nael Abu-Ghazaleh, Ihsen Alouani. 
 <i>"Room: Adversarial machine learning attacks under real-time constraints"</i>.
 
 <b>[VTS 2022]</b> Shail Dave, Alberto Marchisio, Muhammad Abdullah Hanif, <b>Amira Guesmi</b>, Aviral Shrivastava, Ihsen Alouani, Muhammad Shafique. 
 <i>"Special session: Towards an agile design methodology for efficient, reliable, and secure ML systems"</i>. 
+
+<b>[ArXiv 2022]</b> <b>Amira Guesmi</b>, Ihsen Alouani. 
+<i>"Adversarial attack on radar-based environment perception systems"</i>.  
+
+<b>[ArXiv 2022]</b> <b>Amira Guesmi</b>, Ihsen Alouani, Khaled N Khasawneh, Mouna Baklouti, Tarek Frikha, Mohamed Abid, Nael Abu-Ghazaleh. 
+<i>"Defending with errors: Approximate computing for robustness of deep neural networks"</i>.
 
 <b>[IEEE Design & Test 2021]</b> <b>Amira Guesmi</b>, Ihsen Alouani, Mouna Baklouti, Tarek Frikha, Mohamed Abid. 
 <i>"Sit: Stochastic input transformation to defend against adversarial attacks on deep neural networks"</i>.  
@@ -70,27 +89,13 @@ author_profile: true
 <b>[RSP 2019]</b> <b>Amira Guesmi</b>, Ihsen Alouani, Mouna Baklouti, Tarek Frikha, Mohamed Abid, Atika Rivenq. 
 <i>"Heap: A heterogeneous approximate floating-point multiplier for error tolerant applications"</i>.
 
-# Preprints
 
-<b>[ECCV, Under review]</b> <b>Amira Guesmi</b>, Muhammad Shafique. 
-<i>"Do Not Leave a Gap: Hallucination-Free Object Concealment in Vision-Language Models"</i>.
 
-<b>[TMLR, Under review]</b> <b>Amira Guesmi</b>, Bassem Ouni, Muhammad Shafique  
-<i>"TESSER: Transfer-Enhancing Adversarial Attacks from Vision Transformers via Spectral and Semantic Regularization"</i>.
 
-<b>[ArXiv 2024]</b> <b>Amira Guesmi</b>, Bassem Ouni, Muhammad Shafique  
-<i>"Exploring the Robustness and Transferability of Patch-Based Adversarial Attacks in Quantized Neural Networks"</i>.  
 
-<b>[ArXiv 2024]</b> <b>Amira Guesmi</b>, Muhammad Shafique. 
-<i>"Navigating Threats: A Survey of Physical Adversarial Attacks on LiDAR Perception Systems in Autonomous Vehicles"</i>.  
 
-<b>[TechRxiv 2023]</b> Anis Amazigh Hamza, <b>Amira Guesmi</b>, Iyad Dayoub, Abderrahmane Amrouche, and Ihsen Alouani.
-<i>"AaN: Anti-adversarial Noise - A Novel Approach for Securing Machine Learning-based Wireless Communication Systems"</i>.
 
-<b>[ArXiv 2022]</b> <b>Amira Guesmi</b>, Ihsen Alouani. 
-<i>"Adversarial attack on radar-based environment perception systems"</i>.  
 
-<b>[ArXiv 2022]</b> <b>Amira Guesmi</b>, Ihsen Alouani, Khaled N Khasawneh, Mouna Baklouti, Tarek Frikha, Mohamed Abid, Nael Abu-Ghazaleh. 
-<i>"Defending with errors: Approximate computing for robustness of deep neural networks"</i>.
+
 
 

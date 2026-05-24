@@ -214,7 +214,7 @@ Below are representative research projects spanning adversarial machine learning
       <a href="/project_pages/oddr/">ODDR: Outlier Detection & Dimension Reduction Based Defense Against Adversarial Patches
           </a>
         <p style="font-size:0.9em; font-style:italic; color:#555;">
-          Authors: Nandish Chattopadhyay*, <u><b>Amira Guesmi*</b></u>, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique
+          Authors: Nandish Chattopadhyay*, <u><b>Amira Guesmi*</b></u>, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique (* equal contribution)
         </p>
     </div>
 

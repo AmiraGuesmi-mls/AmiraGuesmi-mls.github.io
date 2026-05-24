@@ -8,7 +8,7 @@ author_profile: true
 <b>[ECCV, Under review]</b> <b>Amira Guesmi</b>, Muhammad Shafique. 
 <i>"Do Not Leave a Gap: Hallucination-Free Object Concealment in Vision-Language Models"</i>.
 
-<b>[TMLR, Under review]</b> <b>Amira Guesmi</b>, Bassem Ouni, Muhammad Shafique  
+<b>[TMLR, Under review]</b> <b>Amira Guesmi</b>, Bassem Ouni, Muhammad Shafique.  
 <i>"TESSER: Transfer-Enhancing Adversarial Attacks from Vision Transformers via Spectral and Semantic Regularization"</i>.
 
 <b>[ICLR 2026]</b> <b>Amira Guesmi</b>, Muhammad Shafique.  
@@ -38,7 +38,7 @@ author_profile: true
 <b>[ICIP 2024]</b> <b>Amira Guesmi</b>, Ioan Marius Bilasco, Muhammad Shafique, Ihsen Alouani. 
 <i>"AdvArt: Adversarial Art for Camouflaged Object Detection Attacks"</i>.
 
-<b>[ICIP 2024]</b> Nandish Chattopadhyay, <b>Amira Guesmi</b>, Muhammad Shafique 
+<b>[ICIP 2024]</b> Nandish Chattopadhyay, <b>Amira Guesmi</b>, Muhammad Shafique. 
 <i>"Anomaly unveiled: Securing image classification against adversarial patch attacks"</i>.
 
 <b>[DATE 2026]</b> Nandish Chattopadhyay, Abdul Basit, <b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique. 
@@ -47,13 +47,13 @@ author_profile: true
 <b>[SOCC 2025]</b> Muhammad Shafique, Muhammad Abdullah Hanif, <b>Amira Guesmi</b>, Nandish Chattopadhyay, Bassem Ouni.
 <i>"Adversarial and Backdoor Threats in Autonomous-Vehicle and Embodied-AI Systems"</i>. 
 
-<b>[PMLR 2024]</b> Nishant Suresh Aswani, <b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Muhammad Shafique 
+<b>[PMLR 2024]</b> Nishant Suresh Aswani, <b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Muhammad Shafique. 
 <i>"Examining Changes in Internal Representations of Continual Learning Models Through Tensor Decomposition"</i>.  
 
 <b>[ICIPCW 2024]</b> <b>Amira Guesmi</b>, Nishant Suresh Aswani, Muhammad Shafique.
 <i>"Exploring the interplay of interpretability and robustness in deep neural networks: A saliency-guided approach"</i>. 
 
-<b>[ArXiv 2024]</b> <b>Amira Guesmi</b>, Bassem Ouni, Muhammad Shafique  
+<b>[ArXiv 2024]</b> <b>Amira Guesmi</b>, Bassem Ouni, Muhammad Shafique.  
 <i>"Exploring the Robustness and Transferability of Patch-Based Adversarial Attacks in Quantized Neural Networks"</i>.  
 
 <b>[IEEE Access 2023]</b> <b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique. 

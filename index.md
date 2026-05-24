@@ -19,7 +19,7 @@ This has led to work on:
 - improving and analyzing adversarial transferability across architectures and settings
 - designing defenses that remain effective under quantization and hardware constraints
 - studying robustness in physical-world scenarios (e.g., viewpoint, lighting, distance)
-- investigating failure modes in vision-language models, including hallucination and inconsistency
+- investigating failure modes in vision-language models, including hallucination, jailbreaking, and inconsistency
 
 More broadly, my goal is to contribute to AI systems that are **reliable**, **interpretable**, and **robust under real-world conditions**, not just optimized for benchmark performance.
 
@@ -49,7 +49,7 @@ Studying how hardware constraints reshape both vulnerabilities and defenses
 - **Physical-world AI security:**
 Designing and evaluating attacks and defenses under real-world conditions (pose, lighting, distance)
 - **Multimodal and vision–language model security:**
-Investigating hallucination, jealbreaking, inconsistency, and robustness in multimodal systems
+Investigating hallucination, jailbreaking, inconsistency, and robustness in multimodal systems
 
 ---
 ## Selected Research Projects

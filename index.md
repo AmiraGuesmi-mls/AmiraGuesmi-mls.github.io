@@ -49,7 +49,7 @@ Studying how hardware constraints reshape both vulnerabilities and defenses
 - **Physical-world AI security:**
 Designing and evaluating attacks and defenses under real-world conditions (pose, lighting, distance)
 - **Multimodal and vision–language model security:**
-Investigating hallucination, inconsistency, and robustness in multimodal systems
+Investigating hallucination, jealbreaking, inconsistency, and robustness in multimodal systems
 
 ---
 ## Selected Research Projects

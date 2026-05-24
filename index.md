@@ -23,6 +23,7 @@ This has led to work on:
 
 More broadly, my goal is to contribute to AI systems that are **reliable**, **interpretable**, and **robust under real-world conditions**, not just optimized for benchmark performance.
 
+<img src="/images/homepage_fig.png" style="width:100%; border-radius:10px;">
 ---
 
 ## 🔥 News

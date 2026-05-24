@@ -120,10 +120,11 @@ ODDR significantly reduces the influence of adversarial patches while preserving
 ## Citation
 
 ```bibtex
-@inproceedings{guesmi2025oddr,
-  title     = {ODDR: Outlier Detection \& Dimension Reduction Based Defense Against Adversarial Patch Attacks},
-  author    = {Guesmi, Amira and Ouni, Bassem and Shafique, Muhammad},
-  booktitle = {International Conference on Computer Vision (ICCV)},
-  year      = {2025}
+@inproceedings{chattopadhyay2025oddr,
+  title={Oddr: Outlier detection \& dimension reduction based defense against adversarial patches},
+  author={Chattopadhyay, Nandish and Guesmi, Amira and Hanif, Muhammad Abdullah and Ouni, Bassem and Shafique, Muhammad},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={22999--23008},
+  year={2025}
 }
 ```

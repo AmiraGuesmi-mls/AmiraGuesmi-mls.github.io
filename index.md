@@ -5,7 +5,23 @@ permalink: /
 author_profile: true
 ---
 
-I am a Research Team Lead at NYU Abu Dhabi working on adversarial robustness, secure machine learning, and trustworthy AI under real-world deployment constraints. My research studies how vulnerabilities transfer across models, modalities, and hardware systems, and how alignment in representations, gradients, and semantics can either enable attacks or improve robustness.
+I work on **robustness and security of AI systems**, with a focus on how models behave outside controlled settings.
+
+My research spans adversarial machine learning, computer vision, and system-level aspects of AI, including quantization, approximate computing, and real-world deployment constraints. I’m particularly interested in understanding why failures persist across models, tasks, and environments, and what this reveals about how modern AI systems operate.
+
+Across different projects, I study how structure is shared between models — in gradients, feature representations, or higher-level semantics — and how this can make systems both effective and vulnerable. This perspective connects work on adversarial transferability, robustness under quantization, physical-world attacks, and more recently, multimodal models.
+
+Rather than treating these as separate problems, I approach them through a common lens:
+understanding what carries across systems, and how it can either be leveraged or disrupted.
+
+This has led to work on:
+
+- improving and analyzing adversarial transferability across architectures and settings
+- designing defenses that remain effective under quantization and hardware constraints
+- studying robustness in physical-world scenarios (e.g., viewpoint, lighting, distance)
+- investigating failure modes in vision-language models, including hallucination and inconsistency
+
+More broadly, my goal is to contribute to AI systems that are **reliable**, **interpretable**, and **robust under real-world conditions**, not just optimized for benchmark performance.
 
 ---
 
@@ -22,22 +38,20 @@ I am a Research Team Lead at NYU Abu Dhabi working on adversarial robustness, se
 
 
 ---
-
 ## Research Overview
 
-My research aims to advance the security, robustness, and trustworthiness of machine learning systems under adversarial threats and realistic deployment constraints. I study how architecture choices, quantization and approximation, physical-world effects, and multimodal interactions shape both vulnerabilities and defenses. 
+I work at the intersection of machine learning, systems, and real-world AI deployment. My research spans:
 
-I work on the following research topics:
-
-- Adversarial Machine Learning and Robust Optimization
-- Security of Autonomous and Embodied AI Systems
-- Deployment-Aware and Edge AI Security
-- Explainability and Interpretability for Robustness
-- Security, Jailbreaks and Hallucination in Large Language and Vision–Language Models
-- Privacy and Robustness of Multimodal AI Agents
+- **Adversarial robustness and transferability:**
+Understanding how and why adversarial effects persist across models, architectures, and settings
+- **Robustness under quantization and approximate computing:**
+Studying how hardware constraints reshape both vulnerabilities and defenses
+- **Physical-world AI security:**
+Designing and evaluating attacks and defenses under real-world conditions (pose, lighting, distance)
+- **Multimodal and vision–language model security:**
+Investigating hallucination, inconsistency, and robustness in multimodal systems
 
 ---
-
 ## Selected Research Projects
 
 Below are representative research projects spanning adversarial machine learning, robustness, and secure AI systems.  

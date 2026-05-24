@@ -142,7 +142,7 @@ Below are representative research projects spanning adversarial machine learning
   <div style="max-width:900px;">
 
     <div style="font-size:0.9rem; font-weight:400; margin-bottom:8px; line-height:1.15;">
-      ArXiv 2025: 
+      ArXiv 2026: 
       <a href="/project_pages/bcr/">Do Not Leave a Gap: Hallucination-Free Object Concealment in Vision-Language Models
           </a>
         <p style="font-size:0.9em; font-style:italic; color:#555;">

@@ -151,7 +151,7 @@ Below are representative research projects spanning adversarial machine learning
     </div>
 
     <div style="font-size:0.9rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
-    Demonstrates that hallucination in vision-language models is driven by representational gaps rather than object absence, and introduces Background-Consistent Re-encoding to enforce continuity and prevent hallucinated content.
+    Shows that suppression-based attacks in vision-language models create representational discontinuities that lead to hallucination. Introduces a re-encoding strategy that restores consistency between regions and prevents these failures.
     </div>
 
     <div>

@@ -82,7 +82,7 @@ Below are representative research projects spanning adversarial machine learning
     </div>
 
     <div style="font-size:0.9rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
-      Shows that adversarial robustness can be achieved by breaking gradient consensus rather than masking gradients, introducing stochastic filter ensembles that induce controlled divergence across model responses and remain effective under adaptive attacks.
+      Identifies gradient consensus as a key source of adversarial vulnerability, where different transformations still produce aligned attack directions. Proposes stochastic filter ensembles to enforce gradient divergence and improve robustness.
     </div>
 
     <div>
@@ -118,7 +118,7 @@ Below are representative research projects spanning adversarial machine learning
     </div>
 
     <div style="font-size:0.9rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
-      Reveals that adversarial patch transferability in quantized models is driven by hidden structural consistency across bit-widths, and proposes mechanisms to explicitly disrupt this alignment at both feature and gradient levels.
+      Reveals that adversarial patch transferability across quantized models is driven by hidden cross-bit alignment in gradients and feature structure. Introduces a training framework that explicitly disrupts this alignment to prevent transfer.
     </div>
 
     <div>
@@ -185,7 +185,7 @@ Below are representative research projects spanning adversarial machine learning
     </div>
 
     <div style="font-size:0.9rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
-      Establishes that adversarial transferability depends on preserving shared spectral and semantic structures, and introduces a framework that explicitly enforces this alignment to improve cross-model attack generalization.
+      Shows that adversarial transferability can be strengthened by preserving spectral and semantic structure across models. Introduces regularization techniques that stabilize these shared components to improve black-box attack effectiveness.
     </div>
 
     <div>
@@ -219,7 +219,7 @@ Below are representative research projects spanning adversarial machine learning
     </div>
 
     <div style="font-size:0.9rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
-      Frames adversarial patches as feature-space outliers, and introduces a dimension reduction framework that suppresses their influence by removing structurally inconsistent features while preserving clean model behavior.
+      Frames adversarial patches as structured outliers in feature space rather than random perturbations. Combines outlier detection and dimensionality reduction to localize and neutralize patch-induced distortions.
     </div>
 
     <div>
@@ -253,7 +253,7 @@ Below are representative research projects spanning adversarial machine learning
     </div>
 
     <div style="font-size:0.9rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
-    Developed a dynamic adversarial patch framework for wearable, printable T-shirt attacks, enabling person hiding from smart surveillance systems under real-world pose changes, fabric deformation, and physical deployment variations.
+    Demonstrates that physically robust adversarial patches require adaptation to real-world transformations such as pose and deformation. Introduces a dynamic patch generation framework that maintains effectiveness under these conditions.
     </div>
 
     <div>
@@ -287,7 +287,7 @@ Below are representative research projects spanning adversarial machine learning
     </div>
 
     <div style="font-size:0.9rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
-    Introduced a shape-sensitive adversarial patch framework that extends attack impact from localized regions to full-object disruption, enabling stronger and more comprehensive degradation of depth estimation in autonomous perception systems.
+    Shows that adversarial patches can manipulate geometric perception at the object level, affecting global depth estimation rather than localized regions. Proposes shape-aware perturbations that alter scene understanding.
     </div>
 
     <div>
@@ -322,7 +322,7 @@ Below are representative research projects spanning adversarial machine learning
     </div>
 
     <div style="font-size:0.9rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
-    Challenges the view of approximate computing as purely a constraint by showing that hardware-induced noise can act as a robustness mechanism, reframing approximation as a tool for adversarial defense.
+    Reframes approximate computing from a hardware constraint into a mechanism for disrupting adversarial optimization, where reduced precision and stochasticity weaken the reliability of attack gradients.
     </div>
 
     <div>

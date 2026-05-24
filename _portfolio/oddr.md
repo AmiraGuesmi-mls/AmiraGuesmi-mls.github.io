@@ -4,9 +4,9 @@ collection: portfolio
 permalink: /project_pages/oddr/
 excerpt: "We show that adversarial patches dominate predictions by creating outlier feature activations. ODDR detects and suppresses these anomalies through feature-space outlier modeling and dimension reduction, restoring robust predictions."
 date: 2025-01-01
-venue: "ICCV 2025"
+venue: "ICCV"
 paperurl: "https://openaccess.thecvf.com/content/ICCV2025/html/Chattopadhyay_ODDR_Outlier_Detection__Dimension_Reduction_Based_Defense_Against_Adversarial_ICCV_2025_paper.html"
-authors: "Nandish Chattopadhyay, Amira Guesmi, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique"
+authors: "Nandish Chattopadhyay*, Amira Guesmi*, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique"
 topic: "Adversarial Machine Learning — Vision & Autonomous Systems"
 ---
 

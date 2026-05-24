@@ -5,7 +5,7 @@ permalink: /
 author_profile: true
 ---
 
-I lead research on AI security and trustworthy machine learning, with a focus on adversarial attacks and defenses, robustness under deployment constraints, and secure perception systems. My work bridges theory, system-level design, and real-world evaluation, targeting vision, autonomous, embedded, and multimodal AI systems.
+I am a Research Team Lead at NYU Abu Dhabi working on adversarial robustness, secure machine learning, and trustworthy AI under real-world deployment constraints. My research studies how vulnerabilities transfer across models, modalities, and hardware systems, and how alignment in representations, gradients, and semantics can either enable attacks or improve robustness.
 
 ---
 

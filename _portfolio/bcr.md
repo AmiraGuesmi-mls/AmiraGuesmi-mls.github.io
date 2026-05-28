@@ -102,6 +102,32 @@ BCR hides target objects while preserving global scene coherence and significant
 
 ---
 
+
+## Broader Perspective: Beyond Object Concealment
+
+BCR introduces a broader perspective on hallucination in multimodal systems:  
+hallucination is fundamentally linked to **representational discontinuity**.
+
+While prior approaches primarily focus on suppressing or removing visual evidence, our findings suggest that multimodal models rely heavily on the continuity and consistency of intermediate representations to maintain coherent reasoning.
+
+This perspective has implications beyond adversarial object concealment, including:
+
+- **Hallucination mitigation in VLMs**  
+  Preserving representational continuity may help reduce spurious generations and grounded hallucinations in multimodal reasoning systems.
+
+- **Privacy-preserving visual manipulation**  
+  Concealment can be achieved without introducing obvious artifacts or semantic inconsistencies.
+
+- **Robust multimodal alignment**  
+  Understanding how continuity affects cross-modal reasoning may improve the reliability of future vision-language systems.
+
+- **Adversarial analysis of generative AI**  
+  BCR highlights continuity as a new axis for studying vulnerabilities in multimodal foundation models.
+
+More broadly, this work suggests that robustness and reliability in multimodal AI may depend not only on what information is removed, but on how representations evolve and remain connected throughout the model.
+
+---
+
 ## Citation
 ```bibtex
 @misc{guesmi2026leavegaphallucinationfreeobject,

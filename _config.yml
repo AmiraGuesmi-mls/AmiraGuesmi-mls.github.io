@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 title                    : "Amira Guesmi"
-title_separator          : "—"
-name                     : &name "Dr. Amira Guesmi"
-description              : &description "Research Team Leader | AI Security & Robust Machine Learning | Adversarial ML, Quantization, Vision Transformers"
+title_separator          : "Dr."
+name                     : &name "Amira Guesmi"
+description              : &description "Research Team Leader | AI Security & Adversarial Robustness"
 url                      : https://AmiraGuesmi-mls.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "AmiraGuesmi-mls/AmiraGuesmi-mls.github.io"

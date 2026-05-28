@@ -162,7 +162,7 @@ Together:
 ```bibtex
 @article{guesmi2025tesser,
   title     = {TESSER: Transfer-Enhancing Adversarial Attacks from Vision Transformers via Spectral and Semantic Regularization},
-  author    = {Guesmi, Amira and <Other Authors>},
+  author    = {Guesmi, Amira and Ouni, Bassem and Shafique, Muhammad},
   journal   = {arXiv},
   volume    = {abs/2505.19613},
   year      = {2025}

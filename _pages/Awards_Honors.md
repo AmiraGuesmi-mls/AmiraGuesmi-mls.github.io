@@ -8,6 +8,7 @@ author_profile: true
 - Silver Reviewer Award, ICML 2026.
 - Top Reviewer Award, NeurIPS 2025.
 - Best Senior Researcher Award, eBRAIN Lab, NYUAD, 2023.
+  
 ---
 ## Scholarships & Fellowships
 - Erasmus+ Scholarship, France, 2019.

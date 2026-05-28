@@ -88,7 +88,7 @@ Below are representative research projects spanning adversarial machine learning
 
     <div>
       <a href="/project_pages/drift/">Project</a> |
-      <a href="#">Paper</a>
+      <a href="https://arxiv.org/abs/2509.24359">Paper</a>
     </div>
     
   </div>
@@ -124,7 +124,7 @@ Below are representative research projects spanning adversarial machine learning
 
     <div>
       <a href="/project_pages/triqdef/">Project</a> |
-      <a href="#">Paper</a>
+      <a href="https://arxiv.org/abs/2508.12132">Paper</a>
     </div>
 
   </div>
@@ -157,7 +157,7 @@ Below are representative research projects spanning adversarial machine learning
 
     <div>
       <a href="/project_pages/bcr/">Project</a> |
-      <a href="[https://arxiv.org/abs/2505.19613](https://arxiv.org/abs/2603.15940)">Paper</a>
+      <a href="https://arxiv.org/abs/2603.15940">Paper</a>
     </div>
 
   </div>
@@ -225,7 +225,7 @@ Below are representative research projects spanning adversarial machine learning
 
     <div>
       <a href="/project_pages/oddr/">Project</a> |
-      <a href="[https://arxiv.org/abs/2505.19613](https://openaccess.thecvf.com/content/ICCV2025/html/Chattopadhyay_ODDR_Outlier_Detection__Dimension_Reduction_Based_Defense_Against_Adversarial_ICCV_2025_paper.html)">Paper</a>
+      <a href="(https://openaccess.thecvf.com/content/ICCV2025/html/Chattopadhyay_ODDR_Outlier_Detection__Dimension_Reduction_Based_Defense_Against_Adversarial_ICCV_2025_paper.html)">Paper</a>
     </div>
 
   </div>
@@ -259,7 +259,7 @@ Below are representative research projects spanning adversarial machine learning
 
     <div>
       <a href="/project_pages/dap/">Project</a> |
-      <a href="#">Paper</a>
+      <a href="(https://openaccess.thecvf.com/content/CVPR2024/html/Guesmi_DAP_A_Dynamic_Adversarial_Patch_for_Evading_Person_Detectors_CVPR_2024_paper.html)">Paper</a>
     </div>
 
   </div>
@@ -293,7 +293,7 @@ Below are representative research projects spanning adversarial machine learning
 
     <div>
       <a href="/project_pages/ssap/">Project</a> |
-      <a href="#">Paper</a>
+      <a href="https://ieeexplore.ieee.org/abstract/document/10802252">Paper</a>
     </div>
 
   </div>
@@ -328,7 +328,7 @@ Below are representative research projects spanning adversarial machine learning
 
     <div>
       <a href="/project_pages/defensive_appx/">Project</a> |
-      <a href="#">Paper</a>
+      <a href="https://dl.acm.org/doi/abs/10.1145/3445814.3446747">Paper</a>
     </div>
 
   </div>

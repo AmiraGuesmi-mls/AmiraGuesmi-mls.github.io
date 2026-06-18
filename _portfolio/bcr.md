@@ -54,7 +54,7 @@ BCR re-encodes target object representations to match the **statistical and sema
 
 This prevents the representational gaps that trigger hallucination.
 
-<img src="/images/bcr.png" alt="BCR re-encodes ROI tokens to align with background distribution while preserving attention flow" style="max-width:100%; border-radius: 8px;"/>
+<img src="/images/BCR_eccv.png" alt="BCR re-encodes ROI tokens to align with background distribution while preserving attention flow" style="max-width:100%; border-radius: 8px;"/>
 
 ---
 

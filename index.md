@@ -23,10 +23,11 @@ This has led to work on:
 
 More broadly, my goal is to contribute to AI systems that are **reliable**, **interpretable**, and **robust under real-world conditions**, not just optimized for benchmark performance.
 
-<img src="/images/homepage_fig.png" style="width:100%; border-radius:10px;">
+<!-- <img src="/images/homepage_fig.png" style="width:100%; border-radius:10px;"> -->
 ---
 
 ## 🔥 News
+- **2026.06**: 🎉 1 paper accepted at **ECCV 2026**
 - **2026.05**: I've received a **Silver Reviewer Award** from **ICML 2026**
 - **2026.01**: 🎉 2 papers accepted at **ICLR 2026**
 - **2025.11**: 🎉 1 paper accepted at **DATE 2026**

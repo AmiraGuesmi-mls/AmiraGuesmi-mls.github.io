@@ -5,7 +5,7 @@ author_profile: true
 ---
 
 
-<b>[ECCV, Under review]</b> <b>Amira Guesmi</b>, Muhammad Shafique. 
+<b>[ECCV 2026]</b> <b>Amira Guesmi</b>, Muhammad Shafique. 
 <i>"Do Not Leave a Gap: Hallucination-Free Object Concealment in Vision-Language Models"</i>.
 
 <b>[TMLR, Under review]</b> <b>Amira Guesmi</b>, Bassem Ouni, Muhammad Shafique.  

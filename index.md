@@ -137,7 +137,7 @@ Below are representative research projects spanning adversarial machine learning
 
   <!-- Image on top -->
   <div style="max-width:600px;">
-    <img src="/images/bcr.png" style="width:100%; border-radius:10px; margin-bottom:8px;">
+    <img src="/images/BCR_eccv.png" style="width:100%; border-radius:10px; margin-bottom:8px;">
   </div>
 
   <!-- Text underneath -->

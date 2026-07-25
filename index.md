@@ -27,6 +27,7 @@ More broadly, my goal is to contribute to AI systems that are **reliable**, **in
 ---
 
 ## 🔥 News
+- **2026.07**: My paper had been selected for an ECCV 2026 **Oral Presentation**
 - **2026.06**: 🎉 1 paper accepted at **ECCV 2026**
 - **2026.05**: I've received a **Silver Reviewer Award** from **ICML 2026**
 - **2026.01**: 🎉 2 papers accepted at **ICLR 2026**

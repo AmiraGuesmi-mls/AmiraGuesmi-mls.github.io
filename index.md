@@ -341,9 +341,9 @@ Below are representative research projects spanning adversarial machine learning
 
 ## 💼 Experience
 
-*Oct 2022 – Present*: Research Team Lead, Engineering Division, New York University Abu Dhabi (NYUAD), UAE  
+*Sep 2022 – Present*: Research Team Lead, Engineering Division, New York University Abu Dhabi (NYUAD), UAE  
 
-*Nov 2021 – Aug 2022*: Postdoctoral Researcher, IEMN-DOAE Laboratory, CNRS-8520, Polytechnic University Hauts-de-France, France  
+*Feb 2022 – Aug 2022*: Postdoctoral Researcher, IEMN-DOAE Laboratory, CNRS-8520, Polytechnic University Hauts-de-France, France  
 
 ---
 
@@ -370,7 +370,7 @@ Below are representative research projects spanning adversarial machine learning
 ## 🧑‍🏫 Academic Service & Community
 
 - **Conference Reviewer**: ICML, ICLR, NeurIPS, ICCV, CVPR, AAAI, ECCV, DAC, IROS, ICIP, IJCNN
-- **Journal Reviewer**: IEEE TIFS, IEEE TCSVT, TMLR, TMC, IJCV, Access
+- **Journal Reviewer**: IEEE TIFS, IEEE TCSVT, TMLR, TMC, IJCV, TCAD, Access
 - **Organizer & Speaker**: Tutorial: *ML Security in Autonomous Systems*, IROS 2024  
 
 ---

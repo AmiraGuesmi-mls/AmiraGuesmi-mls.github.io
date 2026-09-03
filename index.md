@@ -15,10 +15,10 @@ Rather than treating these as separate problems, I approach them through a commo
 
 My research includes:
 
-- Adversarial Transferability — understanding why adversarial examples transfer across architectures and how shared representations, gradients, and semantics influence transfer.
-- Robust & Efficient AI — designing defenses that remain effective under quantization, approximate computing, and hardware/deployment constraints.
-- Physical-World AI Security — studying attacks and defenses under real-world transformations such as viewpoint, deformation, distance, and environmental variation.
-- Multimodal & VLM Security — investigating hallucination, adversarial manipulation, jailbreaking, and cross-modal inconsistencies in vision-language models.
+- **Adversarial Transferability** — understanding why adversarial examples transfer across architectures and how shared representations, gradients, and semantics influence transfer.
+- **Robust & Efficient AI** — designing defenses that remain effective under quantization, approximate computing, and hardware/deployment constraints.
+- **Physical-World AI Security** — studying attacks and defenses under real-world transformations such as viewpoint, deformation, distance, and environmental variation.
+- **Multimodal & VLM Security** — investigating hallucination, adversarial manipulation, jailbreaking, and cross-modal inconsistencies in vision-language models.
 
 More broadly, my goal is to uncover the computational principles that govern robustness and failure in modern AI systems, and use these insights to build AI that is reliable, interpretable, and robust under real-world conditions.
 

@@ -45,20 +45,6 @@ More broadly, my goal is to uncover the computational principles that govern rob
 
 
 ---
-## Research Overview
-
-I work at the intersection of machine learning, systems, and real-world AI deployment. My research spans:
-
-- **Adversarial robustness and transferability:**
-Understanding how and why adversarial effects persist across models, architectures, and settings
-- **Robustness under quantization and approximate computing:**
-Studying how hardware constraints reshape both vulnerabilities and defenses
-- **Physical-world AI security:**
-Designing and evaluating attacks and defenses under real-world conditions (pose, lighting, distance)
-- **Multimodal and vision–language model security:**
-Investigating hallucination, jailbreaking, inconsistency, and robustness in multimodal systems
-
----
 ## Selected Research Projects
 
 Below are representative research projects spanning adversarial machine learning, robustness, and secure AI systems.  

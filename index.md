@@ -4,6 +4,14 @@ title: ""
 permalink: /
 author_profile: true
 ---
+<style>
+.research-intro {
+  font-size: 0.90rem;
+  line-height: 1.6;
+}
+</style>
+
+<div class="research-intro">
 
 I work on **robustness, security, and trustworthy AI**, with a focus on understanding how AI systems behave beyond controlled settings and how their vulnerabilities emerge across models, modalities, and deployment conditions.
 
@@ -21,6 +29,8 @@ My research includes:
 - **Multimodal & VLM Security** — investigating hallucination, adversarial manipulation, jailbreaking, and cross-modal inconsistencies in vision-language models.
 
 More broadly, my goal is to uncover the computational principles that govern robustness and failure in modern AI systems, and use these insights to build AI that is reliable, interpretable, and robust under real-world conditions.
+
+</div>
 
 <p align="center">
 <strong>20+ Publications</strong> · <strong>550+ Citations</strong> · <strong>h-index 12</strong> · <strong>10+ Researchers Mentored</strong>

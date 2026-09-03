@@ -5,7 +5,8 @@ permalink: /
 author_profile: true
 ---
 <style>
-.research-intro {
+.page__content p,
+.page__content li {
   font-size: 0.90rem;
   line-height: 1.6;
 }

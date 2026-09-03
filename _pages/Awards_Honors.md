@@ -5,6 +5,7 @@ permalink: /Awards_Honors/
 author_profile: true
 ---
 ## Research Recognition
+- Outstanding Reviewer Award, ECCV 2026.
 - Silver Reviewer Award, ICML 2026.
 - Top Reviewer Award, NeurIPS 2025.
 - Best Senior Researcher Award, eBRAIN Lab, NYUAD, 2023.

@@ -7,11 +7,8 @@
 </style>
 
 I work on **robustness, security, and trustworthy AI**, with a focus on understanding how AI systems behave beyond controlled settings and how their vulnerabilities emerge across models, modalities, and deployment conditions.
-
 My research spans machine learning, computer vision, multimodal AI, robotics, and computer systems, with work published at top-tier venues including ICLR, CVPR, ICCV, ECCV, IROS, ASPLOS, DAC, and DATE.
-
 A recurring theme in my research is understanding what carries across AI systems—in gradients, representations, semantics, or computational structure—and how these shared properties can make models both effective and vulnerable. I study these questions across adversarial transferability, physical-world attacks, quantized and approximate models, and, more recently, vision-language and multimodal systems.
-
 Rather than treating these as separate problems, I approach them through a common lens: understanding what transfers across models, representations, and deployment settings, and how it can be leveraged or disrupted to build more robust systems.
 
 My research includes:

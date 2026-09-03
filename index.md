@@ -50,6 +50,39 @@ More broadly, my goal is to uncover the computational principles that govern rob
 Below are representative research projects spanning adversarial machine learning, robustness, and secure AI systems.  
 
 ---
+<!-- BCR -->
+<div style="display:flex; flex-direction:column; gap:18px; margin-bottom:60px;">
+
+  <!-- Image on top -->
+  <div style="max-width:600px;">
+    <img src="/images/BCR_eccv.png" style="width:100%; border-radius:10px; margin-bottom:8px;">
+  </div>
+
+  <!-- Text underneath -->
+  <div style="max-width:900px;">
+
+    <div style="font-size:0.9rem; font-weight:400; margin-bottom:8px; line-height:1.15;">
+      ECCV 2026: 
+      <a href="/project_pages/bcr/">Do Not Leave a Gap: Hallucination-Free Object Concealment in Vision-Language Models
+          </a>
+        <p style="font-size:0.9em; font-style:italic; color:#555;">
+          Authors: <u><b>Amira Guesmi</b></u>, Muhammad Shafique
+        </p>
+    </div>
+
+    <div style="font-size:0.9rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
+    Shows that suppression-based attacks in vision-language models create representational discontinuities that lead to hallucination. Introduces a re-encoding strategy that restores consistency between regions and prevents these failures.
+    </div>
+
+    <div>
+      <a href="/project_pages/bcr/">Project</a> |
+      <a href="https://arxiv.org/abs/2603.15940">Paper</a>
+    </div>
+
+  </div>
+</div>
+
+---
 
 <!-- DRIFT -->
 
@@ -117,39 +150,6 @@ Below are representative research projects spanning adversarial machine learning
     <div>
       <a href="/project_pages/triqdef/">Project</a> |
       <a href="https://arxiv.org/abs/2508.12132">Paper</a>
-    </div>
-
-  </div>
-</div>
-
----
-<!-- BCR -->
-<div style="display:flex; flex-direction:column; gap:18px; margin-bottom:60px;">
-
-  <!-- Image on top -->
-  <div style="max-width:600px;">
-    <img src="/images/BCR_eccv.png" style="width:100%; border-radius:10px; margin-bottom:8px;">
-  </div>
-
-  <!-- Text underneath -->
-  <div style="max-width:900px;">
-
-    <div style="font-size:0.9rem; font-weight:400; margin-bottom:8px; line-height:1.15;">
-      ECCV 2026: 
-      <a href="/project_pages/bcr/">Do Not Leave a Gap: Hallucination-Free Object Concealment in Vision-Language Models
-          </a>
-        <p style="font-size:0.9em; font-style:italic; color:#555;">
-          Authors: <u><b>Amira Guesmi</b></u>, Muhammad Shafique
-        </p>
-    </div>
-
-    <div style="font-size:0.9rem; line-height:1.6; margin-bottom:12px; text-align:justify;">
-    Shows that suppression-based attacks in vision-language models create representational discontinuities that lead to hallucination. Introduces a re-encoding strategy that restores consistency between regions and prevents these failures.
-    </div>
-
-    <div>
-      <a href="/project_pages/bcr/">Project</a> |
-      <a href="https://arxiv.org/abs/2603.15940">Paper</a>
     </div>
 
   </div>

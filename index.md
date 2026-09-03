@@ -5,23 +5,22 @@ permalink: /
 author_profile: true
 ---
 
-I work on **robustness and security of AI systems**, with a focus on how models behave outside controlled settings.
+I work on **robustness, security, and trustworthy AI**, with a focus on understanding how AI systems behave beyond controlled settings and how their vulnerabilities emerge across models, modalities, and deployment conditions.
 
-My research spans adversarial machine learning, computer vision, and system-level aspects of AI, including quantization, approximate computing, and real-world deployment constraints. I’m particularly interested in understanding why failures persist across models, tasks, and environments, and what this reveals about how modern AI systems operate.
+My research spans machine learning, computer vision, multimodal AI, robotics, and computer systems, with work published at venues including ICLR, CVPR, ICCV, ECCV, IROS, ASPLOS, DAC, DATE, and ICIP.
 
-Across different projects, I study how structure is shared between models — in gradients, feature representations, or higher-level semantics — and how this can make systems both effective and vulnerable. This perspective connects work on adversarial transferability, robustness under quantization, physical-world attacks, and more recently, multimodal models.
+A recurring theme in my research is understanding what carries across AI systems—in gradients, representations, semantics, or computational structure—and how these shared properties can make models both effective and vulnerable. I study these questions across adversarial transferability, physical-world attacks, quantized and approximate models, and, more recently, vision-language and multimodal systems.
 
-Rather than treating these as separate problems, I approach them through a common lens:
-understanding what carries across systems, and how it can either be leveraged or disrupted.
+Rather than treating these as separate problems, I approach them through a common lens: understanding what transfers across models, representations, and deployment settings, and how it can be leveraged or disrupted to build more robust systems.
 
-This has led to work on:
+My research includes:
 
-- improving and analyzing adversarial transferability across architectures and settings
-- designing defenses that remain effective under quantization and hardware constraints
-- studying robustness in physical-world scenarios (e.g., viewpoint, lighting, distance)
-- investigating failure modes in vision-language models, including hallucination, jailbreaking, and inconsistency
+- Adversarial Transferability — understanding why adversarial examples transfer across architectures and how shared representations, gradients, and semantics influence transfer.
+- Robust & Efficient AI — designing defenses that remain effective under quantization, approximate computing, and hardware/deployment constraints.
+- Physical-World AI Security — studying attacks and defenses under real-world transformations such as viewpoint, deformation, distance, and environmental variation.
+- Multimodal & VLM Security — investigating hallucination, adversarial manipulation, jailbreaking, and cross-modal inconsistencies in vision-language models.
 
-More broadly, my goal is to contribute to AI systems that are **reliable**, **interpretable**, and **robust under real-world conditions**, not just optimized for benchmark performance.
+More broadly, my goal is to uncover the computational principles that govern robustness and failure in modern AI systems, and use these insights to build AI that is reliable, interpretable, and robust under real-world conditions.
 
 <p align="center">
 <strong>20+ Publications</strong> · <strong>550+ Citations</strong> · <strong>h-index 12</strong> · <strong>10+ Researchers Mentored</strong>

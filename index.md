@@ -336,7 +336,7 @@ Below are representative research projects spanning adversarial machine learning
 
 ## 💼 Experience
 
-*Sep 2022 – Present*: Research Team Lead, Engineering Division, New York University Abu Dhabi (NYUAD), UAE  
+*Sep 2022 – Present*: Research Team Lead / Postdoctoral Associate, Engineering Division, New York University Abu Dhabi (NYUAD), UAE  
 
 *Feb 2022 – Aug 2022*: Postdoctoral Researcher, IEMN-DOAE Laboratory, CNRS-8520, Polytechnic University Hauts-de-France, France  
 

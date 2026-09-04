@@ -13,6 +13,22 @@ topic: "Adversarial Machine Learning — Vision & Autonomous Systems"
 image: /images/dap_method.png
 ---
 
+<style>
+.page__content p,
+.page__content li {
+  font-size: 0.90rem;
+  line-height: 1.4;
+}
+
+.page__content p {
+  margin-bottom: 0.7em;
+}
+
+.page__content li {
+  margin-bottom: 0.15em;
+}
+</style>
+
 ## Core Insight
 Physical adversarial patches fail when they are treated as static objects.  
 DAP shows that robust physical attacks must account for **pose changes, fabric deformation, and real-world transformations**.

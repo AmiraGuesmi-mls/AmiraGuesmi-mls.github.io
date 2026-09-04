@@ -15,6 +15,22 @@ image3: /images/quant_ssap.png
 image4: /images/qual_ssap.png
 ---
 
+<style>
+.page__content p,
+.page__content li {
+  font-size: 0.90rem;
+  line-height: 1.4;
+}
+
+.page__content p {
+  margin-bottom: 0.7em;
+}
+
+.page__content li {
+  margin-bottom: 0.15em;
+}
+</style>
+
 ## Core Insight
 Monocular depth estimation models rely on **global geometric and shape priors**, not just local pixel evidence.  
 SSAP exploits this property to propagate adversarial influence across the entire object, enabling **global geometric distortion from a localized perturbation**.

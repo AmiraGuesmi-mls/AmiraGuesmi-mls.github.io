@@ -11,6 +11,22 @@ topic: "Robustness and Security of Quantized & Approximate Neural Networks"
 image: /images/triqdef_method.png
 ---
 
+<style>
+.page__content p,
+.page__content li {
+  font-size: 0.90rem;
+  line-height: 1.4;
+}
+
+.page__content p {
+  margin-bottom: 0.7em;
+}
+
+.page__content li {
+  margin-bottom: 0.15em;
+}
+</style>
+
 ## Core Insight
 Quantization changes numerical precision, but **does not break the underlying structure of learned representations**.  
 Adversarial patches exploit this hidden consistency, remaining transferable across bit-widths.

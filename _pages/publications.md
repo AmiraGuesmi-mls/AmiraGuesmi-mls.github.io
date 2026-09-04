@@ -3,7 +3,21 @@ title: "Publications [(Google Scholar Profile)]([https://scholar.google.com/cita
 permalink: /publications/
 author_profile: true
 ---
+<style>
+.page__content p,
+.page__content li {
+  font-size: 0.90rem;
+  line-height: 1.4;
+}
 
+.page__content p {
+  margin-bottom: 0.7em;
+}
+
+.page__content li {
+  margin-bottom: 0.15em;
+}
+</style>
 
 <b>[ECCV 2026]</b> <b>Amira Guesmi</b>, Muhammad Shafique. 
 <i>"Do Not Leave a Gap: Hallucination-Free Object Concealment in Vision-Language Models"</i>.

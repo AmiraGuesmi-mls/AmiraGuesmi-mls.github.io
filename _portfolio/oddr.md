@@ -9,6 +9,21 @@ paperurl: "https://openaccess.thecvf.com/content/ICCV2025/html/Chattopadhyay_ODD
 authors: "Nandish Chattopadhyay*, Amira Guesmi*, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique"
 topic: "Adversarial Machine Learning — Vision & Autonomous Systems"
 ---
+<style>
+.page__content p,
+.page__content li {
+  font-size: 0.90rem;
+  line-height: 1.4;
+}
+
+.page__content p {
+  margin-bottom: 0.7em;
+}
+
+.page__content li {
+  margin-bottom: 0.15em;
+}
+</style>
 
 ## Links
 - **Paper:** [ICCV Open Access]({{ page.paperurl }})

@@ -31,7 +31,7 @@ author_profile: true
 <b>[ICLR 2026]</b> <b>Amira Guesmi</b>, Bassem Ouni, Muhammad Shafique.  
 <i>"TriQDef: Disrupting Semantic and Gradient Alignment to Prevent Adversarial Patch Transferability in Quantized Neural Networks"</i>. 
 
-<b>[ICCV 2025]</b> Nandish Chattopadhyay*, <b>Amira Guesmi</b>*, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique. 
+<b>[ICCV 2025]</b> Nandish Chattopadhyay *, <b>Amira Guesmi</b> *, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique. 
 <i>"ODDR: Outlier Detection and Dimension Reduction-Based Defense Against Adversarial Attacks"</i>. (*Equal contribution)
 
 <b>[CVPR 2024]</b> <b>Amira Guesmi</b>, Ruitian Ding, Muhammad Abdullah Hanif, Ihsen Alouani, Muhammad Shafique.
@@ -54,9 +54,6 @@ author_profile: true
 
 <b>[ICIP 2024]</b> Nandish Chattopadhyay, <b>Amira Guesmi</b>, Muhammad Shafique. 
 <i>"Anomaly unveiled: Securing image classification against adversarial patch attacks"</i>.
-
-<b>[DATE 2026]</b> Nandish Chattopadhyay, Abdul Basit, <b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique. 
-<i>"PatchBlock: A Lightweight Defense Against Adversarial Patches for Embedded EdgeAI Devices"</i>.  
 
 <b>[SOCC 2025]</b> Muhammad Shafique, Muhammad Abdullah Hanif, <b>Amira Guesmi</b>, Nandish Chattopadhyay, Bassem Ouni.
 <i>"Adversarial and Backdoor Threats in Autonomous-Vehicle and Embodied-AI Systems"</i>. 

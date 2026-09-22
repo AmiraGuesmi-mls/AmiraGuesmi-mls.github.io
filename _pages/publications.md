@@ -37,6 +37,9 @@ author_profile: true
 <b>[ICCV 2025]</b> Nandish Chattopadhyay *, <b>Amira Guesmi</b> *, Muhammad Abdullah Hanif, Bassem Ouni, Muhammad Shafique. 
 <i>"ODDR: Outlier Detection and Dimension Reduction-Based Defense Against Adversarial Attacks"</i>. (*Equal contribution)
 
+<b>[SOCC 2025]</b> Muhammad Shafique, Muhammad Abdullah Hanif, <b>Amira Guesmi</b>, Nandish Chattopadhyay, Bassem Ouni.
+<i>"Adversarial and Backdoor Threats in Autonomous-Vehicle and Embodied-AI Systems"</i>. 
+
 <b>[CVPR 2024]</b> <b>Amira Guesmi</b>, Ruitian Ding, Muhammad Abdullah Hanif, Ihsen Alouani, Muhammad Shafique.
 <i>"DAP: A dynamic adversarial patch for evading person detectors"</i>.  
 
@@ -57,9 +60,6 @@ author_profile: true
 
 <b>[ICIP 2024]</b> Nandish Chattopadhyay, <b>Amira Guesmi</b>, Muhammad Shafique. 
 <i>"Anomaly unveiled: Securing image classification against adversarial patch attacks"</i>.
-
-<b>[SOCC 2025]</b> Muhammad Shafique, Muhammad Abdullah Hanif, <b>Amira Guesmi</b>, Nandish Chattopadhyay, Bassem Ouni.
-<i>"Adversarial and Backdoor Threats in Autonomous-Vehicle and Embodied-AI Systems"</i>. 
 
 <b>[PMLR 2024]</b> Nishant Suresh Aswani, <b>Amira Guesmi</b>, Muhammad Abdullah Hanif, Muhammad Shafique. 
 <i>"Examining Changes in Internal Representations of Continual Learning Models Through Tensor Decomposition"</i>.  

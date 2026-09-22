@@ -29,7 +29,7 @@ My research includes:
 More broadly, my goal is to uncover the computational principles that govern robustness and failure in modern AI systems, and use these insights to build AI that is reliable, interpretable, and robust under real-world conditions.
 
 <p align="center">
-<strong>20+ Publications</strong> · <strong>560+ Citations</strong> · <strong>h-index 12</strong> · <strong>10+ Researchers Mentored</strong>
+<strong>20+ Publications</strong> · <strong>570+ Citations</strong> · <strong>h-index 12</strong> · <strong>10+ Researchers Mentored</strong>
 </p>
 
 <!-- <img src="/images/homepage_fig.png" style="width:100%; border-radius:10px;"> -->
